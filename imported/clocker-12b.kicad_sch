@@ -1,0 +1,641 @@
+(kicad_sch (version 20210615) (generator eeschema)
+
+  (uuid 564f7104-3b3e-49a1-ba42-892f30709c39)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (text "MAIN BOARD" (at 113.03 104.14 0)
+    (effects (font (size 2.54 2.54)) (justify left bottom))
+    (uuid 0df1eb5d-b37b-43af-9242-4e6d16f39336)
+  )
+  (text "Clocker PCB v1.2\n(Imported from eagle project)" (at 151.13 142.24 0)
+    (effects (font (size 2.54 2.54)) (justify left bottom))
+    (uuid f5f2b117-1e8f-4496-bfdc-752bd3594eb7)
+  )
+  (text "POWER" (at 168.91 104.14 0)
+    (effects (font (size 2.54 2.54)) (justify left bottom))
+    (uuid 737513a0-03e1-45d0-b3e0-3cb680779473)
+  )
+
+  (sheet (at 109.22 88.9) (size 30.48 26.67) (fields_autoplaced)
+    (stroke (width 0) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 00000000-0000-0000-0000-00005f569223)
+    (property "Sheet name" "clocker-12b_1" (id 0) (at 109.22 88.2645 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "clocker-12b_1.kicad_sch" (id 1) (at 109.22 116.0785 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 160.02 88.9) (size 30.48 26.67) (fields_autoplaced)
+    (stroke (width 0) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 00000000-0000-0000-0000-00005f569ac1)
+    (property "Sheet name" "clocker-12b_2" (id 0) (at 160.02 88.2645 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "clocker-12b_2.kicad_sch" (id 1) (at 160.02 116.0785 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+    (path "/00000000-0000-0000-0000-00005f569223" (page "2"))
+    (path "/00000000-0000-0000-0000-00005f569ac1" (page "3"))
+  )
+
+  (symbol_instances
+    (path "/00000000-0000-0000-0000-00005f569ac1/00000000-0000-0000-0000-0000a3745387"
+      (reference "#+12V01") (unit 1) (value "+12V") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005f569ac1/00000000-0000-0000-0000-00005bac2569"
+      (reference "#+12V02") (unit 1) (value "+12V") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005f569223/00000000-0000-0000-0000-0000311ec259"
+      (reference "#+12V03") (unit 1) (value "+12V") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005f569ac1/00000000-0000-0000-0000-0000ba7d269e"
+      (reference "#+12V04") (unit 1) (value "+12V") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005f569223/00000000-0000-0000-0000-00006b6eb7e5"
+      (reference "#+9V02") (unit 1) (value "+9V") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005f569223/00000000-0000-0000-0000-000052fb70e7"
+      (reference "#+9V03") (unit 1) (value "+9V") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005f569ac1/00000000-0000-0000-0000-0000720fc299"
+      (reference "#+9V04") (unit 1) (value "+9V") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005f569ac1/00000000-0000-0000-0000-000016babcd8"
+      (reference "#AGND01") (unit 1) (value "GND2") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005f569ac1/00000000-0000-0000-0000-0000cff0ce5a"
+      (reference "#AGND02") (unit 1) (value "GND2") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005f569223/00000000-0000-0000-0000-00007a4a6c1c"
+      (reference "#AGND03") (unit 1) (value "GND2") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005f569223/00000000-0000-0000-0000-000039b0539a"
+      (reference "#AGND04") (unit 1) (value "GND2") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005f569223/00000000-0000-0000-0000-000005bd98a7"
+      (reference "#AGND05") (unit 1) (value "GND2") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005f569223/00000000-0000-0000-0000-0000b8e4274c"
+      (reference "#AGND06") (unit 1) (value "GND2") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005f569223/00000000-0000-0000-0000-0000f1e075b4"
+      (reference "#AGND07") (unit 1) (value "GND2") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005f569223/00000000-0000-0000-0000-0000c101b8b5"
+      (reference "#AGND08") (unit 1) (value "GND2") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005f569223/00000000-0000-0000-0000-00004d9e1fd0"
+      (reference "#AGND09") (unit 1) (value "GND2") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005f569223/00000000-0000-0000-0000-0000b2e999aa"
+      (reference "#AGND010") (unit 1) (value "GND2") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005f569223/00000000-0000-0000-0000-00003c2ab5a1"
+      (reference "#AGND011") (unit 1) (value "GND2") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005f569223/00000000-0000-0000-0000-000074d1fa6f"
+      (reference "#AGND012") (unit 1) (value "GND2") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005f569223/00000000-0000-0000-0000-00000f631be5"
+      (reference "#AGND013") (unit 1) (value "GND2") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005f569223/00000000-0000-0000-0000-00003ed23e2e"
+      (reference "#AGND014") (unit 1) (value "GND2") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005f569223/00000000-0000-0000-0000-0000ff723cba"
+      (reference "#AGND015") (unit 1) (value "GND2") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005f569223/00000000-0000-0000-0000-000012315e68"
+      (reference "#AGND016") (unit 1) (value "GND2") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005f569223/00000000-0000-0000-0000-0000fc9c416c"
+      (reference "#AGND017") (unit 1) (value "GND2") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005f569223/00000000-0000-0000-0000-00003500738b"
+      (reference "#AGND018") (unit 1) (value "GND2") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005f569223/00000000-0000-0000-0000-00001f53a1f9"
+      (reference "#AGND019") (unit 1) (value "GND2") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005f569223/00000000-0000-0000-0000-0000b63a639d"
+      (reference "#AGND020") (unit 1) (value "GND2") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005f569223/00000000-0000-0000-0000-000048dd0df0"
+      (reference "#P+01") (unit 1) (value "+5V") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005f569223/00000000-0000-0000-0000-0000534f544f"
+      (reference "#P+02") (unit 1) (value "+5V") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005f569223/00000000-0000-0000-0000-00004f0d6bcd"
+      (reference "#P+03") (unit 1) (value "+5V") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005f569223/00000000-0000-0000-0000-000040dcaeba"
+      (reference "#P+04") (unit 1) (value "+5V") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005f569ac1/00000000-0000-0000-0000-0000a86a3590"
+      (reference "#P+05") (unit 1) (value "+5V") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005f569223/00000000-0000-0000-0000-000053312c75"
+      (reference "#P+06") (unit 1) (value "+5V") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005f569223/00000000-0000-0000-0000-0000f95c80bf"
+      (reference "#P+07") (unit 1) (value "+5V") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005f569223/00000000-0000-0000-0000-0000615237c0"
+      (reference "#P+08") (unit 1) (value "+5V") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005f569223/00000000-0000-0000-0000-0000a813f830"
+      (reference "#P+09") (unit 1) (value "+5V") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005f569ac1/00000000-0000-0000-0000-0000886c3673"
+      (reference "#P+010") (unit 1) (value "+5V") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005f569ac1/00000000-0000-0000-0000-000047fe03ab"
+      (reference "#P+011") (unit 1) (value "+5V") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005f569223/00000000-0000-0000-0000-00009bb82fd5"
+      (reference "#SUPPLY01") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005f569223/00000000-0000-0000-0000-00007668a807"
+      (reference "#SUPPLY02") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005f569223/00000000-0000-0000-0000-00009bcd8b80"
+      (reference "#SUPPLY03") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005f569223/00000000-0000-0000-0000-00000a61e534"
+      (reference "#SUPPLY04") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005f569223/00000000-0000-0000-0000-000064e24a77"
+      (reference "#SUPPLY05") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005f569223/00000000-0000-0000-0000-0000137bded3"
+      (reference "#SUPPLY06") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005f569223/00000000-0000-0000-0000-0000b162dfb5"
+      (reference "#SUPPLY07") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005f569223/00000000-0000-0000-0000-0000f137449e"
+      (reference "#SUPPLY08") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005f569223/00000000-0000-0000-0000-0000ca6f28b8"
+      (reference "#SUPPLY09") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005f569ac1/00000000-0000-0000-0000-0000e89b1dfb"
+      (reference "#SUPPLY010") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005f569ac1/00000000-0000-0000-0000-0000247cf9b2"
+      (reference "#SUPPLY011") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005f569ac1/00000000-0000-0000-0000-00002dc6d685"
+      (reference "#SUPPLY012") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005f569ac1/00000000-0000-0000-0000-00002bfc460f"
+      (reference "#SUPPLY013") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005f569ac1/00000000-0000-0000-0000-0000f46b704e"
+      (reference "#SUPPLY014") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005f569ac1/00000000-0000-0000-0000-0000c1663f63"
+      (reference "#SUPPLY015") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005f569ac1/00000000-0000-0000-0000-00005b45ada1"
+      (reference "#SUPPLY016") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005f569ac1/00000000-0000-0000-0000-0000bee25594"
+      (reference "#SUPPLY017") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005f569ac1/00000000-0000-0000-0000-00009a1150d3"
+      (reference "#SUPPLY018") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005f569ac1/00000000-0000-0000-0000-0000b699deff"
+      (reference "#SUPPLY019") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005f569ac1/00000000-0000-0000-0000-0000fa8a13af"
+      (reference "#SUPPLY020") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005f569ac1/00000000-0000-0000-0000-0000c8c2a780"
+      (reference "#SUPPLY021") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005f569223/00000000-0000-0000-0000-0000cd0d9d0f"
+      (reference "#SUPPLY028") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005f569223/00000000-0000-0000-0000-0000e90508a6"
+      (reference "#SUPPLY029") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005f569223/00000000-0000-0000-0000-0000b98184f3"
+      (reference "#SUPPLY030") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005f569223/00000000-0000-0000-0000-0000080ae1f5"
+      (reference "#SUPPLY031") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005f569223/00000000-0000-0000-0000-0000fdf66629"
+      (reference "#SUPPLY032") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005f569223/00000000-0000-0000-0000-0000b628d675"
+      (reference "#SUPPLY038") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005f569223/00000000-0000-0000-0000-00006197d135"
+      (reference "#U$02") (unit 1) (value "VREF") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005f569ac1/00000000-0000-0000-0000-00002aeccf64"
+      (reference "#U$03") (unit 1) (value "VREF") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005f569223/00000000-0000-0000-0000-00006c66a0ce"
+      (reference "'DUINO1") (unit 1) (value "HEADER-1X6-TH") (footprint "clocker-12b:HEADER-1X6-TH")
+    )
+    (path "/00000000-0000-0000-0000-00005f569ac1/00000000-0000-0000-0000-0000b6d3b89e"
+      (reference "5VSEL1") (unit 1) (value "HEADER-1X3-TH") (footprint "clocker-12b:HEADER-1X3-TH")
+    )
+    (path "/00000000-0000-0000-0000-00005f569223/00000000-0000-0000-0000-00000c9a992f"
+      (reference "BREAKOUT1") (unit 1) (value "HEADER-2x8-SMT") (footprint "clocker-12b:HEADER-2X8-SMT")
+    )
+    (path "/00000000-0000-0000-0000-00005f569223/00000000-0000-0000-0000-0000600e2a9e"
+      (reference "C1") (unit 1) (value "9pF") (footprint "clocker-12b:C0603")
+    )
+    (path "/00000000-0000-0000-0000-00005f569223/00000000-0000-0000-0000-0000212bc85b"
+      (reference "C2") (unit 1) (value "9pF") (footprint "clocker-12b:C0603")
+    )
+    (path "/00000000-0000-0000-0000-00005f569223/00000000-0000-0000-0000-0000a004c514"
+      (reference "C3") (unit 1) (value "330pF") (footprint "clocker-12b:C0603")
+    )
+    (path "/00000000-0000-0000-0000-00005f569223/00000000-0000-0000-0000-00000c82cee2"
+      (reference "C4") (unit 1) (value "330pF") (footprint "clocker-12b:C0603")
+    )
+    (path "/00000000-0000-0000-0000-00005f569223/00000000-0000-0000-0000-00008e3d592e"
+      (reference "C5") (unit 1) (value "330pF") (footprint "clocker-12b:C0603")
+    )
+    (path "/00000000-0000-0000-0000-00005f569ac1/00000000-0000-0000-0000-000063ecbf86"
+      (reference "C6") (unit 1) (value "47uF") (footprint "clocker-12b:C-POL-5")
+    )
+    (path "/00000000-0000-0000-0000-00005f569ac1/00000000-0000-0000-0000-0000e02a517a"
+      (reference "C7") (unit 1) (value "47uF") (footprint "clocker-12b:C-POL-5")
+    )
+    (path "/00000000-0000-0000-0000-00005f569ac1/00000000-0000-0000-0000-00005e043582"
+      (reference "C8") (unit 1) (value "47uF") (footprint "clocker-12b:C-POL-5")
+    )
+    (path "/00000000-0000-0000-0000-00005f569223/00000000-0000-0000-0000-00005be03534"
+      (reference "C9") (unit 1) (value "0.1uF") (footprint "clocker-12b:C0603")
+    )
+    (path "/00000000-0000-0000-0000-00005f569ac1/00000000-0000-0000-0000-0000e5c7f153"
+      (reference "C10") (unit 1) (value "0.1uF") (footprint "clocker-12b:C0603")
+    )
+    (path "/00000000-0000-0000-0000-00005f569ac1/00000000-0000-0000-0000-0000608006b0"
+      (reference "C11") (unit 1) (value "0.1uF") (footprint "clocker-12b:C0603")
+    )
+    (path "/00000000-0000-0000-0000-00005f569223/00000000-0000-0000-0000-00005a518b11"
+      (reference "D1") (unit 1) (value "BAT54S") (footprint "clocker-12b:SOT23")
+    )
+    (path "/00000000-0000-0000-0000-00005f569223/00000000-0000-0000-0000-0000f4a52696"
+      (reference "D2") (unit 1) (value "BAT54S") (footprint "clocker-12b:SOT23")
+    )
+    (path "/00000000-0000-0000-0000-00005f569223/00000000-0000-0000-0000-000096d46ec1"
+      (reference "D3") (unit 1) (value "BAT54S") (footprint "clocker-12b:SOT23")
+    )
+    (path "/00000000-0000-0000-0000-00005f569ac1/00000000-0000-0000-0000-0000ddddf617"
+      (reference "D4") (unit 1) (value "B140-E3") (footprint "clocker-12b:SMA")
+    )
+    (path "/00000000-0000-0000-0000-00005f569ac1/00000000-0000-0000-0000-0000b6d09230"
+      (reference "D5") (unit 1) (value "B140-E3") (footprint "clocker-12b:SMA")
+    )
+    (path "/00000000-0000-0000-0000-00005f569223/00000000-0000-0000-0000-00009105e348"
+      (reference "H4") (unit 1) (value "HEADER-2X3-B2B-MALESMT") (footprint "clocker-12b:HEADER-2X3-SMT")
+    )
+    (path "/00000000-0000-0000-0000-00005f569223/00000000-0000-0000-0000-00009105e344"
+      (reference "H4") (unit 2) (value "HEADER-2X3-B2B-MALESMT") (footprint "clocker-12b:HEADER-2X3-SMT")
+    )
+    (path "/00000000-0000-0000-0000-00005f569223/00000000-0000-0000-0000-00009105e340"
+      (reference "H4") (unit 3) (value "HEADER-2X3-B2B-MALESMT") (footprint "clocker-12b:HEADER-2X3-SMT")
+    )
+    (path "/00000000-0000-0000-0000-00005f569223/00000000-0000-0000-0000-00009105e35c"
+      (reference "H4") (unit 4) (value "HEADER-2X3-B2B-MALESMT") (footprint "clocker-12b:HEADER-2X3-SMT")
+    )
+    (path "/00000000-0000-0000-0000-00005f569223/00000000-0000-0000-0000-00009105e358"
+      (reference "H4") (unit 5) (value "HEADER-2X3-B2B-MALESMT") (footprint "clocker-12b:HEADER-2X3-SMT")
+    )
+    (path "/00000000-0000-0000-0000-00005f569223/00000000-0000-0000-0000-00009105e354"
+      (reference "H4") (unit 6) (value "HEADER-2X3-B2B-MALESMT") (footprint "clocker-12b:HEADER-2X3-SMT")
+    )
+    (path "/00000000-0000-0000-0000-00005f569223/00000000-0000-0000-0000-000054908f71"
+      (reference "H5") (unit 1) (value "HEADER-2X3-B2B-MALESMT") (footprint "clocker-12b:HEADER-2X3-SMT")
+    )
+    (path "/00000000-0000-0000-0000-00005f569ac1/00000000-0000-0000-0000-000054908f7d"
+      (reference "H5") (unit 2) (value "HEADER-2X3-B2B-MALESMT") (footprint "clocker-12b:HEADER-2X3-SMT")
+    )
+    (path "/00000000-0000-0000-0000-00005f569ac1/00000000-0000-0000-0000-000054908f79"
+      (reference "H5") (unit 3) (value "HEADER-2X3-B2B-MALESMT") (footprint "clocker-12b:HEADER-2X3-SMT")
+    )
+    (path "/00000000-0000-0000-0000-00005f569223/00000000-0000-0000-0000-000054908f65"
+      (reference "H5") (unit 4) (value "HEADER-2X3-B2B-MALESMT") (footprint "clocker-12b:HEADER-2X3-SMT")
+    )
+    (path "/00000000-0000-0000-0000-00005f569ac1/00000000-0000-0000-0000-000054908f61"
+      (reference "H5") (unit 5) (value "HEADER-2X3-B2B-MALESMT") (footprint "clocker-12b:HEADER-2X3-SMT")
+    )
+    (path "/00000000-0000-0000-0000-00005f569ac1/00000000-0000-0000-0000-000054908f6d"
+      (reference "H5") (unit 6) (value "HEADER-2X3-B2B-MALESMT") (footprint "clocker-12b:HEADER-2X3-SMT")
+    )
+    (path "/00000000-0000-0000-0000-00005f569223/00000000-0000-0000-0000-0000ff736030"
+      (reference "H6") (unit 1) (value "HEADER-2X3-B2B-MALESMT") (footprint "clocker-12b:HEADER-2X3-SMT")
+    )
+    (path "/00000000-0000-0000-0000-00005f569223/00000000-0000-0000-0000-0000ff73603c"
+      (reference "H6") (unit 2) (value "HEADER-2X3-B2B-MALESMT") (footprint "clocker-12b:HEADER-2X3-SMT")
+    )
+    (path "/00000000-0000-0000-0000-00005f569223/00000000-0000-0000-0000-0000ff736038"
+      (reference "H6") (unit 3) (value "HEADER-2X3-B2B-MALESMT") (footprint "clocker-12b:HEADER-2X3-SMT")
+    )
+    (path "/00000000-0000-0000-0000-00005f569223/00000000-0000-0000-0000-0000ff736024"
+      (reference "H6") (unit 4) (value "HEADER-2X3-B2B-MALESMT") (footprint "clocker-12b:HEADER-2X3-SMT")
+    )
+    (path "/00000000-0000-0000-0000-00005f569223/00000000-0000-0000-0000-0000ff736020"
+      (reference "H6") (unit 5) (value "HEADER-2X3-B2B-MALESMT") (footprint "clocker-12b:HEADER-2X3-SMT")
+    )
+    (path "/00000000-0000-0000-0000-00005f569223/00000000-0000-0000-0000-0000ff73602c"
+      (reference "H6") (unit 6) (value "HEADER-2X3-B2B-MALESMT") (footprint "clocker-12b:HEADER-2X3-SMT")
+    )
+    (path "/00000000-0000-0000-0000-00005f569223/00000000-0000-0000-0000-0000c10f4432"
+      (reference "H7") (unit 1) (value "HEADER-2X3-B2B-FEMALETH-BOT") (footprint "clocker-12b:HEADER-2X3-TH-BOTTOM")
+    )
+    (path "/00000000-0000-0000-0000-00005f569223/00000000-0000-0000-0000-0000c10f443e"
+      (reference "H7") (unit 2) (value "HEADER-2X3-B2B-FEMALETH-BOT") (footprint "clocker-12b:HEADER-2X3-TH-BOTTOM")
+    )
+    (path "/00000000-0000-0000-0000-00005f569223/00000000-0000-0000-0000-0000c10f443a"
+      (reference "H7") (unit 3) (value "HEADER-2X3-B2B-FEMALETH-BOT") (footprint "clocker-12b:HEADER-2X3-TH-BOTTOM")
+    )
+    (path "/00000000-0000-0000-0000-00005f569223/00000000-0000-0000-0000-0000c10f4426"
+      (reference "H7") (unit 4) (value "HEADER-2X3-B2B-FEMALETH-BOT") (footprint "clocker-12b:HEADER-2X3-TH-BOTTOM")
+    )
+    (path "/00000000-0000-0000-0000-00005f569223/00000000-0000-0000-0000-0000c10f4422"
+      (reference "H7") (unit 5) (value "HEADER-2X3-B2B-FEMALETH-BOT") (footprint "clocker-12b:HEADER-2X3-TH-BOTTOM")
+    )
+    (path "/00000000-0000-0000-0000-00005f569223/00000000-0000-0000-0000-0000c10f442e"
+      (reference "H7") (unit 6) (value "HEADER-2X3-B2B-FEMALETH-BOT") (footprint "clocker-12b:HEADER-2X3-TH-BOTTOM")
+    )
+    (path "/00000000-0000-0000-0000-00005f569223/00000000-0000-0000-0000-0000bc872e49"
+      (reference "H8") (unit 1) (value "HEADER-2X3-B2B-FEMALETH-BOT") (footprint "clocker-12b:HEADER-2X3-TH-BOTTOM")
+    )
+    (path "/00000000-0000-0000-0000-00005f569223/00000000-0000-0000-0000-0000bc872e45"
+      (reference "H8") (unit 2) (value "HEADER-2X3-B2B-FEMALETH-BOT") (footprint "clocker-12b:HEADER-2X3-TH-BOTTOM")
+    )
+    (path "/00000000-0000-0000-0000-00005f569ac1/00000000-0000-0000-0000-0000bc872e41"
+      (reference "H8") (unit 3) (value "HEADER-2X3-B2B-FEMALETH-BOT") (footprint "clocker-12b:HEADER-2X3-TH-BOTTOM")
+    )
+    (path "/00000000-0000-0000-0000-00005f569ac1/00000000-0000-0000-0000-0000bc872e5d"
+      (reference "H8") (unit 4) (value "HEADER-2X3-B2B-FEMALETH-BOT") (footprint "clocker-12b:HEADER-2X3-TH-BOTTOM")
+    )
+    (path "/00000000-0000-0000-0000-00005f569ac1/00000000-0000-0000-0000-0000bc872e59"
+      (reference "H8") (unit 5) (value "HEADER-2X3-B2B-FEMALETH-BOT") (footprint "clocker-12b:HEADER-2X3-TH-BOTTOM")
+    )
+    (path "/00000000-0000-0000-0000-00005f569ac1/00000000-0000-0000-0000-0000bc872e55"
+      (reference "H8") (unit 6) (value "HEADER-2X3-B2B-FEMALETH-BOT") (footprint "clocker-12b:HEADER-2X3-TH-BOTTOM")
+    )
+    (path "/00000000-0000-0000-0000-00005f569223/00000000-0000-0000-0000-000056df8b7f"
+      (reference "H9") (unit 1) (value "HEADER-2X3-B2B-FEMALETH-BOT") (footprint "clocker-12b:HEADER-2X3-TH-BOTTOM")
+    )
+    (path "/00000000-0000-0000-0000-00005f569223/00000000-0000-0000-0000-000056df8b73"
+      (reference "H9") (unit 2) (value "HEADER-2X3-B2B-FEMALETH-BOT") (footprint "clocker-12b:HEADER-2X3-TH-BOTTOM")
+    )
+    (path "/00000000-0000-0000-0000-00005f569223/00000000-0000-0000-0000-000056df8b77"
+      (reference "H9") (unit 3) (value "HEADER-2X3-B2B-FEMALETH-BOT") (footprint "clocker-12b:HEADER-2X3-TH-BOTTOM")
+    )
+    (path "/00000000-0000-0000-0000-00005f569223/00000000-0000-0000-0000-000056df8b6b"
+      (reference "H9") (unit 4) (value "HEADER-2X3-B2B-FEMALETH-BOT") (footprint "clocker-12b:HEADER-2X3-TH-BOTTOM")
+    )
+    (path "/00000000-0000-0000-0000-00005f569223/00000000-0000-0000-0000-000056df8b6f"
+      (reference "H9") (unit 5) (value "HEADER-2X3-B2B-FEMALETH-BOT") (footprint "clocker-12b:HEADER-2X3-TH-BOTTOM")
+    )
+    (path "/00000000-0000-0000-0000-00005f569223/00000000-0000-0000-0000-000056df8b63"
+      (reference "H9") (unit 6) (value "HEADER-2X3-B2B-FEMALETH-BOT") (footprint "clocker-12b:HEADER-2X3-TH-BOTTOM")
+    )
+    (path "/00000000-0000-0000-0000-00005f569223/00000000-0000-0000-0000-000070c115b1"
+      (reference "IC1") (unit 1) (value "40106BPWR") (footprint "clocker-12b:TSSOP14")
+    )
+    (path "/00000000-0000-0000-0000-00005f569223/00000000-0000-0000-0000-000070c115bd"
+      (reference "IC1") (unit 2) (value "40106BPWR") (footprint "clocker-12b:TSSOP14")
+    )
+    (path "/00000000-0000-0000-0000-00005f569223/00000000-0000-0000-0000-000070c115b9"
+      (reference "IC1") (unit 3) (value "40106BPWR") (footprint "clocker-12b:TSSOP14")
+    )
+    (path "/00000000-0000-0000-0000-00005f569223/00000000-0000-0000-0000-000070c115a5"
+      (reference "IC1") (unit 4) (value "40106BPWR") (footprint "clocker-12b:TSSOP14")
+    )
+    (path "/00000000-0000-0000-0000-00005f569223/00000000-0000-0000-0000-000070c115a1"
+      (reference "IC1") (unit 5) (value "40106BPWR") (footprint "clocker-12b:TSSOP14")
+    )
+    (path "/00000000-0000-0000-0000-00005f569223/00000000-0000-0000-0000-000070c115ad"
+      (reference "IC1") (unit 6) (value "40106BPWR") (footprint "clocker-12b:TSSOP14")
+    )
+    (path "/00000000-0000-0000-0000-00005f569223/00000000-0000-0000-0000-000070c115a9"
+      (reference "IC1") (unit 7) (value "40106BPWR") (footprint "clocker-12b:TSSOP14")
+    )
+    (path "/00000000-0000-0000-0000-00005f569223/00000000-0000-0000-0000-00003c0e41d9"
+      (reference "IC2") (unit 1) (value "40106BPWR") (footprint "clocker-12b:TSSOP14")
+    )
+    (path "/00000000-0000-0000-0000-00005f569223/00000000-0000-0000-0000-00003c0e41d5"
+      (reference "IC2") (unit 2) (value "40106BPWR") (footprint "clocker-12b:TSSOP14")
+    )
+    (path "/00000000-0000-0000-0000-00005f569223/00000000-0000-0000-0000-00003c0e41d1"
+      (reference "IC2") (unit 3) (value "40106BPWR") (footprint "clocker-12b:TSSOP14")
+    )
+    (path "/00000000-0000-0000-0000-00005f569223/00000000-0000-0000-0000-00003c0e41cd"
+      (reference "IC2") (unit 4) (value "40106BPWR") (footprint "clocker-12b:TSSOP14")
+    )
+    (path "/00000000-0000-0000-0000-00005f569223/00000000-0000-0000-0000-00003c0e41c9"
+      (reference "IC2") (unit 5) (value "40106BPWR") (footprint "clocker-12b:TSSOP14")
+    )
+    (path "/00000000-0000-0000-0000-00005f569223/00000000-0000-0000-0000-00003c0e41c5"
+      (reference "IC2") (unit 6) (value "40106BPWR") (footprint "clocker-12b:TSSOP14")
+    )
+    (path "/00000000-0000-0000-0000-00005f569223/00000000-0000-0000-0000-00003c0e41c1"
+      (reference "IC2") (unit 7) (value "40106BPWR") (footprint "clocker-12b:TSSOP14")
+    )
+    (path "/00000000-0000-0000-0000-00005f569ac1/00000000-0000-0000-0000-0000cd8c1358"
+      (reference "IC3") (unit 1) (value "TL072") (footprint "clocker-12b:SOIC8")
+    )
+    (path "/00000000-0000-0000-0000-00005f569ac1/00000000-0000-0000-0000-0000cd8c1354"
+      (reference "IC3") (unit 2) (value "TL072") (footprint "clocker-12b:SOIC8")
+    )
+    (path "/00000000-0000-0000-0000-00005f569ac1/00000000-0000-0000-0000-0000cd8c1350"
+      (reference "IC3") (unit 3) (value "TL072") (footprint "clocker-12b:SOIC8")
+    )
+    (path "/00000000-0000-0000-0000-00005f569223/00000000-0000-0000-0000-0000689e70f8"
+      (reference "ISP1") (unit 1) (value "HEADER-2X3-SMT") (footprint "clocker-12b:HEADER-2X3-SMT")
+    )
+    (path "/00000000-0000-0000-0000-00005f569223/00000000-0000-0000-0000-00003cbbe895"
+      (reference "J1-CLK-IN1") (unit 1) (value "PJ301M-12") (footprint "clocker-12b:PJ301M-12")
+    )
+    (path "/00000000-0000-0000-0000-00005f569223/00000000-0000-0000-0000-00002b62688c"
+      (reference "J10-ROTATE1") (unit 1) (value "PJ301M-12") (footprint "clocker-12b:PJ301M-12")
+    )
+    (path "/00000000-0000-0000-0000-00005f569223/00000000-0000-0000-0000-0000ed4ee94f"
+      (reference "J11-RST-SLP1") (unit 1) (value "PJ301M-12") (footprint "clocker-12b:PJ301M-12")
+    )
+    (path "/00000000-0000-0000-0000-00005f569223/00000000-0000-0000-0000-0000a42af6d3"
+      (reference "J2-OUT1") (unit 1) (value "PJ301M-12") (footprint "clocker-12b:PJ301M-12")
+    )
+    (path "/00000000-0000-0000-0000-00005f569223/00000000-0000-0000-0000-000001503daa"
+      (reference "J3-OUT2") (unit 1) (value "PJ301M-12") (footprint "clocker-12b:PJ301M-12")
+    )
+    (path "/00000000-0000-0000-0000-00005f569223/00000000-0000-0000-0000-0000f58edfab"
+      (reference "J4-OUT3") (unit 1) (value "PJ301M-12") (footprint "clocker-12b:PJ301M-12")
+    )
+    (path "/00000000-0000-0000-0000-00005f569223/00000000-0000-0000-0000-0000b31f2b5f"
+      (reference "J5-OUT4") (unit 1) (value "PJ301M-12") (footprint "clocker-12b:PJ301M-12")
+    )
+    (path "/00000000-0000-0000-0000-00005f569223/00000000-0000-0000-0000-00004fca04f7"
+      (reference "J6-OUT5") (unit 1) (value "PJ301M-12") (footprint "clocker-12b:PJ301M-12")
+    )
+    (path "/00000000-0000-0000-0000-00005f569223/00000000-0000-0000-0000-00009086e03f"
+      (reference "J7-OUT6") (unit 1) (value "PJ301M-12") (footprint "clocker-12b:PJ301M-12")
+    )
+    (path "/00000000-0000-0000-0000-00005f569223/00000000-0000-0000-0000-0000f71d020a"
+      (reference "J8-OUT7") (unit 1) (value "PJ301M-12") (footprint "clocker-12b:PJ301M-12")
+    )
+    (path "/00000000-0000-0000-0000-00005f569223/00000000-0000-0000-0000-0000914d2c03"
+      (reference "J9-OUT8") (unit 1) (value "PJ301M-12") (footprint "clocker-12b:PJ301M-12")
+    )
+    (path "/00000000-0000-0000-0000-00005f569ac1/00000000-0000-0000-0000-000043ae0f1d"
+      (reference "JP1") (unit 1) (value "1x2-TH") (footprint "clocker-12b:HEADER-1X2-TH")
+    )
+    (path "/00000000-0000-0000-0000-00005f569ac1/00000000-0000-0000-0000-000099c56a5d"
+      (reference "L1") (unit 1) (value "BEAD") (footprint "clocker-12b:0603")
+    )
+    (path "/00000000-0000-0000-0000-00005f569223/00000000-0000-0000-0000-00000ed4238c"
+      (reference "LED1") (unit 1) (value "White") (footprint "clocker-12b:LED-T1")
+    )
+    (path "/00000000-0000-0000-0000-00005f569223/00000000-0000-0000-0000-0000a093807c"
+      (reference "LED2") (unit 1) (value "Blue") (footprint "clocker-12b:LED-T1")
+    )
+    (path "/00000000-0000-0000-0000-00005f569223/00000000-0000-0000-0000-0000ed61fddd"
+      (reference "LED3") (unit 1) (value "Red or blue") (footprint "clocker-12b:LED-T1")
+    )
+    (path "/00000000-0000-0000-0000-00005f569223/00000000-0000-0000-0000-0000e6031b66"
+      (reference "LED4") (unit 1) (value "Green") (footprint "clocker-12b:LED-T1")
+    )
+    (path "/00000000-0000-0000-0000-00005f569223/00000000-0000-0000-0000-00005bf53fca"
+      (reference "LED5") (unit 1) (value "Red or green") (footprint "clocker-12b:LED-T1")
+    )
+    (path "/00000000-0000-0000-0000-00005f569223/00000000-0000-0000-0000-00009bfd64e7"
+      (reference "LED6") (unit 1) (value "Blue or green") (footprint "clocker-12b:LED-T1")
+    )
+    (path "/00000000-0000-0000-0000-00005f569223/00000000-0000-0000-0000-00001105191f"
+      (reference "LED7") (unit 1) (value "Green") (footprint "clocker-12b:LED-T1")
+    )
+    (path "/00000000-0000-0000-0000-00005f569223/00000000-0000-0000-0000-00000c898f9e"
+      (reference "LED8") (unit 1) (value "Blue or green") (footprint "clocker-12b:LED-T1")
+    )
+    (path "/00000000-0000-0000-0000-00005f569223/00000000-0000-0000-0000-0000d0cb47c1"
+      (reference "LED9") (unit 1) (value "Red or blue") (footprint "clocker-12b:LED-T1")
+    )
+    (path "/00000000-0000-0000-0000-00005f569ac1/00000000-0000-0000-0000-00001a37059a"
+      (reference "POWER1") (unit 1) (value "HEADER-2X8-SMT") (footprint "clocker-12b:HEADER-2X8-SMT-SHROUDED")
+    )
+    (path "/00000000-0000-0000-0000-00005f569223/00000000-0000-0000-0000-00005c1f5f3e"
+      (reference "R1") (unit 1) (value "470") (footprint "clocker-12b:R0603")
+    )
+    (path "/00000000-0000-0000-0000-00005f569223/00000000-0000-0000-0000-0000c18c5fd8"
+      (reference "R2") (unit 1) (value "470") (footprint "clocker-12b:R0603")
+    )
+    (path "/00000000-0000-0000-0000-00005f569223/00000000-0000-0000-0000-000064ab3668"
+      (reference "R3") (unit 1) (value "470") (footprint "clocker-12b:R0603")
+    )
+    (path "/00000000-0000-0000-0000-00005f569223/00000000-0000-0000-0000-0000a6441fff"
+      (reference "R4") (unit 1) (value "1k") (footprint "clocker-12b:R0603")
+    )
+    (path "/00000000-0000-0000-0000-00005f569223/00000000-0000-0000-0000-000043bef145"
+      (reference "R5") (unit 1) (value "1k") (footprint "clocker-12b:R0603")
+    )
+    (path "/00000000-0000-0000-0000-00005f569223/00000000-0000-0000-0000-0000af07fcca"
+      (reference "R6") (unit 1) (value "1k") (footprint "clocker-12b:R0603")
+    )
+    (path "/00000000-0000-0000-0000-00005f569223/00000000-0000-0000-0000-0000fd740345"
+      (reference "R7") (unit 1) (value "1k") (footprint "clocker-12b:R0603")
+    )
+    (path "/00000000-0000-0000-0000-00005f569223/00000000-0000-0000-0000-0000a5cc686a"
+      (reference "R8") (unit 1) (value "1k") (footprint "clocker-12b:R0603")
+    )
+    (path "/00000000-0000-0000-0000-00005f569223/00000000-0000-0000-0000-00003ae122cd"
+      (reference "R9") (unit 1) (value "1k") (footprint "clocker-12b:R0603")
+    )
+    (path "/00000000-0000-0000-0000-00005f569223/00000000-0000-0000-0000-00000633656b"
+      (reference "R10") (unit 1) (value "1k") (footprint "clocker-12b:R0603")
+    )
+    (path "/00000000-0000-0000-0000-00005f569223/00000000-0000-0000-0000-00007632aee6"
+      (reference "R11") (unit 1) (value "1k") (footprint "clocker-12b:R0603")
+    )
+    (path "/00000000-0000-0000-0000-00005f569223/00000000-0000-0000-0000-0000b11780a1"
+      (reference "R12") (unit 1) (value "10k") (footprint "clocker-12b:R0603")
+    )
+    (path "/00000000-0000-0000-0000-00005f569223/00000000-0000-0000-0000-0000b7b2418a"
+      (reference "R13") (unit 1) (value "10k") (footprint "clocker-12b:R0603")
+    )
+    (path "/00000000-0000-0000-0000-00005f569223/00000000-0000-0000-0000-0000de04223f"
+      (reference "R14") (unit 1) (value "10k") (footprint "clocker-12b:R0603")
+    )
+    (path "/00000000-0000-0000-0000-00005f569223/00000000-0000-0000-0000-00004f6d1949"
+      (reference "R15") (unit 1) (value "10k") (footprint "clocker-12b:R0603")
+    )
+    (path "/00000000-0000-0000-0000-00005f569223/00000000-0000-0000-0000-00009df29d57"
+      (reference "R16") (unit 1) (value "10k") (footprint "clocker-12b:R0603")
+    )
+    (path "/00000000-0000-0000-0000-00005f569223/00000000-0000-0000-0000-000077c68300"
+      (reference "R17") (unit 1) (value "10k") (footprint "clocker-12b:R0603")
+    )
+    (path "/00000000-0000-0000-0000-00005f569223/00000000-0000-0000-0000-0000fda8d876"
+      (reference "R18") (unit 1) (value "10k") (footprint "clocker-12b:R0603")
+    )
+    (path "/00000000-0000-0000-0000-00005f569223/00000000-0000-0000-0000-000034269956"
+      (reference "R19") (unit 1) (value "10k") (footprint "clocker-12b:R0603")
+    )
+    (path "/00000000-0000-0000-0000-00005f569223/00000000-0000-0000-0000-00000c3ae8e0"
+      (reference "R20") (unit 1) (value "10k") (footprint "clocker-12b:R0603")
+    )
+    (path "/00000000-0000-0000-0000-00005f569223/00000000-0000-0000-0000-0000ac84ad9c"
+      (reference "R21") (unit 1) (value "10k") (footprint "clocker-12b:R0603")
+    )
+    (path "/00000000-0000-0000-0000-00005f569223/00000000-0000-0000-0000-00002915af9f"
+      (reference "R22") (unit 1) (value "470k") (footprint "clocker-12b:R0603")
+    )
+    (path "/00000000-0000-0000-0000-00005f569223/00000000-0000-0000-0000-0000b7078457"
+      (reference "R23") (unit 1) (value "470k") (footprint "clocker-12b:R0603")
+    )
+    (path "/00000000-0000-0000-0000-00005f569223/00000000-0000-0000-0000-00007890b45d"
+      (reference "R24") (unit 1) (value "470k") (footprint "clocker-12b:R0603")
+    )
+    (path "/00000000-0000-0000-0000-00005f569ac1/00000000-0000-0000-0000-0000cdfb7e1e"
+      (reference "R25") (unit 1) (value "10k") (footprint "clocker-12b:R0603")
+    )
+    (path "/00000000-0000-0000-0000-00005f569ac1/00000000-0000-0000-0000-0000fff3480b"
+      (reference "R26") (unit 1) (value "470k") (footprint "clocker-12b:R0603")
+    )
+    (path "/00000000-0000-0000-0000-00005f569223/00000000-0000-0000-0000-00003ea6d027"
+      (reference "RCD||SCM1") (unit 1) (value "solder-blob") (footprint "clocker-12b:SJ_2")
+    )
+    (path "/00000000-0000-0000-0000-00005f569ac1/00000000-0000-0000-0000-0000c3bd0f3e"
+      (reference "TR24") (unit 1) (value "10k") (footprint "clocker-12b:PIHER-6MM")
+    )
+    (path "/00000000-0000-0000-0000-00005f569223/00000000-0000-0000-0000-0000128a9511"
+      (reference "U1") (unit 1) (value "ATMEGA328") (footprint "clocker-12b:TQFP-32")
+    )
+    (path "/00000000-0000-0000-0000-00005f569ac1/00000000-0000-0000-0000-0000d05635da"
+      (reference "VR1") (unit 1) (value "78M05") (footprint "clocker-12b:DPAK")
+    )
+    (path "/00000000-0000-0000-0000-00005f569ac1/00000000-0000-0000-0000-00006b797e86"
+      (reference "VR2") (unit 1) (value "78L09") (footprint "clocker-12b:SOT89")
+    )
+    (path "/00000000-0000-0000-0000-00005f569223/00000000-0000-0000-0000-00008475bfb1"
+      (reference "X1") (unit 1) (value "16MHz") (footprint "clocker-12b:FA-238")
+    )
+  )
+)
