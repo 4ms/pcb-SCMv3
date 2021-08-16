@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name "4ms_Faceplate")(type "KiCad")(uri "${KICAD_4MS_LIBS}/lib-footprints/4ms_Faceplate.pretty")(options "")(descr ""))
+  (lib (name "artwork")(type "KiCad")(uri "${KIPRJMOD}/artwork.pretty")(options "")(descr ""))
+)
