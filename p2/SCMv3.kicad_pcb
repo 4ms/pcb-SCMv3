@@ -4558,7 +4558,7 @@
 
   (footprint "4ms_LED:LED_PLCC-4" locked (layer "B.Cu")
     (tedit 5F57CC0F) (tstamp 2949418f-a5e5-4231-903e-9817507f3451)
-    (at 42.0624 92.2655 -90)
+    (at 40.31742 92.2655 -90)
     (property "ID" "")
     (property "Manufacturer" "Hebei I.T. (Shanghai)")
     (property "Part Number" "PLCC4RGBCT-CA")
@@ -5350,7 +5350,7 @@
 
   (footprint "4ms_LED:LED_PLCC-4" locked (layer "B.Cu")
     (tedit 5F57CC0F) (tstamp 7fb848e5-878e-4d4a-9248-3b292e482243)
-    (at 42.0624 42.7355 -90)
+    (at 40.31742 42.7355 -90)
     (property "ID" "")
     (property "Manufacturer" "Hebei I.T. (Shanghai)")
     (property "Part Number" "PLCC4RGBCT-CA")
@@ -5492,7 +5492,7 @@
 
   (footprint "4ms_LED:LED_PLCC-4" locked (layer "B.Cu")
     (tedit 5F57CC0F) (tstamp 93427002-13fd-413f-8abf-f4b9b7b119e2)
-    (at 42.0624 5.588 -90)
+    (at 40.31742 5.588 -90)
     (property "ID" "")
     (property "Manufacturer" "Hebei I.T. (Shanghai)")
     (property "Part Number" "PLCC4RGBCT-CA")
@@ -5634,7 +5634,7 @@
 
   (footprint "4ms_LED:LED_PLCC-4" locked (layer "B.Cu")
     (tedit 5F57CC0F) (tstamp b7675430-71ba-44c1-82be-31ee250f28b6)
-    (at 42.0624 30.353 -90)
+    (at 40.31742 30.353 -90)
     (property "ID" "")
     (property "Manufacturer" "Hebei I.T. (Shanghai)")
     (property "Part Number" "PLCC4RGBCT-CA")
@@ -5708,7 +5708,7 @@
 
   (footprint "4ms_LED:LED_PLCC-4" locked (layer "B.Cu")
     (tedit 5F57CC0F) (tstamp beca77db-70c3-4f8e-b5aa-bad8d61412e0)
-    (at 42.0624 67.5005 -90)
+    (at 40.31742 67.5005 -90)
     (property "ID" "")
     (property "Manufacturer" "Hebei I.T. (Shanghai)")
     (property "Part Number" "PLCC4RGBCT-CA")
@@ -5829,7 +5829,7 @@
 
   (footprint "4ms_LED:LED_PLCC-4" locked (layer "B.Cu")
     (tedit 5F57CC0F) (tstamp c0f0f660-ffcf-4668-978e-9ae5591370f1)
-    (at 42.0624 17.9705 -90)
+    (at 40.31742 17.9705 -90)
     (property "ID" "")
     (property "Manufacturer" "Hebei I.T. (Shanghai)")
     (property "Part Number" "PLCC4RGBCT-CA")
@@ -5903,7 +5903,7 @@
 
   (footprint "4ms_LED:LED_PLCC-4" locked (layer "B.Cu")
     (tedit 5F57CC0F) (tstamp c6b19a2f-bafe-427b-8a55-76d7363c0dae)
-    (at 42.0624 55.118 -90)
+    (at 40.31742 55.118 -90)
     (property "ID" "")
     (property "Manufacturer" "Hebei I.T. (Shanghai)")
     (property "Part Number" "PLCC4RGBCT-CA")
@@ -5977,7 +5977,7 @@
 
   (footprint "4ms_LED:LED_PLCC-4" locked (layer "B.Cu")
     (tedit 5F57CC0F) (tstamp c7530eba-5660-43f2-a2fc-3c2ca2952891)
-    (at 42.0624 79.883 -90)
+    (at 40.31742 79.883 -90)
     (property "ID" "")
     (property "Manufacturer" "Hebei I.T. (Shanghai)")
     (property "Part Number" "PLCC4RGBCT-CA")
@@ -6145,7 +6145,7 @@
 
   (footprint "4ms_LED:LED_PLCC-4" locked (layer "B.Cu")
     (tedit 5F57CC0F) (tstamp fe909ba6-4c4f-4ebe-b3ee-bdff76ceca67)
-    (at 42.0624 104.648 -90)
+    (at 40.31742 104.648 -90)
     (property "ID" "")
     (property "Manufacturer" "Hebei I.T. (Shanghai)")
     (property "Part Number" "PLCC4RGBCT-CA")
