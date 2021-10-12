@@ -43,7 +43,7 @@
     (pad_to_mask_clearance 0)
     (aux_axis_origin 140.208 137.287)
     (pcbplotparams
-      (layerselection 0x00010f8_ffffffff)
+      (layerselection 0x00010e0_ffffffff)
       (disableapertmacros false)
       (usegerberextensions true)
       (usegerberattributes false)
@@ -64,7 +64,7 @@
       (dxfusepcbnewfont true)
       (psnegative false)
       (psa4output false)
-      (plotreference true)
+      (plotreference false)
       (plotvalue false)
       (plotinvisibletext false)
       (sketchpadsonfab false)
