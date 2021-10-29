@@ -1,0 +1,40 @@
+Comment,Designator,Footprint,JLCPCB Part #
+"Button_DPDT_Orange_Latching, DPDT, Latching, On/On, 8.7mm base, 7.5mm cap, Orange","BFAST1, BMUTE1",Button_LED_PB61303,
+"330pF_0603_35V, 330pF, Min 35V, C0G/NP0, 5%","C1, C3, C6",C0603,C1664
+"1nF_0603_50V, 1nF, 50V, 10%, C0G (NP0) or similar","C2, C7, C8, C9, C10, C11",C0603,C163508
+"9pF_0603_50V, 9pF, Min 50V, C0G (NP0) 0603","C4, C5",C0603,C170141
+"47uF_5x5.3_16V, 47uF, 16V, 20%, 5.00mmD*5.30mmH, 2000Hrs@85℃","C12, C13, C14",CP_Elec_5x5.3,C134798
+"0.1uF_0603_16V, 0.1uF, Min. 16V 10%, X7R or X5R or similar","C15, C16, C17, C19, C20",C0603,C14663
+"BAT54S, Dual schottky diode BAT54S","D1, D2, D3, D4, D5, D6, D7, D8, D9",SOT23-3_PO132,C83574
+"B140-E3, SCHOTTKY Diode SMA Vrrm>=40V If>=1.0A, Ifsm>=1.5A",D10,D_SMA,C15759
+"B140-E3, SCHOTTKY Diode SMA Vrrm>=40V If>=1.0A, Ifsm>=1.5A",D11,D_SMA,C15759
+"40106, CMOS, Hex Inverting Schmitt Trigger, TSSOP-14","IC1, IC2",TSSOP-14_4.4x5mm_P0.65mm,C58834
+TL082 Dual Opamp TSSOP-8,IC3,TSSOP-8_4.4x3mm_Pitch0.65mm,C2652280
+"JCLK_IN, Audio 3.5mm Jack, mono, switched, PC-pin Vertical",J9-CLK_IN1,EighthInch_PJ398SM,
+"JACK-MONO-SWB, Audio 3.5mm Jack, mono, switched, PC-pin Vertical","J1-OUT8, J2-OUT7, J3-OUT6, J4-OUT5, J5-OUT4, J6-OUT3, J7-OUT2, J8-OUT1",EighthInch_PJ398SM,
+"ISP, HEADER 2x3 MALE PINS 0.100” 180deg",J1,Pins_2x03_2.54mm_TH,
+"Conn_01x02, Pins_01x02, Header, Male Pins, 1*2, spacing 2.54mm, straight pin",J2,Pins_1x02_2.54mm_TH,
+"POWER, Header, Male Pins, 2*8, spacing 2.54mm, straight pin",J3,Pins_2x08_2.54mm_TH,
+"3.5mm_Stereo_SymSmall_0.05, Audio 3.5mm Jack, mono, switched, PC-pin Vertical","JFAST1, JMUTE1",EighthInch_PJ398SM,
+"JPW, Audio 3.5mm Jack, mono, switched, PC-pin Vertical",JPW1,EighthInch_PJ398SM,
+"JRESYNC, Audio 3.5mm Jack, mono, switched, PC-pin Vertical",JRESYNC1,EighthInch_PJ398SM,
+"JROTATE, Audio 3.5mm Jack, mono, switched, PC-pin Vertical",JROTATE1,EighthInch_PJ398SM,
+"JSHUFFLE, Audio 3.5mm Jack, mono, switched, PC-pin Vertical",JSHUFFLE1,EighthInch_PJ398SM,
+"JSKIP, Audio 3.5mm Jack, mono, switched, PC-pin Vertical",JSKIP1,EighthInch_PJ398SM,
+"JSLIP, Audio 3.5mm Jack, mono, switched, PC-pin Vertical",JSLIP1,EighthInch_PJ398SM,
+"BLUE, RGB LED, Common Anode PLCC4","LED1, LED7, LED8",LED_PLCC-4,
+"GREEN, RGB LED, Common Anode PLCC4","LED2, LED3, LED4, LED5, LED6",LED_PLCC-4,
+"WHITE, RGB LED, Common Anode PLCC4",LED9,LED_PLCC-4,
+"9mm_CtrDet_10k_DShaft, 10k Linear, 9mm pot, Center Detent, D-Shaft","PPW1, PROTATE1, PSHUFFLE1, PSKIP1, PSLIP1",Pot_9mm_Dshaft_Det,
+"Si2318, MOSFET N-chan, 40Vds, Vgs_th=1.2V, Rds=42mOhms","Q1, Q2, Q3, Q4",SOT23-3_PO132,C14498
+"4.7k_0603, 4k7, 1%, 1/10W, 0603","R1, R2, R4, R8, R14, R17, R20, R25, R29, R32, R35",R0603,C23162
+"470R_0805_350mW, 470R, 1%, 1/10W, 0603","R3, R7, R10, R13, R21, R22, R27, R36",R0603,C23179
+"100k_0603, 100K, 1%, 1/10W, 0603","R5, R11, R18, R26, R30, R33, R37, R38, R39, R41",R0603,C25803
+"1k_0603, 1K, 1%, 1/10W, 0603","R6, R12, R15, R19, R23, R28, R31, R34",R0603,C21190
+"10k_0603, 10K, 1%, 1/10W, 0603","R9, R16, R24, R42",R0603,C25804
+"470k_0603, 470K, 1%, 1/10W, 0603",R40,R0603,C23178
+"TrimPot_T73YEt_10k, Trimpot, TH, 10k, single turn, square",TRIM1,Pot_Trim_7x6.6mm_T73YE,
+"ATMEGA328-AU, 8-bit Microcontrollers - MCU AVR 32K FLSH, 1K EE 2K SRAM - 20 MHz",U1,TQFP-32_7x7mm_P0.8mm,C14877
+"L78M05CDT, Vreg 5.0V, Iout>500mA, Vin>7V",VR1,TO-252-2,C58069
+"UA78L08, Vreg 8.0V, Iout>100mA, Vin>10.5V",VR2,SOT89-3,
+"16MHz_18pF_FA238, 16MHz 18pF 10ppm ESR:60ohms",Y1,FA-238,C90906
