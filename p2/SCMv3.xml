@@ -1,0 +1,3849 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/Users/noaver/Desktop/kicad/SCMv3/p2/SCMv3.kicad_sch</source>
+    <date>Tuesday, October 12, 2021 at 02:54:54 PM</date>
+    <tool>Eeschema (5.99.0-11748-g24a41559ca)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>SCMv3.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="BFAST1">
+      <value>Button_DPDT_Orange_Latching</value>
+      <footprint>4ms_Switch:Button_LED_PB61303</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/435/wells00109_1-2286045.pdf</datasheet>
+      <fields>
+        <field name="Display">FAST</field>
+        <field name="Manufacturer">RunRun</field>
+        <field name="Part Number">PB-61303AL-2</field>
+        <field name="Specifications">DPDT, Latching, On/On, 8.7mm base, 7.5mm cap, Orange</field>
+      </fields>
+      <libsource lib="4ms_Switch" part="Button_DPDT_Orange_Latching" description=""/>
+      <property name="Specifications" value="DPDT, Latching, On/On, 8.7mm base, 7.5mm cap, Orange"/>
+      <property name="Manufacturer" value="RunRun"/>
+      <property name="Part Number" value="PB-61303AL-2"/>
+      <property name="Display" value="FAST"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SCMv3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f9fbe793-b542-4135-b875-85ea4155c30b</tstamps>
+    </comp>
+    <comp ref="BMUTE1">
+      <value>Button_DPDT_Orange_Latching</value>
+      <footprint>4ms_Switch:Button_LED_PB61303</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/435/wells00109_1-2286045.pdf</datasheet>
+      <fields>
+        <field name="Display">FAST</field>
+        <field name="Manufacturer">RunRun</field>
+        <field name="Part Number">PB-61303AL-2</field>
+        <field name="Specifications">DPDT, Latching, On/On, 8.7mm base, 7.5mm cap, Orange</field>
+      </fields>
+      <libsource lib="4ms_Switch" part="Button_DPDT_Orange_Latching" description=""/>
+      <property name="Specifications" value="DPDT, Latching, On/On, 8.7mm base, 7.5mm cap, Orange"/>
+      <property name="Manufacturer" value="RunRun"/>
+      <property name="Part Number" value="PB-61303AL-2"/>
+      <property name="Display" value="FAST"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SCMv3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a6f7e94a-6fda-473a-9520-9e3bae738765</tstamps>
+    </comp>
+    <comp ref="C1">
+      <value>330pF_0603_35V</value>
+      <footprint>4ms_Capacitor:C_0603</footprint>
+      <fields>
+        <field name="Display">330pF</field>
+        <field name="JLCPCB ID">C1664</field>
+        <field name="Manufacturer">Kemet</field>
+        <field name="Part Number">C0603C331J5GACTU</field>
+        <field name="Specifications">330pF, Min 35V, C0G/NP0, 5%</field>
+      </fields>
+      <libsource lib="4ms_Capacitor" part="330pF_0603_35V" description="330pF, Min 35V, C0G/NP0, 5%"/>
+      <property name="Specifications" value="330pF, Min 35V, C0G/NP0, 5%"/>
+      <property name="Manufacturer" value="Kemet"/>
+      <property name="Part Number" value="C0603C331J5GACTU"/>
+      <property name="Display" value="330pF"/>
+      <property name="JLCPCB ID" value="C1664"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SCMv3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c1c3c822-2a2b-4f8e-afd9-ee798fd0ab8e</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>1nF_0603_50V</value>
+      <footprint>4ms_Capacitor:C_0603</footprint>
+      <fields>
+        <field name="Display">1nF</field>
+        <field name="JLCPCB ID">C163508</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Part Number">GRM1885C1H102JA01D</field>
+        <field name="Specifications">1nF, 50V, 10%, C0G (NP0) or similar</field>
+      </fields>
+      <libsource lib="4ms_Capacitor" part="1nF_0603_50V" description="1nF, 50V, 10%, C0G (NP0) or similar"/>
+      <property name="Specifications" value="1nF, 50V, 10%, C0G (NP0) or similar"/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="Part Number" value="GRM1885C1H102JA01D"/>
+      <property name="Display" value="1nF"/>
+      <property name="JLCPCB ID" value="C163508"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SCMv3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dd2a8e21-db2d-4c6b-a6f4-5e3ccfb45f8c</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>330pF_0603_35V</value>
+      <footprint>4ms_Capacitor:C_0603</footprint>
+      <fields>
+        <field name="Display">330pF</field>
+        <field name="JLCPCB ID">C1664</field>
+        <field name="Manufacturer">Kemet</field>
+        <field name="Part Number">C0603C331J5GACTU</field>
+        <field name="Specifications">330pF, Min 35V, C0G/NP0, 5%</field>
+      </fields>
+      <libsource lib="4ms_Capacitor" part="330pF_0603_35V" description="330pF, Min 35V, C0G/NP0, 5%"/>
+      <property name="Specifications" value="330pF, Min 35V, C0G/NP0, 5%"/>
+      <property name="Manufacturer" value="Kemet"/>
+      <property name="Part Number" value="C0603C331J5GACTU"/>
+      <property name="Display" value="330pF"/>
+      <property name="JLCPCB ID" value="C1664"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SCMv3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>080db2c0-fc75-419b-80d8-3b71302a413a</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>9pF_0603_50V</value>
+      <footprint>4ms_Capacitor:C_0603</footprint>
+      <fields>
+        <field name="Display">9pF</field>
+        <field name="JLCPCB ID">C170141</field>
+        <field name="Manufacturer">Murata Electronics</field>
+        <field name="Part Number">GCM1885C2A9R0CA16D</field>
+        <field name="Specifications">9pF, Min 50V, C0G (NP0) 0603</field>
+      </fields>
+      <libsource lib="4ms_Capacitor" part="9pF_0603_50V" description="9pF, Min 50V, C0G (NP0) 0603"/>
+      <property name="Specifications" value="9pF, Min 50V, C0G (NP0) 0603"/>
+      <property name="Manufacturer" value="Murata Electronics"/>
+      <property name="Part Number" value="GCM1885C2A9R0CA16D"/>
+      <property name="Display" value="9pF"/>
+      <property name="JLCPCB ID" value="C170141"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SCMv3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>565d19b8-a1be-47b6-9985-ac397d353453</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>9pF_0603_50V</value>
+      <footprint>4ms_Capacitor:C_0603</footprint>
+      <fields>
+        <field name="Display">9pF</field>
+        <field name="JLCPCB ID">C170141</field>
+        <field name="Manufacturer">Murata Electronics</field>
+        <field name="Part Number">GCM1885C2A9R0CA16D</field>
+        <field name="Specifications">9pF, Min 50V, C0G (NP0) 0603</field>
+      </fields>
+      <libsource lib="4ms_Capacitor" part="9pF_0603_50V" description="9pF, Min 50V, C0G (NP0) 0603"/>
+      <property name="Specifications" value="9pF, Min 50V, C0G (NP0) 0603"/>
+      <property name="Manufacturer" value="Murata Electronics"/>
+      <property name="Part Number" value="GCM1885C2A9R0CA16D"/>
+      <property name="Display" value="9pF"/>
+      <property name="JLCPCB ID" value="C170141"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SCMv3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1afcd7b0-227b-4749-8d90-66c98e143ce8</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>330pF_0603_35V</value>
+      <footprint>4ms_Capacitor:C_0603</footprint>
+      <fields>
+        <field name="Display">330pF</field>
+        <field name="JLCPCB ID">C1664</field>
+        <field name="Manufacturer">Kemet</field>
+        <field name="Part Number">C0603C331J5GACTU</field>
+        <field name="Specifications">330pF, Min 35V, C0G/NP0, 5%</field>
+      </fields>
+      <libsource lib="4ms_Capacitor" part="330pF_0603_35V" description="330pF, Min 35V, C0G/NP0, 5%"/>
+      <property name="Specifications" value="330pF, Min 35V, C0G/NP0, 5%"/>
+      <property name="Manufacturer" value="Kemet"/>
+      <property name="Part Number" value="C0603C331J5GACTU"/>
+      <property name="Display" value="330pF"/>
+      <property name="JLCPCB ID" value="C1664"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SCMv3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>eb1d2af3-847d-4f07-8fb2-f4f8467cde9d</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>1nF_0603_50V</value>
+      <footprint>4ms_Capacitor:C_0603</footprint>
+      <fields>
+        <field name="Display">1nF</field>
+        <field name="JLCPCB ID">C163508</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Part Number">GRM1885C1H102JA01D</field>
+        <field name="Specifications">1nF, 50V, 10%, C0G (NP0) or similar</field>
+      </fields>
+      <libsource lib="4ms_Capacitor" part="1nF_0603_50V" description="1nF, 50V, 10%, C0G (NP0) or similar"/>
+      <property name="Specifications" value="1nF, 50V, 10%, C0G (NP0) or similar"/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="Part Number" value="GRM1885C1H102JA01D"/>
+      <property name="Display" value="1nF"/>
+      <property name="JLCPCB ID" value="C163508"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SCMv3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a06424a9-27be-492c-b29d-f60fc188d753</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>1nF_0603_50V</value>
+      <footprint>4ms_Capacitor:C_0603</footprint>
+      <fields>
+        <field name="Display">1nF</field>
+        <field name="JLCPCB ID">C163508</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Part Number">GRM1885C1H102JA01D</field>
+        <field name="Specifications">1nF, 50V, 10%, C0G (NP0) or similar</field>
+      </fields>
+      <libsource lib="4ms_Capacitor" part="1nF_0603_50V" description="1nF, 50V, 10%, C0G (NP0) or similar"/>
+      <property name="Specifications" value="1nF, 50V, 10%, C0G (NP0) or similar"/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="Part Number" value="GRM1885C1H102JA01D"/>
+      <property name="Display" value="1nF"/>
+      <property name="JLCPCB ID" value="C163508"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SCMv3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e555dc10-8b3d-4a74-b509-580fac67a0d2</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>1nF_0603_50V</value>
+      <footprint>4ms_Capacitor:C_0603</footprint>
+      <fields>
+        <field name="Display">1nF</field>
+        <field name="JLCPCB ID">C163508</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Part Number">GRM1885C1H102JA01D</field>
+        <field name="Specifications">1nF, 50V, 10%, C0G (NP0) or similar</field>
+      </fields>
+      <libsource lib="4ms_Capacitor" part="1nF_0603_50V" description="1nF, 50V, 10%, C0G (NP0) or similar"/>
+      <property name="Specifications" value="1nF, 50V, 10%, C0G (NP0) or similar"/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="Part Number" value="GRM1885C1H102JA01D"/>
+      <property name="Display" value="1nF"/>
+      <property name="JLCPCB ID" value="C163508"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SCMv3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f62cad01-d66a-4d4c-b469-e9248172cee4</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>1nF_0603_50V</value>
+      <footprint>4ms_Capacitor:C_0603</footprint>
+      <fields>
+        <field name="Display">1nF</field>
+        <field name="JLCPCB ID">C163508</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Part Number">GRM1885C1H102JA01D</field>
+        <field name="Specifications">1nF, 50V, 10%, C0G (NP0) or similar</field>
+      </fields>
+      <libsource lib="4ms_Capacitor" part="1nF_0603_50V" description="1nF, 50V, 10%, C0G (NP0) or similar"/>
+      <property name="Specifications" value="1nF, 50V, 10%, C0G (NP0) or similar"/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="Part Number" value="GRM1885C1H102JA01D"/>
+      <property name="Display" value="1nF"/>
+      <property name="JLCPCB ID" value="C163508"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SCMv3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0aead6b1-0c52-4c99-a66e-c1aa36e863e9</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>1nF_0603_50V</value>
+      <footprint>4ms_Capacitor:C_0603</footprint>
+      <fields>
+        <field name="Display">1nF</field>
+        <field name="JLCPCB ID">C163508</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Part Number">GRM1885C1H102JA01D</field>
+        <field name="Specifications">1nF, 50V, 10%, C0G (NP0) or similar</field>
+      </fields>
+      <libsource lib="4ms_Capacitor" part="1nF_0603_50V" description="1nF, 50V, 10%, C0G (NP0) or similar"/>
+      <property name="Specifications" value="1nF, 50V, 10%, C0G (NP0) or similar"/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="Part Number" value="GRM1885C1H102JA01D"/>
+      <property name="Display" value="1nF"/>
+      <property name="JLCPCB ID" value="C163508"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SCMv3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d6d29050-9c3b-4f21-8ddf-e9856b952d75</tstamps>
+    </comp>
+    <comp ref="C12">
+      <value>47uF_5x5.3_16V</value>
+      <footprint>4ms_Capacitor:CP_Elec_5x5.3</footprint>
+      <fields>
+        <field name="Display">47uF/16V</field>
+        <field name="JLCPCB ID">C134798</field>
+        <field name="Manufacturer">Lelon</field>
+        <field name="Part Number">VE-470M1CTR-0505</field>
+        <field name="Specifications">47uF, 16V, 20%, 5.00mmD*5.30mmH, 2000Hrs@85℃</field>
+      </fields>
+      <libsource lib="4ms_Capacitor" part="47uF_5x5.3_16V" description="47uF, 16V, 20%, 5.00mmD*5.30mmH, 2000Hrs@85℃"/>
+      <property name="Specifications" value="47uF, 16V, 20%, 5.00mmD*5.30mmH, 2000Hrs@85℃"/>
+      <property name="Manufacturer" value="Lelon"/>
+      <property name="Part Number" value="VE-470M1CTR-0505"/>
+      <property name="Display" value="47uF/16V"/>
+      <property name="JLCPCB ID" value="C134798"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SCMv3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c98bb718-1cd2-43c4-b02b-049b92ac7f70</tstamps>
+    </comp>
+    <comp ref="C13">
+      <value>47uF_5x5.3_16V</value>
+      <footprint>4ms_Capacitor:CP_Elec_5x5.3</footprint>
+      <fields>
+        <field name="Display">47uF/16V</field>
+        <field name="JLCPCB ID">C134798</field>
+        <field name="Manufacturer">Lelon</field>
+        <field name="Part Number">VE-470M1CTR-0505</field>
+        <field name="Specifications">47uF, 16V, 20%, 5.00mmD*5.30mmH, 2000Hrs@85℃</field>
+      </fields>
+      <libsource lib="4ms_Capacitor" part="47uF_5x5.3_16V" description="47uF, 16V, 20%, 5.00mmD*5.30mmH, 2000Hrs@85℃"/>
+      <property name="Specifications" value="47uF, 16V, 20%, 5.00mmD*5.30mmH, 2000Hrs@85℃"/>
+      <property name="Manufacturer" value="Lelon"/>
+      <property name="Part Number" value="VE-470M1CTR-0505"/>
+      <property name="Display" value="47uF/16V"/>
+      <property name="JLCPCB ID" value="C134798"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SCMv3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e5747271-3436-415e-a430-b7fa0d869bdc</tstamps>
+    </comp>
+    <comp ref="C14">
+      <value>47uF_5x5.3_16V</value>
+      <footprint>4ms_Capacitor:CP_Elec_5x5.3</footprint>
+      <fields>
+        <field name="Display">47uF/16V</field>
+        <field name="JLCPCB ID">C134798</field>
+        <field name="Manufacturer">Lelon</field>
+        <field name="Part Number">VE-470M1CTR-0505</field>
+        <field name="Specifications">47uF, 16V, 20%, 5.00mmD*5.30mmH, 2000Hrs@85℃</field>
+      </fields>
+      <libsource lib="4ms_Capacitor" part="47uF_5x5.3_16V" description="47uF, 16V, 20%, 5.00mmD*5.30mmH, 2000Hrs@85℃"/>
+      <property name="Specifications" value="47uF, 16V, 20%, 5.00mmD*5.30mmH, 2000Hrs@85℃"/>
+      <property name="Manufacturer" value="Lelon"/>
+      <property name="Part Number" value="VE-470M1CTR-0505"/>
+      <property name="Display" value="47uF/16V"/>
+      <property name="JLCPCB ID" value="C134798"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SCMv3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c6e58fa6-07de-4cbb-9612-f20b9d6ca989</tstamps>
+    </comp>
+    <comp ref="C15">
+      <value>0.1uF_0603_16V</value>
+      <footprint>4ms_Capacitor:C_0603</footprint>
+      <fields>
+        <field name="Display">0.1uF</field>
+        <field name="JLCPCB ID">C14663</field>
+        <field name="Manufacturer">AVX Corporation</field>
+        <field name="Part Number">0603YC104KAT2A</field>
+        <field name="Specifications">0.1uF, Min. 16V 10%, X7R or X5R or similar</field>
+      </fields>
+      <libsource lib="4ms_Capacitor" part="0.1uF_0603_16V" description="0.1uF, Min. 16V 10%, X7R or X5R or similar"/>
+      <property name="Specifications" value="0.1uF, Min. 16V 10%, X7R or X5R or similar"/>
+      <property name="Manufacturer" value="AVX Corporation"/>
+      <property name="Part Number" value="0603YC104KAT2A"/>
+      <property name="Display" value="0.1uF"/>
+      <property name="JLCPCB ID" value="C14663"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SCMv3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>046879b4-9153-41cb-b02b-01816d85ae2f</tstamps>
+    </comp>
+    <comp ref="C16">
+      <value>0.1uF_0603_16V</value>
+      <footprint>4ms_Capacitor:C_0603</footprint>
+      <fields>
+        <field name="Display">0.1uF</field>
+        <field name="JLCPCB ID">C14663</field>
+        <field name="Manufacturer">AVX Corporation</field>
+        <field name="Part Number">0603YC104KAT2A</field>
+        <field name="Specifications">0.1uF, Min. 16V 10%, X7R or X5R or similar</field>
+      </fields>
+      <libsource lib="4ms_Capacitor" part="0.1uF_0603_16V" description="0.1uF, Min. 16V 10%, X7R or X5R or similar"/>
+      <property name="Specifications" value="0.1uF, Min. 16V 10%, X7R or X5R or similar"/>
+      <property name="Manufacturer" value="AVX Corporation"/>
+      <property name="Part Number" value="0603YC104KAT2A"/>
+      <property name="Display" value="0.1uF"/>
+      <property name="JLCPCB ID" value="C14663"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SCMv3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>08c25e2d-c307-4be0-b90f-c001402f1869</tstamps>
+    </comp>
+    <comp ref="C17">
+      <value>0.1uF_0603_16V</value>
+      <footprint>4ms_Capacitor:C_0603</footprint>
+      <fields>
+        <field name="Display">0.1uF</field>
+        <field name="JLCPCB ID">C14663</field>
+        <field name="Manufacturer">AVX Corporation</field>
+        <field name="Part Number">0603YC104KAT2A</field>
+        <field name="Specifications">0.1uF, Min. 16V 10%, X7R or X5R or similar</field>
+      </fields>
+      <libsource lib="4ms_Capacitor" part="0.1uF_0603_16V" description="0.1uF, Min. 16V 10%, X7R or X5R or similar"/>
+      <property name="Specifications" value="0.1uF, Min. 16V 10%, X7R or X5R or similar"/>
+      <property name="Manufacturer" value="AVX Corporation"/>
+      <property name="Part Number" value="0603YC104KAT2A"/>
+      <property name="Display" value="0.1uF"/>
+      <property name="JLCPCB ID" value="C14663"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SCMv3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ca3d7339-d807-4606-b7cb-abe8423ec1ea</tstamps>
+    </comp>
+    <comp ref="C19">
+      <value>0.1uF_0603_16V</value>
+      <footprint>4ms_Capacitor:C_0603</footprint>
+      <fields>
+        <field name="Display">0.1uF</field>
+        <field name="JLCPCB ID">C14663</field>
+        <field name="Manufacturer">AVX Corporation</field>
+        <field name="Part Number">0603YC104KAT2A</field>
+        <field name="Specifications">0.1uF, Min. 16V 10%, X7R or X5R or similar</field>
+      </fields>
+      <libsource lib="4ms_Capacitor" part="0.1uF_0603_16V" description="0.1uF, Min. 16V 10%, X7R or X5R or similar"/>
+      <property name="Specifications" value="0.1uF, Min. 16V 10%, X7R or X5R or similar"/>
+      <property name="Manufacturer" value="AVX Corporation"/>
+      <property name="Part Number" value="0603YC104KAT2A"/>
+      <property name="Display" value="0.1uF"/>
+      <property name="JLCPCB ID" value="C14663"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SCMv3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>207a3636-6b08-4039-be6d-13a63c7b0a13</tstamps>
+    </comp>
+    <comp ref="C20">
+      <value>0.1uF_0603_16V</value>
+      <footprint>4ms_Capacitor:C_0603</footprint>
+      <fields>
+        <field name="Display">0.1uF</field>
+        <field name="JLCPCB ID">C14663</field>
+        <field name="Manufacturer">AVX Corporation</field>
+        <field name="Part Number">0603YC104KAT2A</field>
+        <field name="Specifications">0.1uF, Min. 16V 10%, X7R or X5R or similar</field>
+      </fields>
+      <libsource lib="4ms_Capacitor" part="0.1uF_0603_16V" description="0.1uF, Min. 16V 10%, X7R or X5R or similar"/>
+      <property name="Specifications" value="0.1uF, Min. 16V 10%, X7R or X5R or similar"/>
+      <property name="Manufacturer" value="AVX Corporation"/>
+      <property name="Part Number" value="0603YC104KAT2A"/>
+      <property name="Display" value="0.1uF"/>
+      <property name="JLCPCB ID" value="C14663"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SCMv3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e209fbbf-444a-4330-a6ae-b62341e0f391</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>BAT54S</value>
+      <footprint>4ms_Package_SOT:SOT23-3_PO132</footprint>
+      <fields>
+        <field name="JLCPCB ID">C83574</field>
+        <field name="Manufacturer">Diodes Incorporated</field>
+        <field name="Part Number">BAT54S-7-F</field>
+        <field name="Specifications">Dual schottky diode BAT54S</field>
+      </fields>
+      <libsource lib="4ms_Diode" part="BAT54S" description="Dual schottky diode BAT54S"/>
+      <property name="Specifications" value="Dual schottky diode BAT54S"/>
+      <property name="Manufacturer" value="Diodes Incorporated"/>
+      <property name="Part Number" value="BAT54S-7-F"/>
+      <property name="JLCPCB ID" value="C83574"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SCMv3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6c5cf9c1-b2ae-4397-bd52-8fea4c207dde</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>BAT54S</value>
+      <footprint>4ms_Package_SOT:SOT23-3_PO132</footprint>
+      <fields>
+        <field name="JLCPCB ID">C83574</field>
+        <field name="Manufacturer">Diodes Incorporated</field>
+        <field name="Part Number">BAT54S-7-F</field>
+        <field name="Specifications">Dual schottky diode BAT54S</field>
+      </fields>
+      <libsource lib="4ms_Diode" part="BAT54S" description="Dual schottky diode BAT54S"/>
+      <property name="Specifications" value="Dual schottky diode BAT54S"/>
+      <property name="Manufacturer" value="Diodes Incorporated"/>
+      <property name="Part Number" value="BAT54S-7-F"/>
+      <property name="JLCPCB ID" value="C83574"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SCMv3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bb75bba4-5275-458f-bc6a-cb675199ecf1</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>BAT54S</value>
+      <footprint>4ms_Package_SOT:SOT23-3_PO132</footprint>
+      <fields>
+        <field name="JLCPCB ID">C83574</field>
+        <field name="Manufacturer">Diodes Incorporated</field>
+        <field name="Part Number">BAT54S-7-F</field>
+        <field name="Specifications">Dual schottky diode BAT54S</field>
+      </fields>
+      <libsource lib="4ms_Diode" part="BAT54S" description="Dual schottky diode BAT54S"/>
+      <property name="Specifications" value="Dual schottky diode BAT54S"/>
+      <property name="Manufacturer" value="Diodes Incorporated"/>
+      <property name="Part Number" value="BAT54S-7-F"/>
+      <property name="JLCPCB ID" value="C83574"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SCMv3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>110f7825-4a22-4433-a526-9ad54e6af006</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>BAT54S</value>
+      <footprint>4ms_Package_SOT:SOT23-3_PO132</footprint>
+      <fields>
+        <field name="JLCPCB ID">C83574</field>
+        <field name="Manufacturer">Diodes Incorporated</field>
+        <field name="Part Number">BAT54S-7-F</field>
+        <field name="Specifications">Dual schottky diode BAT54S</field>
+      </fields>
+      <libsource lib="4ms_Diode" part="BAT54S" description="Dual schottky diode BAT54S"/>
+      <property name="Specifications" value="Dual schottky diode BAT54S"/>
+      <property name="Manufacturer" value="Diodes Incorporated"/>
+      <property name="Part Number" value="BAT54S-7-F"/>
+      <property name="JLCPCB ID" value="C83574"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SCMv3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c6c4503e-9515-4dad-a312-3b5b845911d0</tstamps>
+    </comp>
+    <comp ref="D5">
+      <value>BAT54S</value>
+      <footprint>4ms_Package_SOT:SOT23-3_PO132</footprint>
+      <fields>
+        <field name="JLCPCB ID">C83574</field>
+        <field name="Manufacturer">Diodes Incorporated</field>
+        <field name="Part Number">BAT54S-7-F</field>
+        <field name="Specifications">Dual schottky diode BAT54S</field>
+      </fields>
+      <libsource lib="4ms_Diode" part="BAT54S" description="Dual schottky diode BAT54S"/>
+      <property name="Specifications" value="Dual schottky diode BAT54S"/>
+      <property name="Manufacturer" value="Diodes Incorporated"/>
+      <property name="Part Number" value="BAT54S-7-F"/>
+      <property name="JLCPCB ID" value="C83574"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SCMv3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ead97367-37eb-4345-a5cb-133b0c9d52d3</tstamps>
+    </comp>
+    <comp ref="D6">
+      <value>BAT54S</value>
+      <footprint>4ms_Package_SOT:SOT23-3_PO132</footprint>
+      <fields>
+        <field name="JLCPCB ID">C83574</field>
+        <field name="Manufacturer">Diodes Incorporated</field>
+        <field name="Part Number">BAT54S-7-F</field>
+        <field name="Specifications">Dual schottky diode BAT54S</field>
+      </fields>
+      <libsource lib="4ms_Diode" part="BAT54S" description="Dual schottky diode BAT54S"/>
+      <property name="Specifications" value="Dual schottky diode BAT54S"/>
+      <property name="Manufacturer" value="Diodes Incorporated"/>
+      <property name="Part Number" value="BAT54S-7-F"/>
+      <property name="JLCPCB ID" value="C83574"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SCMv3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>60b43e48-35d2-4911-b24d-ac392ea8cb48</tstamps>
+    </comp>
+    <comp ref="D7">
+      <value>BAT54S</value>
+      <footprint>4ms_Package_SOT:SOT23-3_PO132</footprint>
+      <fields>
+        <field name="JLCPCB ID">C83574</field>
+        <field name="Manufacturer">Diodes Incorporated</field>
+        <field name="Part Number">BAT54S-7-F</field>
+        <field name="Specifications">Dual schottky diode BAT54S</field>
+      </fields>
+      <libsource lib="4ms_Diode" part="BAT54S" description="Dual schottky diode BAT54S"/>
+      <property name="Specifications" value="Dual schottky diode BAT54S"/>
+      <property name="Manufacturer" value="Diodes Incorporated"/>
+      <property name="Part Number" value="BAT54S-7-F"/>
+      <property name="JLCPCB ID" value="C83574"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SCMv3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>79171a8f-b647-48d1-9ab6-365007078389</tstamps>
+    </comp>
+    <comp ref="D8">
+      <value>BAT54S</value>
+      <footprint>4ms_Package_SOT:SOT23-3_PO132</footprint>
+      <fields>
+        <field name="JLCPCB ID">C83574</field>
+        <field name="Manufacturer">Diodes Incorporated</field>
+        <field name="Part Number">BAT54S-7-F</field>
+        <field name="Specifications">Dual schottky diode BAT54S</field>
+      </fields>
+      <libsource lib="4ms_Diode" part="BAT54S" description="Dual schottky diode BAT54S"/>
+      <property name="Specifications" value="Dual schottky diode BAT54S"/>
+      <property name="Manufacturer" value="Diodes Incorporated"/>
+      <property name="Part Number" value="BAT54S-7-F"/>
+      <property name="JLCPCB ID" value="C83574"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SCMv3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e50348bf-9e08-4c50-8ff3-25a9280eba41</tstamps>
+    </comp>
+    <comp ref="D9">
+      <value>BAT54S</value>
+      <footprint>4ms_Package_SOT:SOT23-3_PO132</footprint>
+      <fields>
+        <field name="JLCPCB ID">C83574</field>
+        <field name="Manufacturer">Diodes Incorporated</field>
+        <field name="Part Number">BAT54S-7-F</field>
+        <field name="Specifications">Dual schottky diode BAT54S</field>
+      </fields>
+      <libsource lib="4ms_Diode" part="BAT54S" description="Dual schottky diode BAT54S"/>
+      <property name="Specifications" value="Dual schottky diode BAT54S"/>
+      <property name="Manufacturer" value="Diodes Incorporated"/>
+      <property name="Part Number" value="BAT54S-7-F"/>
+      <property name="JLCPCB ID" value="C83574"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SCMv3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00061fa7-9ac6-4edd-a83d-ced06b967d53</tstamps>
+    </comp>
+    <comp ref="D10">
+      <value>B140-E3</value>
+      <footprint>4ms_Diode:D_SMA</footprint>
+      <fields>
+        <field name="JLCPCB ID">C15759</field>
+        <field name="Manufacturer">Diodes Incorporated</field>
+        <field name="Manufacturer 2">Diodes Incorporated</field>
+        <field name="Part Number">B140-E3/5AT</field>
+        <field name="Part Number 2">B140-E3/61T</field>
+        <field name="Specifications">SCHOTTKY Diode SMA Vrrm&gt;=40V If&gt;=1.0A, Ifsm&gt;=1.5A</field>
+      </fields>
+      <libsource lib="" part="4ms_Diode:B140-E3_1" description="SCHOTTKY Diode SMA Vrrm&gt;=40V If&gt;=1.0A, Ifsm&gt;=1.5A"/>
+      <property name="Specifications" value="SCHOTTKY Diode SMA Vrrm&gt;=40V If&gt;=1.0A, Ifsm&gt;=1.5A"/>
+      <property name="Manufacturer" value="Diodes Incorporated"/>
+      <property name="Part Number" value="B140-E3/5AT"/>
+      <property name="Manufacturer 2" value="Diodes Incorporated"/>
+      <property name="Part Number 2" value="B140-E3/61T"/>
+      <property name="JLCPCB ID" value="C15759"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SCMv3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cf2c3f45-e318-4cb3-98e2-bb5034fddc0e</tstamps>
+    </comp>
+    <comp ref="D11">
+      <value>B140-E3</value>
+      <footprint>4ms_Diode:D_SMA</footprint>
+      <fields>
+        <field name="JLCPCB ID">C15759</field>
+        <field name="Manufacturer">Diodes Incorporated</field>
+        <field name="Manufacturer 2">Diodes Incorporated</field>
+        <field name="Part Number">B140-E3/5AT</field>
+        <field name="Part Number 2">B140-E3/61T</field>
+        <field name="Specifications">SCHOTTKY Diode SMA Vrrm&gt;=40V If&gt;=1.0A, Ifsm&gt;=1.5A</field>
+      </fields>
+      <libsource lib="4ms_Diode" part="B140-E3" description="SCHOTTKY Diode SMA Vrrm&gt;=40V If&gt;=1.0A, Ifsm&gt;=1.5A"/>
+      <property name="Specifications" value="SCHOTTKY Diode SMA Vrrm&gt;=40V If&gt;=1.0A, Ifsm&gt;=1.5A"/>
+      <property name="Manufacturer" value="Diodes Incorporated"/>
+      <property name="Part Number" value="B140-E3/5AT"/>
+      <property name="Manufacturer 2" value="Diodes Incorporated"/>
+      <property name="Part Number 2" value="B140-E3/61T"/>
+      <property name="JLCPCB ID" value="C15759"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SCMv3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0dd1fe5c-4d10-49e6-ae30-86d7bc6a9de1</tstamps>
+    </comp>
+    <comp ref="IC1">
+      <value>40106</value>
+      <footprint>4ms_Package_SSOP:TSSOP-14_4.4x5mm_P0.65mm</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/cd40106b.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&amp;ts=1624570529286&amp;ref_url=https%253A%252F%252Fwww.mouser.com%252F</datasheet>
+      <fields>
+        <field name="Display">40106</field>
+        <field name="JLCPCB ID">C58834</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Manufacturer 2">Texas Instruments</field>
+        <field name="Part Number">CD40106BPWR</field>
+        <field name="Part Number 2">CD40106BPWR</field>
+        <field name="Specifications">CMOS, Hex Inverting Schmitt Trigger, TSSOP-14</field>
+      </fields>
+      <libsource lib="4ms_IC" part="CD40106BPWR" description=""/>
+      <property name="Specifications" value="CMOS, Hex Inverting Schmitt Trigger, TSSOP-14"/>
+      <property name="Manufacturer" value="Texas Instruments"/>
+      <property name="Part Number" value="CD40106BPWR"/>
+      <property name="Manufacturer 2" value="Texas Instruments"/>
+      <property name="Part Number 2" value="CD40106BPWR"/>
+      <property name="Display" value="40106"/>
+      <property name="JLCPCB ID" value="C58834"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SCMv3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>95609508-ddc6-443d-8264-d185847d8c73 7fb41117-b458-4902-a5ad-62e377176529 b941f066-1dc0-47f5-b7fa-005a9915acec a78e45f7-2290-4bd2-8b7b-886e4458c7d1 f468cce3-800c-4692-be3c-3e7c21a2b9c2 327d983a-9377-443a-baa5-df4ca3efcf0b 1af49ffa-6b59-47be-8057-2d31743ef4e4</tstamps>
+    </comp>
+    <comp ref="IC2">
+      <value>40106</value>
+      <footprint>4ms_Package_SSOP:TSSOP-14_4.4x5mm_P0.65mm</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/cd40106b.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&amp;ts=1624570529286&amp;ref_url=https%253A%252F%252Fwww.mouser.com%252F</datasheet>
+      <fields>
+        <field name="Display">40106</field>
+        <field name="JLCPCB ID">C58834</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Manufacturer 2">Texas Instruments</field>
+        <field name="Part Number">CD40106BPWR</field>
+        <field name="Part Number 2">CD40106BPWR</field>
+        <field name="Specifications">CMOS, Hex Inverting Schmitt Trigger, TSSOP-14</field>
+      </fields>
+      <libsource lib="4ms_IC" part="CD40106BPWR" description=""/>
+      <property name="Specifications" value="CMOS, Hex Inverting Schmitt Trigger, TSSOP-14"/>
+      <property name="Manufacturer" value="Texas Instruments"/>
+      <property name="Part Number" value="CD40106BPWR"/>
+      <property name="Manufacturer 2" value="Texas Instruments"/>
+      <property name="Part Number 2" value="CD40106BPWR"/>
+      <property name="Display" value="40106"/>
+      <property name="JLCPCB ID" value="C58834"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SCMv3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a4d24f3e-8676-4dbf-a5dc-c64a99fce7ee f4add87c-5f53-40c9-95a5-71b91f81ba5c 8a19f452-ecd8-42e9-bed3-ddf731fad628 0b373a35-a0fd-42c7-9128-827006bf843a bd1627e2-a58b-4470-a2bf-176326e43eec d356a667-5a01-443c-9f09-a2d4a85b5843 0a3a426e-9a9c-4dec-9d22-7bade5241254</tstamps>
+    </comp>
+    <comp ref="IC3">
+      <value>TL082</value>
+      <footprint>4ms_Package_SSOP:TSSOP-8_4.4x3mm_Pitch0.65mm</footprint>
+      <fields>
+        <field name="JLCPCB ID">C2652280</field>
+        <field name="Manufacturer">STMicroelectronics</field>
+        <field name="Part Number">TL082CPT</field>
+        <field name="Specifications">TL082 Dual Opamp TSSOP-8</field>
+      </fields>
+      <libsource lib="4ms_IC" part="TL082" description="TL082 Dual Opamp TSSOP-8"/>
+      <property name="Specifications" value="TL082 Dual Opamp TSSOP-8"/>
+      <property name="Manufacturer" value="STMicroelectronics"/>
+      <property name="Part Number" value="TL082CPT"/>
+      <property name="JLCPCB ID" value="C2652280"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SCMv3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>85ed9d8c-2f79-4cf2-9a1d-44999cc657b3 68633081-f891-4917-95b6-453459a18c31 3678eb3d-1bc5-45f1-9999-39f9d8c363c6</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>ISP</value>
+      <footprint>4ms_Connector:Pins_2x03_2.54mm_TH</footprint>
+      <fields>
+        <field name="Manufacturer">Cixi Langlin</field>
+        <field name="Part Number">LL1009-2A, 2.54MM 2*3PIN HEADER,LENGTH=20MM</field>
+        <field name="Specifications">HEADER 2x3 MALE PINS 0.100” 180deg</field>
+      </fields>
+      <libsource lib="4ms_Connector" part="Conn_02x03" description="HEADER 2x3 MALE PINS 0.100” 180deg"/>
+      <property name="Specifications" value="HEADER 2x3 MALE PINS 0.100” 180deg"/>
+      <property name="Manufacturer" value="Cixi Langlin"/>
+      <property name="Part Number" value="LL1009-2A, 2.54MM 2*3PIN HEADER,LENGTH=20MM"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SCMv3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f68d0a6a-66ad-4eec-a908-8690d4c30edd</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_01x02</value>
+      <footprint>4ms_Connector:Pins_1x02_2.54mm_TH</footprint>
+      <fields>
+        <field name="Manufacturer">TAD</field>
+        <field name="Part Number">1-0201FBV0T</field>
+        <field name="Specifications">Pins_01x02, Header, Male Pins, 1*2, spacing 2.54mm, straight pin</field>
+      </fields>
+      <libsource lib="4ms_Connector" part="Conn_01x02" description="HEADER 1x2 MALE PINS 0.100” 180deg"/>
+      <property name="Specifications" value="Pins_01x02, Header, Male Pins, 1*2, spacing 2.54mm, straight pin"/>
+      <property name="Manufacturer" value="TAD"/>
+      <property name="Part Number" value="1-0201FBV0T"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SCMv3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4ae30dad-0d78-49bc-aed9-32ce59fec27c</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>POWER</value>
+      <footprint>4ms_Connector:Pins_2x08_2.54mm_TH</footprint>
+      <fields>
+        <field name="Manufacturer">TAD</field>
+        <field name="Part Number">1-1602FBV0T</field>
+        <field name="Specifications">Header, Male Pins, 2*8, spacing 2.54mm, straight pin</field>
+      </fields>
+      <libsource lib="4ms_Connector" part="Conn_02x08" description="HEADER 2x5 MALE PINS 0.100” 180deg"/>
+      <property name="Specifications" value="Header, Male Pins, 2*8, spacing 2.54mm, straight pin"/>
+      <property name="Manufacturer" value="TAD"/>
+      <property name="Part Number" value="1-1602FBV0T"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SCMv3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>10161d13-a6d9-4acd-aee6-ec884bc657fd</tstamps>
+    </comp>
+    <comp ref="J1-OUT8">
+      <value>JACK-MONO-SWB</value>
+      <footprint>4ms_Jack:EighthInch_PJ398SM</footprint>
+      <fields>
+        <field name="Display">3.5mm_Mono</field>
+        <field name="Manufacturer">Wenzhou QingPu Electronics Co</field>
+        <field name="Part Number">WQP-WQP518MA</field>
+        <field name="Specifications">Audio 3.5mm Jack, mono, switched, PC-pin Vertical</field>
+      </fields>
+      <libsource lib="4ms_Jack" part="3.5mm_Mono_Switched_SymSmall_0.05" description="Audio 3.5mm Jack, mono, switched, PC-pin Vertical"/>
+      <property name="Specifications" value="Audio 3.5mm Jack, mono, switched, PC-pin Vertical"/>
+      <property name="Manufacturer" value="Wenzhou QingPu Electronics Co"/>
+      <property name="Part Number" value="WQP-WQP518MA"/>
+      <property name="Display" value="3.5mm_Mono"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SCMv3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>69c2bdb0-3b40-44b7-afbc-ad493fa8641b</tstamps>
+    </comp>
+    <comp ref="J2-OUT7">
+      <value>JACK-MONO-SWB</value>
+      <footprint>4ms_Jack:EighthInch_PJ398SM</footprint>
+      <fields>
+        <field name="Display">3.5mm_Mono</field>
+        <field name="Manufacturer">Wenzhou QingPu Electronics Co</field>
+        <field name="Part Number">WQP-WQP518MA</field>
+        <field name="Specifications">Audio 3.5mm Jack, mono, switched, PC-pin Vertical</field>
+      </fields>
+      <libsource lib="4ms_Jack" part="3.5mm_Mono_Switched_SymSmall_0.05" description="Audio 3.5mm Jack, mono, switched, PC-pin Vertical"/>
+      <property name="Specifications" value="Audio 3.5mm Jack, mono, switched, PC-pin Vertical"/>
+      <property name="Manufacturer" value="Wenzhou QingPu Electronics Co"/>
+      <property name="Part Number" value="WQP-WQP518MA"/>
+      <property name="Display" value="3.5mm_Mono"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SCMv3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>50578811-0228-4df4-89f9-e6a071faab5c</tstamps>
+    </comp>
+    <comp ref="J3-OUT6">
+      <value>JACK-MONO-SWB</value>
+      <footprint>4ms_Jack:EighthInch_PJ398SM</footprint>
+      <fields>
+        <field name="Display">3.5mm_Mono</field>
+        <field name="Manufacturer">Wenzhou QingPu Electronics Co</field>
+        <field name="Part Number">WQP-WQP518MA</field>
+        <field name="Specifications">Audio 3.5mm Jack, mono, switched, PC-pin Vertical</field>
+      </fields>
+      <libsource lib="4ms_Jack" part="3.5mm_Mono_Switched_SymSmall_0.05" description="Audio 3.5mm Jack, mono, switched, PC-pin Vertical"/>
+      <property name="Specifications" value="Audio 3.5mm Jack, mono, switched, PC-pin Vertical"/>
+      <property name="Manufacturer" value="Wenzhou QingPu Electronics Co"/>
+      <property name="Part Number" value="WQP-WQP518MA"/>
+      <property name="Display" value="3.5mm_Mono"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SCMv3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d263741a-b773-4850-9f9b-e7c493d190ff</tstamps>
+    </comp>
+    <comp ref="J4-OUT5">
+      <value>JACK-MONO-SWB</value>
+      <footprint>4ms_Jack:EighthInch_PJ398SM</footprint>
+      <fields>
+        <field name="Display">3.5mm_Mono</field>
+        <field name="Manufacturer">Wenzhou QingPu Electronics Co</field>
+        <field name="Part Number">WQP-WQP518MA</field>
+        <field name="Specifications">Audio 3.5mm Jack, mono, switched, PC-pin Vertical</field>
+      </fields>
+      <libsource lib="4ms_Jack" part="3.5mm_Mono_Switched_SymSmall_0.05" description="Audio 3.5mm Jack, mono, switched, PC-pin Vertical"/>
+      <property name="Specifications" value="Audio 3.5mm Jack, mono, switched, PC-pin Vertical"/>
+      <property name="Manufacturer" value="Wenzhou QingPu Electronics Co"/>
+      <property name="Part Number" value="WQP-WQP518MA"/>
+      <property name="Display" value="3.5mm_Mono"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SCMv3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>35848a20-a03a-422a-93e4-09f6d25ef5ef</tstamps>
+    </comp>
+    <comp ref="J5-OUT4">
+      <value>JACK-MONO-SWB</value>
+      <footprint>4ms_Jack:EighthInch_PJ398SM</footprint>
+      <fields>
+        <field name="Display">3.5mm_Mono</field>
+        <field name="Manufacturer">Wenzhou QingPu Electronics Co</field>
+        <field name="Part Number">WQP-WQP518MA</field>
+        <field name="Specifications">Audio 3.5mm Jack, mono, switched, PC-pin Vertical</field>
+      </fields>
+      <libsource lib="4ms_Jack" part="3.5mm_Mono_Switched_SymSmall_0.05" description="Audio 3.5mm Jack, mono, switched, PC-pin Vertical"/>
+      <property name="Specifications" value="Audio 3.5mm Jack, mono, switched, PC-pin Vertical"/>
+      <property name="Manufacturer" value="Wenzhou QingPu Electronics Co"/>
+      <property name="Part Number" value="WQP-WQP518MA"/>
+      <property name="Display" value="3.5mm_Mono"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SCMv3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ea17f1a6-b487-4226-8280-0ec6f0d77b9a</tstamps>
+    </comp>
+    <comp ref="J6-OUT3">
+      <value>JACK-MONO-SWB</value>
+      <footprint>4ms_Jack:EighthInch_PJ398SM</footprint>
+      <fields>
+        <field name="Display">3.5mm_Mono</field>
+        <field name="Manufacturer">Wenzhou QingPu Electronics Co</field>
+        <field name="Part Number">WQP-WQP518MA</field>
+        <field name="Specifications">Audio 3.5mm Jack, mono, switched, PC-pin Vertical</field>
+      </fields>
+      <libsource lib="4ms_Jack" part="3.5mm_Mono_Switched_SymSmall_0.05" description="Audio 3.5mm Jack, mono, switched, PC-pin Vertical"/>
+      <property name="Specifications" value="Audio 3.5mm Jack, mono, switched, PC-pin Vertical"/>
+      <property name="Manufacturer" value="Wenzhou QingPu Electronics Co"/>
+      <property name="Part Number" value="WQP-WQP518MA"/>
+      <property name="Display" value="3.5mm_Mono"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SCMv3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>031658fe-19f1-483b-8efa-5831d9bc3827</tstamps>
+    </comp>
+    <comp ref="J7-OUT2">
+      <value>JACK-MONO-SWB</value>
+      <footprint>4ms_Jack:EighthInch_PJ398SM</footprint>
+      <fields>
+        <field name="Display">3.5mm_Mono</field>
+        <field name="Manufacturer">Wenzhou QingPu Electronics Co</field>
+        <field name="Part Number">WQP-WQP518MA</field>
+        <field name="Specifications">Audio 3.5mm Jack, mono, switched, PC-pin Vertical</field>
+      </fields>
+      <libsource lib="4ms_Jack" part="3.5mm_Mono_Switched_SymSmall_0.05" description="Audio 3.5mm Jack, mono, switched, PC-pin Vertical"/>
+      <property name="Specifications" value="Audio 3.5mm Jack, mono, switched, PC-pin Vertical"/>
+      <property name="Manufacturer" value="Wenzhou QingPu Electronics Co"/>
+      <property name="Part Number" value="WQP-WQP518MA"/>
+      <property name="Display" value="3.5mm_Mono"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SCMv3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>726e483f-f6d9-40f6-b335-93209f52501d</tstamps>
+    </comp>
+    <comp ref="J8-OUT1">
+      <value>JACK-MONO-SWB</value>
+      <footprint>4ms_Jack:EighthInch_PJ398SM</footprint>
+      <fields>
+        <field name="Display">3.5mm_Mono</field>
+        <field name="Manufacturer">Wenzhou QingPu Electronics Co</field>
+        <field name="Part Number">WQP-WQP518MA</field>
+        <field name="Specifications">Audio 3.5mm Jack, mono, switched, PC-pin Vertical</field>
+      </fields>
+      <libsource lib="4ms_Jack" part="3.5mm_Mono_Switched_SymSmall_0.05" description="Audio 3.5mm Jack, mono, switched, PC-pin Vertical"/>
+      <property name="Specifications" value="Audio 3.5mm Jack, mono, switched, PC-pin Vertical"/>
+      <property name="Manufacturer" value="Wenzhou QingPu Electronics Co"/>
+      <property name="Part Number" value="WQP-WQP518MA"/>
+      <property name="Display" value="3.5mm_Mono"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SCMv3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>703a97dd-0896-47f6-a2e0-80dfa2f8cde0</tstamps>
+    </comp>
+    <comp ref="J9-CLK_IN1">
+      <value>JCLK_IN</value>
+      <footprint>4ms_Jack:EighthInch_PJ398SM</footprint>
+      <fields>
+        <field name="Display">3.5mm_Mono</field>
+        <field name="Manufacturer">Wenzhou QingPu Electronics Co</field>
+        <field name="Part Number">WQP-WQP518MA</field>
+        <field name="Specifications">Audio 3.5mm Jack, mono, switched, PC-pin Vertical</field>
+      </fields>
+      <libsource lib="4ms_Jack" part="3.5mm_Mono_Switched_SymSmall_0.05" description="Audio 3.5mm Jack, mono, switched, PC-pin Vertical"/>
+      <property name="Specifications" value="Audio 3.5mm Jack, mono, switched, PC-pin Vertical"/>
+      <property name="Manufacturer" value="Wenzhou QingPu Electronics Co"/>
+      <property name="Part Number" value="WQP-WQP518MA"/>
+      <property name="Display" value="3.5mm_Mono"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SCMv3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>45382528-78b2-44d1-b995-c15c21d0380a</tstamps>
+    </comp>
+    <comp ref="JFAST1">
+      <value>3.5mm_Stereo_SymSmall_0.05</value>
+      <footprint>4ms_Jack:EighthInch_PJ398SM</footprint>
+      <fields>
+        <field name="Display">3.5mm_Mono</field>
+        <field name="Manufacturer">Wenzhou QingPu Electronics Co</field>
+        <field name="Part Number">WQP-WQP518MA</field>
+        <field name="Specifications">Audio 3.5mm Jack, mono, switched, PC-pin Vertical</field>
+      </fields>
+      <libsource lib="4ms_Jack" part="3.5mm_Mono_Switched_SymSmall_0.05" description="Audio 3.5mm Jack, mono, switched, PC-pin Vertical"/>
+      <property name="Specifications" value="Audio 3.5mm Jack, mono, switched, PC-pin Vertical"/>
+      <property name="Manufacturer" value="Wenzhou QingPu Electronics Co"/>
+      <property name="Part Number" value="WQP-WQP518MA"/>
+      <property name="Display" value="3.5mm_Mono"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SCMv3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>40c0db0d-6662-46e5-a5cd-4398546fda4c</tstamps>
+    </comp>
+    <comp ref="JMUTE1">
+      <value>3.5mm_Stereo_SymSmall_0.05</value>
+      <footprint>4ms_Jack:EighthInch_PJ398SM</footprint>
+      <fields>
+        <field name="Display">3.5mm_Mono</field>
+        <field name="Manufacturer">Wenzhou QingPu Electronics Co</field>
+        <field name="Part Number">WQP-WQP518MA</field>
+        <field name="Specifications">Audio 3.5mm Jack, mono, switched, PC-pin Vertical</field>
+      </fields>
+      <libsource lib="4ms_Jack" part="3.5mm_Mono_Switched_SymSmall_0.05" description="Audio 3.5mm Jack, mono, switched, PC-pin Vertical"/>
+      <property name="Specifications" value="Audio 3.5mm Jack, mono, switched, PC-pin Vertical"/>
+      <property name="Manufacturer" value="Wenzhou QingPu Electronics Co"/>
+      <property name="Part Number" value="WQP-WQP518MA"/>
+      <property name="Display" value="3.5mm_Mono"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SCMv3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>10b7abce-cb99-468d-87f5-a66dc9c7c53d</tstamps>
+    </comp>
+    <comp ref="JPW1">
+      <value>JPW</value>
+      <footprint>4ms_Jack:EighthInch_PJ398SM</footprint>
+      <fields>
+        <field name="Display">3.5mm_Mono</field>
+        <field name="Manufacturer">Wenzhou QingPu Electronics Co</field>
+        <field name="Part Number">WQP-WQP518MA</field>
+        <field name="Specifications">Audio 3.5mm Jack, mono, switched, PC-pin Vertical</field>
+      </fields>
+      <libsource lib="4ms_Jack" part="3.5mm_Mono_Switched_SymSmall_0.05" description="Audio 3.5mm Jack, mono, switched, PC-pin Vertical"/>
+      <property name="Specifications" value="Audio 3.5mm Jack, mono, switched, PC-pin Vertical"/>
+      <property name="Manufacturer" value="Wenzhou QingPu Electronics Co"/>
+      <property name="Part Number" value="WQP-WQP518MA"/>
+      <property name="Display" value="3.5mm_Mono"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SCMv3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7fc8e83d-fa0c-4faf-811a-82d3d4dbe7fc</tstamps>
+    </comp>
+    <comp ref="JRESYNC1">
+      <value>JRESYNC</value>
+      <footprint>4ms_Jack:EighthInch_PJ398SM</footprint>
+      <fields>
+        <field name="Display">3.5mm_Mono</field>
+        <field name="Manufacturer">Wenzhou QingPu Electronics Co</field>
+        <field name="Part Number">WQP-WQP518MA</field>
+        <field name="Specifications">Audio 3.5mm Jack, mono, switched, PC-pin Vertical</field>
+      </fields>
+      <libsource lib="4ms_Jack" part="3.5mm_Mono_Switched_SymSmall_0.05" description="Audio 3.5mm Jack, mono, switched, PC-pin Vertical"/>
+      <property name="Specifications" value="Audio 3.5mm Jack, mono, switched, PC-pin Vertical"/>
+      <property name="Manufacturer" value="Wenzhou QingPu Electronics Co"/>
+      <property name="Part Number" value="WQP-WQP518MA"/>
+      <property name="Display" value="3.5mm_Mono"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SCMv3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3da53660-7de9-47ed-8795-69026712c8b4</tstamps>
+    </comp>
+    <comp ref="JROTATE1">
+      <value>JROTATE</value>
+      <footprint>4ms_Jack:EighthInch_PJ398SM</footprint>
+      <fields>
+        <field name="Display">3.5mm_Mono</field>
+        <field name="Manufacturer">Wenzhou QingPu Electronics Co</field>
+        <field name="Part Number">WQP-WQP518MA</field>
+        <field name="Specifications">Audio 3.5mm Jack, mono, switched, PC-pin Vertical</field>
+      </fields>
+      <libsource lib="4ms_Jack" part="3.5mm_Mono_Switched_SymSmall_0.05" description="Audio 3.5mm Jack, mono, switched, PC-pin Vertical"/>
+      <property name="Specifications" value="Audio 3.5mm Jack, mono, switched, PC-pin Vertical"/>
+      <property name="Manufacturer" value="Wenzhou QingPu Electronics Co"/>
+      <property name="Part Number" value="WQP-WQP518MA"/>
+      <property name="Display" value="3.5mm_Mono"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SCMv3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>704ed862-58f6-45e3-92de-429d27506716</tstamps>
+    </comp>
+    <comp ref="JSHUFFLE1">
+      <value>JSHUFFLE</value>
+      <footprint>4ms_Jack:EighthInch_PJ398SM</footprint>
+      <fields>
+        <field name="Display">3.5mm_Mono</field>
+        <field name="Manufacturer">Wenzhou QingPu Electronics Co</field>
+        <field name="Part Number">WQP-WQP518MA</field>
+        <field name="Specifications">Audio 3.5mm Jack, mono, switched, PC-pin Vertical</field>
+      </fields>
+      <libsource lib="4ms_Jack" part="3.5mm_Mono_Switched_SymSmall_0.05" description="Audio 3.5mm Jack, mono, switched, PC-pin Vertical"/>
+      <property name="Specifications" value="Audio 3.5mm Jack, mono, switched, PC-pin Vertical"/>
+      <property name="Manufacturer" value="Wenzhou QingPu Electronics Co"/>
+      <property name="Part Number" value="WQP-WQP518MA"/>
+      <property name="Display" value="3.5mm_Mono"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SCMv3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8eeb158a-731c-4a8f-96dd-a9f27dc6d0a3</tstamps>
+    </comp>
+    <comp ref="JSKIP1">
+      <value>JSKIP</value>
+      <footprint>4ms_Jack:EighthInch_PJ398SM</footprint>
+      <fields>
+        <field name="Display">3.5mm_Mono</field>
+        <field name="Manufacturer">Wenzhou QingPu Electronics Co</field>
+        <field name="Part Number">WQP-WQP518MA</field>
+        <field name="Specifications">Audio 3.5mm Jack, mono, switched, PC-pin Vertical</field>
+      </fields>
+      <libsource lib="4ms_Jack" part="3.5mm_Mono_Switched_SymSmall_0.05" description="Audio 3.5mm Jack, mono, switched, PC-pin Vertical"/>
+      <property name="Specifications" value="Audio 3.5mm Jack, mono, switched, PC-pin Vertical"/>
+      <property name="Manufacturer" value="Wenzhou QingPu Electronics Co"/>
+      <property name="Part Number" value="WQP-WQP518MA"/>
+      <property name="Display" value="3.5mm_Mono"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SCMv3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e10b5177-4555-4c75-9cc0-5d6d8bd8a447</tstamps>
+    </comp>
+    <comp ref="JSLIP1">
+      <value>JSLIP</value>
+      <footprint>4ms_Jack:EighthInch_PJ398SM</footprint>
+      <fields>
+        <field name="Display">3.5mm_Mono</field>
+        <field name="Manufacturer">Wenzhou QingPu Electronics Co</field>
+        <field name="Part Number">WQP-WQP518MA</field>
+        <field name="Specifications">Audio 3.5mm Jack, mono, switched, PC-pin Vertical</field>
+      </fields>
+      <libsource lib="4ms_Jack" part="3.5mm_Mono_Switched_SymSmall_0.05" description="Audio 3.5mm Jack, mono, switched, PC-pin Vertical"/>
+      <property name="Specifications" value="Audio 3.5mm Jack, mono, switched, PC-pin Vertical"/>
+      <property name="Manufacturer" value="Wenzhou QingPu Electronics Co"/>
+      <property name="Part Number" value="WQP-WQP518MA"/>
+      <property name="Display" value="3.5mm_Mono"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SCMv3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>991c09a6-f4eb-4b46-ba98-682509496e58</tstamps>
+    </comp>
+    <comp ref="LED1">
+      <value>BLUE</value>
+      <footprint>4ms_LED:LED_PLCC-4</footprint>
+      <fields>
+        <field name="Manufacturer">Hebei I.T. (Shanghai)</field>
+        <field name="Part Number">PLCC4RGBCT-CA</field>
+        <field name="Specifications">RGB LED, Common Anode PLCC4</field>
+      </fields>
+      <libsource lib="4ms_LED" part="RGB_CA_PLCC4" description="RGB LED, Common Anode PLCC4"/>
+      <property name="ID" value=""/>
+      <property name="Specifications" value="RGB LED, Common Anode PLCC4"/>
+      <property name="Manufacturer" value="Hebei I.T. (Shanghai)"/>
+      <property name="Part Number" value="PLCC4RGBCT-CA"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SCMv3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c8c7b9bc-8a2b-4792-92b4-0457fcb3719b</tstamps>
+    </comp>
+    <comp ref="LED2">
+      <value>GREEN</value>
+      <footprint>4ms_LED:LED_PLCC-4</footprint>
+      <fields>
+        <field name="Manufacturer">Hebei I.T. (Shanghai)</field>
+        <field name="Part Number">PLCC4RGBCT-CA</field>
+        <field name="Specifications">RGB LED, Common Anode PLCC4</field>
+      </fields>
+      <libsource lib="4ms_LED" part="RGB_CA_PLCC4" description="RGB LED, Common Anode PLCC4"/>
+      <property name="ID" value=""/>
+      <property name="Specifications" value="RGB LED, Common Anode PLCC4"/>
+      <property name="Manufacturer" value="Hebei I.T. (Shanghai)"/>
+      <property name="Part Number" value="PLCC4RGBCT-CA"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SCMv3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d857ec0f-f4a0-40c3-8917-c2ed3e9faaa2</tstamps>
+    </comp>
+    <comp ref="LED3">
+      <value>GREEN</value>
+      <footprint>4ms_LED:LED_PLCC-4</footprint>
+      <fields>
+        <field name="Manufacturer">Hebei I.T. (Shanghai)</field>
+        <field name="Part Number">PLCC4RGBCT-CA</field>
+        <field name="Specifications">RGB LED, Common Anode PLCC4</field>
+      </fields>
+      <libsource lib="4ms_LED" part="RGB_CA_PLCC4" description="RGB LED, Common Anode PLCC4"/>
+      <property name="ID" value=""/>
+      <property name="Specifications" value="RGB LED, Common Anode PLCC4"/>
+      <property name="Manufacturer" value="Hebei I.T. (Shanghai)"/>
+      <property name="Part Number" value="PLCC4RGBCT-CA"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SCMv3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c18c0619-c00f-4353-9597-67880ecb64d8</tstamps>
+    </comp>
+    <comp ref="LED4">
+      <value>GREEN</value>
+      <footprint>4ms_LED:LED_PLCC-4</footprint>
+      <fields>
+        <field name="Manufacturer">Hebei I.T. (Shanghai)</field>
+        <field name="Part Number">PLCC4RGBCT-CA</field>
+        <field name="Specifications">RGB LED, Common Anode PLCC4</field>
+      </fields>
+      <libsource lib="4ms_LED" part="RGB_CA_PLCC4" description="RGB LED, Common Anode PLCC4"/>
+      <property name="ID" value=""/>
+      <property name="Specifications" value="RGB LED, Common Anode PLCC4"/>
+      <property name="Manufacturer" value="Hebei I.T. (Shanghai)"/>
+      <property name="Part Number" value="PLCC4RGBCT-CA"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SCMv3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>435914d7-12e0-421b-abdf-36185f22b122</tstamps>
+    </comp>
+    <comp ref="LED5">
+      <value>GREEN</value>
+      <footprint>4ms_LED:LED_PLCC-4</footprint>
+      <fields>
+        <field name="Manufacturer">Hebei I.T. (Shanghai)</field>
+        <field name="Part Number">PLCC4RGBCT-CA</field>
+        <field name="Specifications">RGB LED, Common Anode PLCC4</field>
+      </fields>
+      <libsource lib="4ms_LED" part="RGB_CA_PLCC4" description="RGB LED, Common Anode PLCC4"/>
+      <property name="ID" value=""/>
+      <property name="Specifications" value="RGB LED, Common Anode PLCC4"/>
+      <property name="Manufacturer" value="Hebei I.T. (Shanghai)"/>
+      <property name="Part Number" value="PLCC4RGBCT-CA"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SCMv3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4b78b504-0179-426b-bab3-335cf3050df7</tstamps>
+    </comp>
+    <comp ref="LED6">
+      <value>GREEN</value>
+      <footprint>4ms_LED:LED_PLCC-4</footprint>
+      <fields>
+        <field name="Manufacturer">Hebei I.T. (Shanghai)</field>
+        <field name="Part Number">PLCC4RGBCT-CA</field>
+        <field name="Specifications">RGB LED, Common Anode PLCC4</field>
+      </fields>
+      <libsource lib="4ms_LED" part="RGB_CA_PLCC4" description="RGB LED, Common Anode PLCC4"/>
+      <property name="ID" value=""/>
+      <property name="Specifications" value="RGB LED, Common Anode PLCC4"/>
+      <property name="Manufacturer" value="Hebei I.T. (Shanghai)"/>
+      <property name="Part Number" value="PLCC4RGBCT-CA"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SCMv3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>12699db7-b6f4-4581-b301-d8a37bf112ed</tstamps>
+    </comp>
+    <comp ref="LED7">
+      <value>BLUE</value>
+      <footprint>4ms_LED:LED_PLCC-4</footprint>
+      <fields>
+        <field name="Manufacturer">Hebei I.T. (Shanghai)</field>
+        <field name="Part Number">PLCC4RGBCT-CA</field>
+        <field name="Specifications">RGB LED, Common Anode PLCC4</field>
+      </fields>
+      <libsource lib="4ms_LED" part="RGB_CA_PLCC4" description="RGB LED, Common Anode PLCC4"/>
+      <property name="ID" value=""/>
+      <property name="Specifications" value="RGB LED, Common Anode PLCC4"/>
+      <property name="Manufacturer" value="Hebei I.T. (Shanghai)"/>
+      <property name="Part Number" value="PLCC4RGBCT-CA"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SCMv3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>933be2e5-a80f-448c-88d6-e2aa81b0edfe</tstamps>
+    </comp>
+    <comp ref="LED8">
+      <value>BLUE</value>
+      <footprint>4ms_LED:LED_PLCC-4</footprint>
+      <fields>
+        <field name="Manufacturer">Hebei I.T. (Shanghai)</field>
+        <field name="Part Number">PLCC4RGBCT-CA</field>
+        <field name="Specifications">RGB LED, Common Anode PLCC4</field>
+      </fields>
+      <libsource lib="4ms_LED" part="RGB_CA_PLCC4" description="RGB LED, Common Anode PLCC4"/>
+      <property name="ID" value=""/>
+      <property name="Specifications" value="RGB LED, Common Anode PLCC4"/>
+      <property name="Manufacturer" value="Hebei I.T. (Shanghai)"/>
+      <property name="Part Number" value="PLCC4RGBCT-CA"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SCMv3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f928078a-0827-489c-b91b-7d0ad464d673</tstamps>
+    </comp>
+    <comp ref="LED9">
+      <value>WHITE</value>
+      <footprint>4ms_LED:LED_PLCC-4</footprint>
+      <fields>
+        <field name="Manufacturer">Hebei I.T. (Shanghai)</field>
+        <field name="Part Number">PLCC4RGBCT-CA</field>
+        <field name="Specifications">RGB LED, Common Anode PLCC4</field>
+      </fields>
+      <libsource lib="4ms_LED" part="RGB_CA_PLCC4" description="RGB LED, Common Anode PLCC4"/>
+      <property name="ID" value=""/>
+      <property name="Specifications" value="RGB LED, Common Anode PLCC4"/>
+      <property name="Manufacturer" value="Hebei I.T. (Shanghai)"/>
+      <property name="Part Number" value="PLCC4RGBCT-CA"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SCMv3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>35dc6b89-fc52-44d6-9466-27151d8d8464</tstamps>
+    </comp>
+    <comp ref="PPW1">
+      <value>9mm_CtrDet_10k_DShaft</value>
+      <footprint>4ms_Potentiometer:Pot_9mm_Dshaft_Det</footprint>
+      <fields>
+        <field name="Display">10k</field>
+        <field name="Manufacturer"> Alpha Taiwan </field>
+        <field name="Part Number"> RV09BCF-40-25F-B10K-0C7 </field>
+        <field name="Specifications">10k Linear, 9mm pot, Center Detent, D-Shaft</field>
+      </fields>
+      <libsource lib="4ms_Potentiometer" part="9mm_CtrDet_10k_DShaft" description="10k Linear, 9mm pot, Center Detent, D-Shaft"/>
+      <property name="Specifications" value="10k Linear, 9mm pot, Center Detent, D-Shaft"/>
+      <property name="Manufacturer" value=" Alpha Taiwan "/>
+      <property name="Part Number" value=" RV09BCF-40-25F-B10K-0C7 "/>
+      <property name="Display" value="10k"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SCMv3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>681fe9df-d0d2-4069-8dc2-79eb7306d8c0 3c50fe92-22ca-4b3e-b6d7-3828e9205acb</tstamps>
+    </comp>
+    <comp ref="PROTATE1">
+      <value>9mm_CtrDet_10k_DShaft</value>
+      <footprint>4ms_Potentiometer:Pot_9mm_Dshaft_Det</footprint>
+      <fields>
+        <field name="Display">10k</field>
+        <field name="Manufacturer"> Alpha Taiwan </field>
+        <field name="Part Number"> RV09BCF-40-25F-B10K-0C7 </field>
+        <field name="Specifications">10k Linear, 9mm pot, Center Detent, D-Shaft</field>
+      </fields>
+      <libsource lib="4ms_Potentiometer" part="9mm_CtrDet_10k_DShaft" description="10k Linear, 9mm pot, Center Detent, D-Shaft"/>
+      <property name="Specifications" value="10k Linear, 9mm pot, Center Detent, D-Shaft"/>
+      <property name="Manufacturer" value=" Alpha Taiwan "/>
+      <property name="Part Number" value=" RV09BCF-40-25F-B10K-0C7 "/>
+      <property name="Display" value="10k"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SCMv3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8e58b8dd-1a34-485b-8a1f-67830c4d91a0 6db5d95f-d92c-4859-ac21-0e6d14043f54</tstamps>
+    </comp>
+    <comp ref="PSHUFFLE1">
+      <value>9mm_CtrDet_10k_DShaft</value>
+      <footprint>4ms_Potentiometer:Pot_9mm_Dshaft_Det</footprint>
+      <fields>
+        <field name="Display">10k</field>
+        <field name="Manufacturer"> Alpha Taiwan </field>
+        <field name="Part Number"> RV09BCF-40-25F-B10K-0C7 </field>
+        <field name="Specifications">10k Linear, 9mm pot, Center Detent, D-Shaft</field>
+      </fields>
+      <libsource lib="4ms_Potentiometer" part="9mm_CtrDet_10k_DShaft" description="10k Linear, 9mm pot, Center Detent, D-Shaft"/>
+      <property name="Specifications" value="10k Linear, 9mm pot, Center Detent, D-Shaft"/>
+      <property name="Manufacturer" value=" Alpha Taiwan "/>
+      <property name="Part Number" value=" RV09BCF-40-25F-B10K-0C7 "/>
+      <property name="Display" value="10k"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SCMv3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>91fbf299-b2df-464e-961f-75f2335f9911 0bbc263e-0434-472f-ba9b-eeae4de9c57c</tstamps>
+    </comp>
+    <comp ref="PSKIP1">
+      <value>9mm_CtrDet_10k_DShaft</value>
+      <footprint>4ms_Potentiometer:Pot_9mm_Dshaft_Det</footprint>
+      <fields>
+        <field name="Display">10k</field>
+        <field name="Manufacturer"> Alpha Taiwan </field>
+        <field name="Part Number"> RV09BCF-40-25F-B10K-0C7 </field>
+        <field name="Specifications">10k Linear, 9mm pot, Center Detent, D-Shaft</field>
+      </fields>
+      <libsource lib="4ms_Potentiometer" part="9mm_CtrDet_10k_DShaft" description="10k Linear, 9mm pot, Center Detent, D-Shaft"/>
+      <property name="Specifications" value="10k Linear, 9mm pot, Center Detent, D-Shaft"/>
+      <property name="Manufacturer" value=" Alpha Taiwan "/>
+      <property name="Part Number" value=" RV09BCF-40-25F-B10K-0C7 "/>
+      <property name="Display" value="10k"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SCMv3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>22da1ae0-d9e9-45ff-abdb-fc64cf37db82 000febdb-7416-4481-8cfa-d51db51027d5</tstamps>
+    </comp>
+    <comp ref="PSLIP1">
+      <value>9mm_CtrDet_10k_DShaft</value>
+      <footprint>4ms_Potentiometer:Pot_9mm_Dshaft_Det</footprint>
+      <fields>
+        <field name="Display">10k</field>
+        <field name="Manufacturer"> Alpha Taiwan </field>
+        <field name="Part Number"> RV09BCF-40-25F-B10K-0C7 </field>
+        <field name="Specifications">10k Linear, 9mm pot, Center Detent, D-Shaft</field>
+      </fields>
+      <libsource lib="4ms_Potentiometer" part="9mm_CtrDet_10k_DShaft" description="10k Linear, 9mm pot, Center Detent, D-Shaft"/>
+      <property name="Specifications" value="10k Linear, 9mm pot, Center Detent, D-Shaft"/>
+      <property name="Manufacturer" value=" Alpha Taiwan "/>
+      <property name="Part Number" value=" RV09BCF-40-25F-B10K-0C7 "/>
+      <property name="Display" value="10k"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SCMv3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9b217431-785b-48cc-a4ed-da8bba7c67ee 6d6eb993-f1a3-4366-b325-38c2038acf25</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>Si2318</value>
+      <footprint>4ms_Package_SOT:SOT23-3_PO132</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/427/72322-1765729.pdf</datasheet>
+      <fields>
+        <field name="Display">Si2318</field>
+        <field name="JLCPCB ID">C14498</field>
+        <field name="Manufacturer">Vishay Semiconductor</field>
+        <field name="Part Number">SI2318DS-T1-GE3</field>
+        <field name="Specifications">MOSFET N-chan, 40Vds, Vgs_th=1.2V, Rds=42mOhms</field>
+      </fields>
+      <libsource lib="4ms_Transistor" part="Si2318" description="MOSFET N-chan, 40Vds, Vgs_th=1.2V, Rds=42mOhms"/>
+      <property name="Specifications" value="MOSFET N-chan, 40Vds, Vgs_th=1.2V, Rds=42mOhms"/>
+      <property name="Manufacturer" value="Vishay Semiconductor"/>
+      <property name="Part Number" value="SI2318DS-T1-GE3"/>
+      <property name="Display" value="Si2318"/>
+      <property name="JLCPCB ID" value="C14498"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SCMv3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>47479fb8-7dac-4247-81e2-bf806bd880a5</tstamps>
+    </comp>
+    <comp ref="Q2">
+      <value>Si2318</value>
+      <footprint>4ms_Package_SOT:SOT23-3_PO132</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/427/72322-1765729.pdf</datasheet>
+      <fields>
+        <field name="Display">Si2318</field>
+        <field name="JLCPCB ID">C14498</field>
+        <field name="Manufacturer">Vishay Semiconductor</field>
+        <field name="Part Number">SI2318DS-T1-GE3</field>
+        <field name="Specifications">MOSFET N-chan, 40Vds, Vgs_th=1.2V, Rds=42mOhms</field>
+      </fields>
+      <libsource lib="4ms_Transistor" part="Si2318" description="MOSFET N-chan, 40Vds, Vgs_th=1.2V, Rds=42mOhms"/>
+      <property name="Specifications" value="MOSFET N-chan, 40Vds, Vgs_th=1.2V, Rds=42mOhms"/>
+      <property name="Manufacturer" value="Vishay Semiconductor"/>
+      <property name="Part Number" value="SI2318DS-T1-GE3"/>
+      <property name="Display" value="Si2318"/>
+      <property name="JLCPCB ID" value="C14498"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SCMv3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3e99db20-041a-4607-a8a6-c1a631249c5a</tstamps>
+    </comp>
+    <comp ref="Q3">
+      <value>Si2318</value>
+      <footprint>4ms_Package_SOT:SOT23-3_PO132</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/427/72322-1765729.pdf</datasheet>
+      <fields>
+        <field name="Display">Si2318</field>
+        <field name="JLCPCB ID">C14498</field>
+        <field name="Manufacturer">Vishay Semiconductor</field>
+        <field name="Part Number">SI2318DS-T1-GE3</field>
+        <field name="Specifications">MOSFET N-chan, 40Vds, Vgs_th=1.2V, Rds=42mOhms</field>
+      </fields>
+      <libsource lib="4ms_Transistor" part="Si2318" description="MOSFET N-chan, 40Vds, Vgs_th=1.2V, Rds=42mOhms"/>
+      <property name="Specifications" value="MOSFET N-chan, 40Vds, Vgs_th=1.2V, Rds=42mOhms"/>
+      <property name="Manufacturer" value="Vishay Semiconductor"/>
+      <property name="Part Number" value="SI2318DS-T1-GE3"/>
+      <property name="Display" value="Si2318"/>
+      <property name="JLCPCB ID" value="C14498"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SCMv3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e8b8b8f0-4b10-4eff-95ed-c34ebf977b20</tstamps>
+    </comp>
+    <comp ref="Q4">
+      <value>Si2318</value>
+      <footprint>4ms_Package_SOT:SOT23-3_PO132</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/427/72322-1765729.pdf</datasheet>
+      <fields>
+        <field name="Display">Si2318</field>
+        <field name="JLCPCB ID">C14498</field>
+        <field name="Manufacturer">Vishay Semiconductor</field>
+        <field name="Part Number">SI2318DS-T1-GE3</field>
+        <field name="Specifications">MOSFET N-chan, 40Vds, Vgs_th=1.2V, Rds=42mOhms</field>
+      </fields>
+      <libsource lib="4ms_Transistor" part="Si2318" description="MOSFET N-chan, 40Vds, Vgs_th=1.2V, Rds=42mOhms"/>
+      <property name="Specifications" value="MOSFET N-chan, 40Vds, Vgs_th=1.2V, Rds=42mOhms"/>
+      <property name="Manufacturer" value="Vishay Semiconductor"/>
+      <property name="Part Number" value="SI2318DS-T1-GE3"/>
+      <property name="Display" value="Si2318"/>
+      <property name="JLCPCB ID" value="C14498"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SCMv3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>340ca040-d717-4fd5-b83f-20a3e27aed9f</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>4.7k_0603</value>
+      <footprint>4ms_Resistor:R_0603</footprint>
+      <fields>
+        <field name="Display">4.7k</field>
+        <field name="JLCPCB ID">C23162</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Part Number">RC0603FR-074K7L</field>
+        <field name="Specifications">4k7, 1%, 1/10W, 0603</field>
+      </fields>
+      <libsource lib="4ms_Resistor" part="4.7k_0603" description="4k7, 1%, 1/10W, 0603"/>
+      <property name="Specifications" value="4k7, 1%, 1/10W, 0603"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Part Number" value="RC0603FR-074K7L"/>
+      <property name="Display" value="4.7k"/>
+      <property name="JLCPCB ID" value="C23162"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SCMv3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1b15b34d-f920-466f-9163-ec26c7bc4305</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>4.7k_0603</value>
+      <footprint>4ms_Resistor:R_0603</footprint>
+      <fields>
+        <field name="Display">4.7k</field>
+        <field name="JLCPCB ID">C23162</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Part Number">RC0603FR-074K7L</field>
+        <field name="Specifications">4k7, 1%, 1/10W, 0603</field>
+      </fields>
+      <libsource lib="4ms_Resistor" part="4.7k_0603" description="4k7, 1%, 1/10W, 0603"/>
+      <property name="Specifications" value="4k7, 1%, 1/10W, 0603"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Part Number" value="RC0603FR-074K7L"/>
+      <property name="Display" value="4.7k"/>
+      <property name="JLCPCB ID" value="C23162"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SCMv3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ebc98473-daf1-42cc-b5ac-d74dc0a9a2b9</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>470R_0805_350mW</value>
+      <footprint>4ms_Resistor:R_0603</footprint>
+      <fields>
+        <field name="Display">470R</field>
+        <field name="JLCPCB ID">C23179</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Part Number">RC0603FR-07470RL</field>
+        <field name="Specifications">470R, 1%, 1/10W, 0603</field>
+      </fields>
+      <libsource lib="4ms_Resistor" part="470R_0603" description="470R, 1%, 1/10W, 0603"/>
+      <property name="Specifications" value="470R, 1%, 1/10W, 0603"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Part Number" value="RC0603FR-07470RL"/>
+      <property name="Display" value="470R"/>
+      <property name="JLCPCB ID" value="C23179"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SCMv3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3774fc9f-9fd2-43d3-8a75-589cc09247b6</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>4.7k_0603</value>
+      <footprint>4ms_Resistor:R_0603</footprint>
+      <fields>
+        <field name="Display">4.7k</field>
+        <field name="JLCPCB ID">C23162</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Part Number">RC0603FR-074K7L</field>
+        <field name="Specifications">4k7, 1%, 1/10W, 0603</field>
+      </fields>
+      <libsource lib="4ms_Resistor" part="4.7k_0603" description="4k7, 1%, 1/10W, 0603"/>
+      <property name="Specifications" value="4k7, 1%, 1/10W, 0603"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Part Number" value="RC0603FR-074K7L"/>
+      <property name="Display" value="4.7k"/>
+      <property name="JLCPCB ID" value="C23162"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SCMv3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>15d03a18-aee4-42fb-91d0-5b2fdacc2a8d</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>100k_0603</value>
+      <footprint>4ms_Resistor:R_0603</footprint>
+      <fields>
+        <field name="Display">100k</field>
+        <field name="JLCPCB ID">C25803</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Part Number">RC0603FR-07100KL</field>
+        <field name="Specifications">100K, 1%, 1/10W, 0603</field>
+      </fields>
+      <libsource lib="4ms_Resistor" part="100k_0603" description="100K, 1%, 1/10W, 0603"/>
+      <property name="Specifications" value="100K, 1%, 1/10W, 0603"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Part Number" value="RC0603FR-07100KL"/>
+      <property name="Display" value="100k"/>
+      <property name="JLCPCB ID" value="C25803"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SCMv3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b588a40f-f8d7-4b97-95cf-74f688ba803e</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>1k_0603</value>
+      <footprint>4ms_Resistor:R_0603</footprint>
+      <fields>
+        <field name="Display">1k</field>
+        <field name="JLCPCB ID">C21190</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Part Number">RC0603FR-071KL</field>
+        <field name="Specifications">1K, 1%, 1/10W, 0603</field>
+      </fields>
+      <libsource lib="4ms_Resistor" part="1k_0603" description="1K, 1%, 1/10W, 0603"/>
+      <property name="Specifications" value="1K, 1%, 1/10W, 0603"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Part Number" value="RC0603FR-071KL"/>
+      <property name="Display" value="1k"/>
+      <property name="JLCPCB ID" value="C21190"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SCMv3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5b7d8ff8-b740-4525-ba79-a9d623fe826d</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>470R_0805_350mW</value>
+      <footprint>4ms_Resistor:R_0603</footprint>
+      <fields>
+        <field name="Display">470R</field>
+        <field name="JLCPCB ID">C23179</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Part Number">RC0603FR-07470RL</field>
+        <field name="Specifications">470R, 1%, 1/10W, 0603</field>
+      </fields>
+      <libsource lib="4ms_Resistor" part="470R_0603" description="470R, 1%, 1/10W, 0603"/>
+      <property name="Specifications" value="470R, 1%, 1/10W, 0603"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Part Number" value="RC0603FR-07470RL"/>
+      <property name="Display" value="470R"/>
+      <property name="JLCPCB ID" value="C23179"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SCMv3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>365b44b4-ded6-4dbe-a3e5-decae09e3a3f</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>4.7k_0603</value>
+      <footprint>4ms_Resistor:R_0603</footprint>
+      <fields>
+        <field name="Display">4.7k</field>
+        <field name="JLCPCB ID">C23162</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Part Number">RC0603FR-074K7L</field>
+        <field name="Specifications">4k7, 1%, 1/10W, 0603</field>
+      </fields>
+      <libsource lib="4ms_Resistor" part="4.7k_0603" description="4k7, 1%, 1/10W, 0603"/>
+      <property name="Specifications" value="4k7, 1%, 1/10W, 0603"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Part Number" value="RC0603FR-074K7L"/>
+      <property name="Display" value="4.7k"/>
+      <property name="JLCPCB ID" value="C23162"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SCMv3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d3141b3d-cdaa-4853-9bb6-0e61eeb4071d</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>10k_0603</value>
+      <footprint>4ms_Resistor:R_0603</footprint>
+      <fields>
+        <field name="Display">10k</field>
+        <field name="JLCPCB ID">C25804</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Part Number">RC0603FR-0710KL</field>
+        <field name="Specifications">10K, 1%, 1/10W, 0603</field>
+      </fields>
+      <libsource lib="4ms_Resistor" part="10k_0603" description="10K, 1%, 1/10W, 0603"/>
+      <property name="Specifications" value="10K, 1%, 1/10W, 0603"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Part Number" value="RC0603FR-0710KL"/>
+      <property name="Display" value="10k"/>
+      <property name="JLCPCB ID" value="C25804"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SCMv3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8abbee40-122c-4f80-a063-1ceb185e3c83</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>470R_0805_350mW</value>
+      <footprint>4ms_Resistor:R_0603</footprint>
+      <fields>
+        <field name="Display">470R</field>
+        <field name="JLCPCB ID">C23179</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Part Number">RC0603FR-07470RL</field>
+        <field name="Specifications">470R, 1%, 1/10W, 0603</field>
+      </fields>
+      <libsource lib="4ms_Resistor" part="470R_0603" description="470R, 1%, 1/10W, 0603"/>
+      <property name="Specifications" value="470R, 1%, 1/10W, 0603"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Part Number" value="RC0603FR-07470RL"/>
+      <property name="Display" value="470R"/>
+      <property name="JLCPCB ID" value="C23179"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SCMv3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8b549bec-4364-415b-8d44-80c3def4dfaf</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>100k_0603</value>
+      <footprint>4ms_Resistor:R_0603</footprint>
+      <fields>
+        <field name="Display">100k</field>
+        <field name="JLCPCB ID">C25803</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Part Number">RC0603FR-07100KL</field>
+        <field name="Specifications">100K, 1%, 1/10W, 0603</field>
+      </fields>
+      <libsource lib="4ms_Resistor" part="100k_0603" description="100K, 1%, 1/10W, 0603"/>
+      <property name="Specifications" value="100K, 1%, 1/10W, 0603"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Part Number" value="RC0603FR-07100KL"/>
+      <property name="Display" value="100k"/>
+      <property name="JLCPCB ID" value="C25803"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SCMv3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3e452f8c-ec17-4b4c-9456-9cede2fe3485</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>1k_0603</value>
+      <footprint>4ms_Resistor:R_0603</footprint>
+      <fields>
+        <field name="Display">1k</field>
+        <field name="JLCPCB ID">C21190</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Part Number">RC0603FR-071KL</field>
+        <field name="Specifications">1K, 1%, 1/10W, 0603</field>
+      </fields>
+      <libsource lib="4ms_Resistor" part="1k_0603" description="1K, 1%, 1/10W, 0603"/>
+      <property name="Specifications" value="1K, 1%, 1/10W, 0603"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Part Number" value="RC0603FR-071KL"/>
+      <property name="Display" value="1k"/>
+      <property name="JLCPCB ID" value="C21190"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SCMv3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>17cb855b-d5e2-4eaa-9235-5cb241cfe065</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>470R_0805_350mW</value>
+      <footprint>4ms_Resistor:R_0603</footprint>
+      <fields>
+        <field name="Display">470R</field>
+        <field name="JLCPCB ID">C23179</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Part Number">RC0603FR-07470RL</field>
+        <field name="Specifications">470R, 1%, 1/10W, 0603</field>
+      </fields>
+      <libsource lib="4ms_Resistor" part="470R_0603" description="470R, 1%, 1/10W, 0603"/>
+      <property name="Specifications" value="470R, 1%, 1/10W, 0603"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Part Number" value="RC0603FR-07470RL"/>
+      <property name="Display" value="470R"/>
+      <property name="JLCPCB ID" value="C23179"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SCMv3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e1558938-f0a2-498a-9866-0d8dfe3762a7</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>4.7k_0603</value>
+      <footprint>4ms_Resistor:R_0603</footprint>
+      <fields>
+        <field name="Display">4.7k</field>
+        <field name="JLCPCB ID">C23162</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Part Number">RC0603FR-074K7L</field>
+        <field name="Specifications">4k7, 1%, 1/10W, 0603</field>
+      </fields>
+      <libsource lib="4ms_Resistor" part="4.7k_0603" description="4k7, 1%, 1/10W, 0603"/>
+      <property name="Specifications" value="4k7, 1%, 1/10W, 0603"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Part Number" value="RC0603FR-074K7L"/>
+      <property name="Display" value="4.7k"/>
+      <property name="JLCPCB ID" value="C23162"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SCMv3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>696ff2c8-d467-4172-99df-979db6c706ce</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>1k_0603</value>
+      <footprint>4ms_Resistor:R_0603</footprint>
+      <fields>
+        <field name="Display">1k</field>
+        <field name="JLCPCB ID">C21190</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Part Number">RC0603FR-071KL</field>
+        <field name="Specifications">1K, 1%, 1/10W, 0603</field>
+      </fields>
+      <libsource lib="4ms_Resistor" part="1k_0603" description="1K, 1%, 1/10W, 0603"/>
+      <property name="Specifications" value="1K, 1%, 1/10W, 0603"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Part Number" value="RC0603FR-071KL"/>
+      <property name="Display" value="1k"/>
+      <property name="JLCPCB ID" value="C21190"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SCMv3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8aa0097f-c4ea-4249-8d00-7283680f1b80</tstamps>
+    </comp>
+    <comp ref="R16">
+      <value>10k_0603</value>
+      <footprint>4ms_Resistor:R_0603</footprint>
+      <fields>
+        <field name="Display">10k</field>
+        <field name="JLCPCB ID">C25804</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Part Number">RC0603FR-0710KL</field>
+        <field name="Specifications">10K, 1%, 1/10W, 0603</field>
+      </fields>
+      <libsource lib="4ms_Resistor" part="10k_0603" description="10K, 1%, 1/10W, 0603"/>
+      <property name="Specifications" value="10K, 1%, 1/10W, 0603"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Part Number" value="RC0603FR-0710KL"/>
+      <property name="Display" value="10k"/>
+      <property name="JLCPCB ID" value="C25804"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SCMv3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8d94970e-8a5c-4620-8228-26397f0f4e81</tstamps>
+    </comp>
+    <comp ref="R17">
+      <value>4.7k_0603</value>
+      <footprint>4ms_Resistor:R_0603</footprint>
+      <fields>
+        <field name="Display">4.7k</field>
+        <field name="JLCPCB ID">C23162</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Part Number">RC0603FR-074K7L</field>
+        <field name="Specifications">4k7, 1%, 1/10W, 0603</field>
+      </fields>
+      <libsource lib="4ms_Resistor" part="4.7k_0603" description="4k7, 1%, 1/10W, 0603"/>
+      <property name="Specifications" value="4k7, 1%, 1/10W, 0603"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Part Number" value="RC0603FR-074K7L"/>
+      <property name="Display" value="4.7k"/>
+      <property name="JLCPCB ID" value="C23162"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SCMv3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>77bb906b-3c99-4315-ab7e-38da1fa8a970</tstamps>
+    </comp>
+    <comp ref="R18">
+      <value>100k_0603</value>
+      <footprint>4ms_Resistor:R_0603</footprint>
+      <fields>
+        <field name="Display">100k</field>
+        <field name="JLCPCB ID">C25803</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Part Number">RC0603FR-07100KL</field>
+        <field name="Specifications">100K, 1%, 1/10W, 0603</field>
+      </fields>
+      <libsource lib="4ms_Resistor" part="100k_0603" description="100K, 1%, 1/10W, 0603"/>
+      <property name="Specifications" value="100K, 1%, 1/10W, 0603"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Part Number" value="RC0603FR-07100KL"/>
+      <property name="Display" value="100k"/>
+      <property name="JLCPCB ID" value="C25803"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SCMv3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1cff03ab-dbf6-4c4b-b6fe-34ee2a20dd82</tstamps>
+    </comp>
+    <comp ref="R19">
+      <value>1k_0603</value>
+      <footprint>4ms_Resistor:R_0603</footprint>
+      <fields>
+        <field name="Display">1k</field>
+        <field name="JLCPCB ID">C21190</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Part Number">RC0603FR-071KL</field>
+        <field name="Specifications">1K, 1%, 1/10W, 0603</field>
+      </fields>
+      <libsource lib="4ms_Resistor" part="1k_0603" description="1K, 1%, 1/10W, 0603"/>
+      <property name="Specifications" value="1K, 1%, 1/10W, 0603"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Part Number" value="RC0603FR-071KL"/>
+      <property name="Display" value="1k"/>
+      <property name="JLCPCB ID" value="C21190"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SCMv3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d912e9b8-7c96-4a86-ab7d-38b66f489f3c</tstamps>
+    </comp>
+    <comp ref="R20">
+      <value>4.7k_0603</value>
+      <footprint>4ms_Resistor:R_0603</footprint>
+      <fields>
+        <field name="Display">4.7k</field>
+        <field name="JLCPCB ID">C23162</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Part Number">RC0603FR-074K7L</field>
+        <field name="Specifications">4k7, 1%, 1/10W, 0603</field>
+      </fields>
+      <libsource lib="4ms_Resistor" part="4.7k_0603" description="4k7, 1%, 1/10W, 0603"/>
+      <property name="Specifications" value="4k7, 1%, 1/10W, 0603"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Part Number" value="RC0603FR-074K7L"/>
+      <property name="Display" value="4.7k"/>
+      <property name="JLCPCB ID" value="C23162"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SCMv3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5f857d1a-247b-4a5e-ad54-d41e5cf461b0</tstamps>
+    </comp>
+    <comp ref="R21">
+      <value>470R_0805_350mW</value>
+      <footprint>4ms_Resistor:R_0603</footprint>
+      <fields>
+        <field name="Display">470R</field>
+        <field name="JLCPCB ID">C23179</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Part Number">RC0603FR-07470RL</field>
+        <field name="Specifications">470R, 1%, 1/10W, 0603</field>
+      </fields>
+      <libsource lib="4ms_Resistor" part="470R_0603" description="470R, 1%, 1/10W, 0603"/>
+      <property name="Specifications" value="470R, 1%, 1/10W, 0603"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Part Number" value="RC0603FR-07470RL"/>
+      <property name="Display" value="470R"/>
+      <property name="JLCPCB ID" value="C23179"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SCMv3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>75a3a560-6e2d-4cb0-85c9-e966d2fb0571</tstamps>
+    </comp>
+    <comp ref="R22">
+      <value>470R_0805_350mW</value>
+      <footprint>4ms_Resistor:R_0603</footprint>
+      <fields>
+        <field name="Display">470R</field>
+        <field name="JLCPCB ID">C23179</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Part Number">RC0603FR-07470RL</field>
+        <field name="Specifications">470R, 1%, 1/10W, 0603</field>
+      </fields>
+      <libsource lib="4ms_Resistor" part="470R_0603" description="470R, 1%, 1/10W, 0603"/>
+      <property name="Specifications" value="470R, 1%, 1/10W, 0603"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Part Number" value="RC0603FR-07470RL"/>
+      <property name="Display" value="470R"/>
+      <property name="JLCPCB ID" value="C23179"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SCMv3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>797e0386-7470-4b39-8fbf-ed268b7f1b02</tstamps>
+    </comp>
+    <comp ref="R23">
+      <value>1k_0603</value>
+      <footprint>4ms_Resistor:R_0603</footprint>
+      <fields>
+        <field name="Display">1k</field>
+        <field name="JLCPCB ID">C21190</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Part Number">RC0603FR-071KL</field>
+        <field name="Specifications">1K, 1%, 1/10W, 0603</field>
+      </fields>
+      <libsource lib="4ms_Resistor" part="1k_0603" description="1K, 1%, 1/10W, 0603"/>
+      <property name="Specifications" value="1K, 1%, 1/10W, 0603"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Part Number" value="RC0603FR-071KL"/>
+      <property name="Display" value="1k"/>
+      <property name="JLCPCB ID" value="C21190"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SCMv3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8f3c0007-f897-4426-b9c2-a51e34b8b3f3</tstamps>
+    </comp>
+    <comp ref="R24">
+      <value>10k_0603</value>
+      <footprint>4ms_Resistor:R_0603</footprint>
+      <fields>
+        <field name="Display">10k</field>
+        <field name="JLCPCB ID">C25804</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Part Number">RC0603FR-0710KL</field>
+        <field name="Specifications">10K, 1%, 1/10W, 0603</field>
+      </fields>
+      <libsource lib="4ms_Resistor" part="10k_0603" description="10K, 1%, 1/10W, 0603"/>
+      <property name="Specifications" value="10K, 1%, 1/10W, 0603"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Part Number" value="RC0603FR-0710KL"/>
+      <property name="Display" value="10k"/>
+      <property name="JLCPCB ID" value="C25804"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SCMv3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>51f9ff09-f258-424d-9a85-1e9b79eba186</tstamps>
+    </comp>
+    <comp ref="R25">
+      <value>4.7k_0603</value>
+      <footprint>4ms_Resistor:R_0603</footprint>
+      <fields>
+        <field name="Display">4.7k</field>
+        <field name="JLCPCB ID">C23162</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Part Number">RC0603FR-074K7L</field>
+        <field name="Specifications">4k7, 1%, 1/10W, 0603</field>
+      </fields>
+      <libsource lib="4ms_Resistor" part="4.7k_0603" description="4k7, 1%, 1/10W, 0603"/>
+      <property name="Specifications" value="4k7, 1%, 1/10W, 0603"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Part Number" value="RC0603FR-074K7L"/>
+      <property name="Display" value="4.7k"/>
+      <property name="JLCPCB ID" value="C23162"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SCMv3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2aa976f4-1dd1-4720-a84f-04c465352839</tstamps>
+    </comp>
+    <comp ref="R26">
+      <value>100k_0603</value>
+      <footprint>4ms_Resistor:R_0603</footprint>
+      <fields>
+        <field name="Display">100k</field>
+        <field name="JLCPCB ID">C25803</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Part Number">RC0603FR-07100KL</field>
+        <field name="Specifications">100K, 1%, 1/10W, 0603</field>
+      </fields>
+      <libsource lib="4ms_Resistor" part="100k_0603" description="100K, 1%, 1/10W, 0603"/>
+      <property name="Specifications" value="100K, 1%, 1/10W, 0603"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Part Number" value="RC0603FR-07100KL"/>
+      <property name="Display" value="100k"/>
+      <property name="JLCPCB ID" value="C25803"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SCMv3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>85c9f996-e93c-40e5-aaba-fd1f3a9c8bc9</tstamps>
+    </comp>
+    <comp ref="R27">
+      <value>470R_0805_350mW</value>
+      <footprint>4ms_Resistor:R_0603</footprint>
+      <fields>
+        <field name="Display">470R</field>
+        <field name="JLCPCB ID">C23179</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Part Number">RC0603FR-07470RL</field>
+        <field name="Specifications">470R, 1%, 1/10W, 0603</field>
+      </fields>
+      <libsource lib="4ms_Resistor" part="470R_0603" description="470R, 1%, 1/10W, 0603"/>
+      <property name="Specifications" value="470R, 1%, 1/10W, 0603"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Part Number" value="RC0603FR-07470RL"/>
+      <property name="Display" value="470R"/>
+      <property name="JLCPCB ID" value="C23179"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SCMv3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>33fd4308-716b-4ce6-a004-a92279063dcb</tstamps>
+    </comp>
+    <comp ref="R28">
+      <value>1k_0603</value>
+      <footprint>4ms_Resistor:R_0603</footprint>
+      <fields>
+        <field name="Display">1k</field>
+        <field name="JLCPCB ID">C21190</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Part Number">RC0603FR-071KL</field>
+        <field name="Specifications">1K, 1%, 1/10W, 0603</field>
+      </fields>
+      <libsource lib="4ms_Resistor" part="1k_0603" description="1K, 1%, 1/10W, 0603"/>
+      <property name="Specifications" value="1K, 1%, 1/10W, 0603"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Part Number" value="RC0603FR-071KL"/>
+      <property name="Display" value="1k"/>
+      <property name="JLCPCB ID" value="C21190"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SCMv3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>85d50c76-d9ae-4b59-84d6-8764a2875e7b</tstamps>
+    </comp>
+    <comp ref="R29">
+      <value>4.7k_0603</value>
+      <footprint>4ms_Resistor:R_0603</footprint>
+      <fields>
+        <field name="Display">4.7k</field>
+        <field name="JLCPCB ID">C23162</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Part Number">RC0603FR-074K7L</field>
+        <field name="Specifications">4k7, 1%, 1/10W, 0603</field>
+      </fields>
+      <libsource lib="4ms_Resistor" part="4.7k_0603" description="4k7, 1%, 1/10W, 0603"/>
+      <property name="Specifications" value="4k7, 1%, 1/10W, 0603"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Part Number" value="RC0603FR-074K7L"/>
+      <property name="Display" value="4.7k"/>
+      <property name="JLCPCB ID" value="C23162"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SCMv3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>16925921-7f23-439e-ba64-5b6649e7dac6</tstamps>
+    </comp>
+    <comp ref="R30">
+      <value>100k_0603</value>
+      <footprint>4ms_Resistor:R_0603</footprint>
+      <fields>
+        <field name="Display">100k</field>
+        <field name="JLCPCB ID">C25803</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Part Number">RC0603FR-07100KL</field>
+        <field name="Specifications">100K, 1%, 1/10W, 0603</field>
+      </fields>
+      <libsource lib="4ms_Resistor" part="100k_0603" description="100K, 1%, 1/10W, 0603"/>
+      <property name="Specifications" value="100K, 1%, 1/10W, 0603"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Part Number" value="RC0603FR-07100KL"/>
+      <property name="Display" value="100k"/>
+      <property name="JLCPCB ID" value="C25803"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SCMv3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>96ffc4aa-ac2a-42c8-9b87-c51f3da140c1</tstamps>
+    </comp>
+    <comp ref="R31">
+      <value>1k_0603</value>
+      <footprint>4ms_Resistor:R_0603</footprint>
+      <fields>
+        <field name="Display">1k</field>
+        <field name="JLCPCB ID">C21190</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Part Number">RC0603FR-071KL</field>
+        <field name="Specifications">1K, 1%, 1/10W, 0603</field>
+      </fields>
+      <libsource lib="4ms_Resistor" part="1k_0603" description="1K, 1%, 1/10W, 0603"/>
+      <property name="Specifications" value="1K, 1%, 1/10W, 0603"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Part Number" value="RC0603FR-071KL"/>
+      <property name="Display" value="1k"/>
+      <property name="JLCPCB ID" value="C21190"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SCMv3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4a10fbe9-17b4-45b3-bf1d-98f404b69d04</tstamps>
+    </comp>
+    <comp ref="R32">
+      <value>4.7k_0603</value>
+      <footprint>4ms_Resistor:R_0603</footprint>
+      <fields>
+        <field name="Display">4.7k</field>
+        <field name="JLCPCB ID">C23162</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Part Number">RC0603FR-074K7L</field>
+        <field name="Specifications">4k7, 1%, 1/10W, 0603</field>
+      </fields>
+      <libsource lib="4ms_Resistor" part="4.7k_0603" description="4k7, 1%, 1/10W, 0603"/>
+      <property name="Specifications" value="4k7, 1%, 1/10W, 0603"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Part Number" value="RC0603FR-074K7L"/>
+      <property name="Display" value="4.7k"/>
+      <property name="JLCPCB ID" value="C23162"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SCMv3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4c59b318-7574-48c0-bf13-7c8aeee8e69f</tstamps>
+    </comp>
+    <comp ref="R33">
+      <value>100k_0603</value>
+      <footprint>4ms_Resistor:R_0603</footprint>
+      <fields>
+        <field name="Display">100k</field>
+        <field name="JLCPCB ID">C25803</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Part Number">RC0603FR-07100KL</field>
+        <field name="Specifications">100K, 1%, 1/10W, 0603</field>
+      </fields>
+      <libsource lib="4ms_Resistor" part="100k_0603" description="100K, 1%, 1/10W, 0603"/>
+      <property name="Specifications" value="100K, 1%, 1/10W, 0603"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Part Number" value="RC0603FR-07100KL"/>
+      <property name="Display" value="100k"/>
+      <property name="JLCPCB ID" value="C25803"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SCMv3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b13ee698-7917-4e05-997f-9e7b8f532a30</tstamps>
+    </comp>
+    <comp ref="R34">
+      <value>1k_0603</value>
+      <footprint>4ms_Resistor:R_0603</footprint>
+      <fields>
+        <field name="Display">1k</field>
+        <field name="JLCPCB ID">C21190</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Part Number">RC0603FR-071KL</field>
+        <field name="Specifications">1K, 1%, 1/10W, 0603</field>
+      </fields>
+      <libsource lib="4ms_Resistor" part="1k_0603" description="1K, 1%, 1/10W, 0603"/>
+      <property name="Specifications" value="1K, 1%, 1/10W, 0603"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Part Number" value="RC0603FR-071KL"/>
+      <property name="Display" value="1k"/>
+      <property name="JLCPCB ID" value="C21190"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SCMv3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>451b3099-9123-44f6-b1af-2a017a7503d2</tstamps>
+    </comp>
+    <comp ref="R35">
+      <value>4.7k_0603</value>
+      <footprint>4ms_Resistor:R_0603</footprint>
+      <fields>
+        <field name="Display">4.7k</field>
+        <field name="JLCPCB ID">C23162</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Part Number">RC0603FR-074K7L</field>
+        <field name="Specifications">4k7, 1%, 1/10W, 0603</field>
+      </fields>
+      <libsource lib="4ms_Resistor" part="4.7k_0603" description="4k7, 1%, 1/10W, 0603"/>
+      <property name="Specifications" value="4k7, 1%, 1/10W, 0603"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Part Number" value="RC0603FR-074K7L"/>
+      <property name="Display" value="4.7k"/>
+      <property name="JLCPCB ID" value="C23162"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SCMv3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b4601bf9-41ba-437a-ae99-22f139d5a040</tstamps>
+    </comp>
+    <comp ref="R36">
+      <value>470R_0805_350mW</value>
+      <footprint>4ms_Resistor:R_0603</footprint>
+      <fields>
+        <field name="Display">470R</field>
+        <field name="JLCPCB ID">C23179</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Part Number">RC0603FR-07470RL</field>
+        <field name="Specifications">470R, 1%, 1/10W, 0603</field>
+      </fields>
+      <libsource lib="4ms_Resistor" part="470R_0603" description="470R, 1%, 1/10W, 0603"/>
+      <property name="Specifications" value="470R, 1%, 1/10W, 0603"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Part Number" value="RC0603FR-07470RL"/>
+      <property name="Display" value="470R"/>
+      <property name="JLCPCB ID" value="C23179"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SCMv3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b87cf6a6-5af0-474e-a254-c49543160b9d</tstamps>
+    </comp>
+    <comp ref="R37">
+      <value>100k_0603</value>
+      <footprint>4ms_Resistor:R_0603</footprint>
+      <fields>
+        <field name="Display">100k</field>
+        <field name="JLCPCB ID">C25803</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Part Number">RC0603FR-07100KL</field>
+        <field name="Specifications">100K, 1%, 1/10W, 0603</field>
+      </fields>
+      <libsource lib="4ms_Resistor" part="100k_0603" description="100K, 1%, 1/10W, 0603"/>
+      <property name="Specifications" value="100K, 1%, 1/10W, 0603"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Part Number" value="RC0603FR-07100KL"/>
+      <property name="Display" value="100k"/>
+      <property name="JLCPCB ID" value="C25803"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SCMv3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cbc93859-683c-4d1f-be79-fef9f11deee7</tstamps>
+    </comp>
+    <comp ref="R38">
+      <value>100k_0603</value>
+      <footprint>4ms_Resistor:R_0603</footprint>
+      <fields>
+        <field name="Display">100k</field>
+        <field name="JLCPCB ID">C25803</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Part Number">RC0603FR-07100KL</field>
+        <field name="Specifications">100K, 1%, 1/10W, 0603</field>
+      </fields>
+      <libsource lib="4ms_Resistor" part="100k_0603" description="100K, 1%, 1/10W, 0603"/>
+      <property name="Specifications" value="100K, 1%, 1/10W, 0603"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Part Number" value="RC0603FR-07100KL"/>
+      <property name="Display" value="100k"/>
+      <property name="JLCPCB ID" value="C25803"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SCMv3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>19ab8cc4-2da0-47e4-a634-7594473536cd</tstamps>
+    </comp>
+    <comp ref="R39">
+      <value>100k_0603</value>
+      <footprint>4ms_Resistor:R_0603</footprint>
+      <fields>
+        <field name="Display">100k</field>
+        <field name="JLCPCB ID">C25803</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Part Number">RC0603FR-07100KL</field>
+        <field name="Specifications">100K, 1%, 1/10W, 0603</field>
+      </fields>
+      <libsource lib="4ms_Resistor" part="100k_0603" description="100K, 1%, 1/10W, 0603"/>
+      <property name="Specifications" value="100K, 1%, 1/10W, 0603"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Part Number" value="RC0603FR-07100KL"/>
+      <property name="Display" value="100k"/>
+      <property name="JLCPCB ID" value="C25803"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SCMv3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cb5be06c-ce1e-4c22-8e6b-d5509c81d1e2</tstamps>
+    </comp>
+    <comp ref="R40">
+      <value>470k_0603</value>
+      <footprint>4ms_Resistor:R_0603</footprint>
+      <fields>
+        <field name="Display">470k</field>
+        <field name="JLCPCB ID">C23178</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Part Number">RC0603FR-0747KL</field>
+        <field name="Specifications">470K, 1%, 1/10W, 0603</field>
+      </fields>
+      <libsource lib="4ms_Resistor" part="470k_0603" description="470K, 1%, 1/10W, 0603"/>
+      <property name="Specifications" value="470K, 1%, 1/10W, 0603"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Part Number" value="RC0603FR-0747KL"/>
+      <property name="Display" value="470k"/>
+      <property name="JLCPCB ID" value="C23178"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SCMv3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>29221296-c524-4b61-b4ec-b289842d0f75</tstamps>
+    </comp>
+    <comp ref="R41">
+      <value>100k_0603</value>
+      <footprint>4ms_Resistor:R_0603</footprint>
+      <fields>
+        <field name="Display">100k</field>
+        <field name="JLCPCB ID">C25803</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Part Number">RC0603FR-07100KL</field>
+        <field name="Specifications">100K, 1%, 1/10W, 0603</field>
+      </fields>
+      <libsource lib="4ms_Resistor" part="100k_0603" description="100K, 1%, 1/10W, 0603"/>
+      <property name="Specifications" value="100K, 1%, 1/10W, 0603"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Part Number" value="RC0603FR-07100KL"/>
+      <property name="Display" value="100k"/>
+      <property name="JLCPCB ID" value="C25803"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SCMv3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c745fcd4-490e-4f9c-87ce-c9fe1dcc2b2a</tstamps>
+    </comp>
+    <comp ref="R42">
+      <value>10k_0603</value>
+      <footprint>4ms_Resistor:R_0603</footprint>
+      <fields>
+        <field name="Display">10k</field>
+        <field name="JLCPCB ID">C25804</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Part Number">RC0603FR-0710KL</field>
+        <field name="Specifications">10K, 1%, 1/10W, 0603</field>
+      </fields>
+      <libsource lib="4ms_Resistor" part="10k_0603" description="10K, 1%, 1/10W, 0603"/>
+      <property name="Specifications" value="10K, 1%, 1/10W, 0603"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Part Number" value="RC0603FR-0710KL"/>
+      <property name="Display" value="10k"/>
+      <property name="JLCPCB ID" value="C25804"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SCMv3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>196eed30-8952-4361-9cad-948998e825b3</tstamps>
+    </comp>
+    <comp ref="TRIM1">
+      <value>TrimPot_T73YEt_10k</value>
+      <footprint>4ms_Potentiometer:Pot_Trim_7x6.6mm_T73YE</footprint>
+      <fields>
+        <field name="Display">10k</field>
+        <field name="Manufacturer">Vishay</field>
+        <field name="Part Number">T73YE103KT20</field>
+        <field name="Specifications">Trimpot, TH, 10k, single turn, square</field>
+      </fields>
+      <libsource lib="4ms_Potentiometer" part="TrimPot_T73YEt_10k" description="Trimpot, TH, 10k, single turn, square"/>
+      <property name="Specifications" value="Trimpot, TH, 10k, single turn, square"/>
+      <property name="Manufacturer" value="Vishay"/>
+      <property name="Part Number" value="T73YE103KT20"/>
+      <property name="Display" value="10k"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SCMv3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d6cdcc92-0877-4607-a3e6-04f5844d86f2</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>ATMEGA328-AU</value>
+      <footprint>4ms_Package_QFP:TQFP-32_7x7mm_P0.8mm</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8025-8-bit-AVR-Microcontroller-ATmega48P-88P-168P_Datasheet.pdf</datasheet>
+      <fields>
+        <field name="Alt JLCPCB ID">C618731</field>
+        <field name="Display">ATMEGA328</field>
+        <field name="JLCPCB ID">C14877</field>
+        <field name="Manufacturer">Microchip Technology / Atmel</field>
+        <field name="Part Number">ATMEGA328-AU</field>
+        <field name="Specifications">8-bit Microcontrollers - MCU AVR 32K FLSH, 1K EE 2K SRAM - 20 MHz</field>
+      </fields>
+      <libsource lib="4ms_IC" part="ATMEGA328-AU" description="8-bit Microcontrollers - MCU AVR 32K FLSH, 1K EE 2K SRAM - 20 MHz"/>
+      <property name="Specifications" value="8-bit Microcontrollers - MCU AVR 32K FLSH, 1K EE 2K SRAM - 20 MHz"/>
+      <property name="Manufacturer" value="Microchip Technology / Atmel"/>
+      <property name="Part Number" value="ATMEGA328-AU"/>
+      <property name="Display" value="ATMEGA328"/>
+      <property name="JLCPCB ID" value="C14877"/>
+      <property name="Alt JLCPCB ID" value="C618731"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SCMv3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>69fb0144-3175-4cab-9949-edd08d026830</tstamps>
+    </comp>
+    <comp ref="VR1">
+      <value>L78M05CDT</value>
+      <footprint>4ms_Package_TO:TO-252-2</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/389/cd00000447-1795461.pdf</datasheet>
+      <fields>
+        <field name="Alt JLCPCB ID">C55509</field>
+        <field name="Display">5.0V, 500mA</field>
+        <field name="JLCPCB ID">C58069</field>
+        <field name="Manufacturer">STMicroelectronics</field>
+        <field name="Part Number">L78M05CDT-TR</field>
+        <field name="Specifications">Vreg 5.0V, Iout&gt;500mA, Vin&gt;7V</field>
+      </fields>
+      <libsource lib="4ms_Regulator" part="L78M05CDT" description="Vreg 5.0V, Iout&gt;500mA, Vin&gt;7V"/>
+      <property name="Specifications" value="Vreg 5.0V, Iout&gt;500mA, Vin&gt;7V"/>
+      <property name="Manufacturer" value="STMicroelectronics"/>
+      <property name="Part Number" value="L78M05CDT-TR"/>
+      <property name="Display" value="5.0V, 500mA"/>
+      <property name="JLCPCB ID" value="C58069"/>
+      <property name="Alt JLCPCB ID" value="C55509"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SCMv3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f78c2a5c-6b55-426e-9b69-bfe7ac721807</tstamps>
+    </comp>
+    <comp ref="VR2">
+      <value>UA78L08</value>
+      <footprint>4ms_Package_SOT:SOT89-3</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/ua78l.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&amp;ts=1629320595639</datasheet>
+      <fields>
+        <field name="Display">8.0V, 100mA</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Part Number">UA78L08ACPK</field>
+        <field name="Specifications">Vreg 8.0V, Iout&gt;100mA, Vin&gt;10.5V</field>
+      </fields>
+      <libsource lib="4ms_Regulator" part="UA78L08" description="Vreg 8.0V, Iout&gt;100mA, Vin&gt;10.5V"/>
+      <property name="Specifications" value="Vreg 8.0V, Iout&gt;100mA, Vin&gt;10.5V"/>
+      <property name="Manufacturer" value="Texas Instruments"/>
+      <property name="Part Number" value="UA78L08ACPK"/>
+      <property name="Display" value="8.0V, 100mA"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SCMv3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d75c3cf8-42d8-4c9a-af69-6743d9e59630</tstamps>
+    </comp>
+    <comp ref="Y1">
+      <value>16MHz_18pF_FA238</value>
+      <footprint>4ms_Crystal:FA-238</footprint>
+      <fields>
+        <field name="Display">16MHz</field>
+        <field name="Display 2">18pF</field>
+        <field name="JLCPCB ID">C90906</field>
+        <field name="Manufacturer">Epson Timing</field>
+        <field name="Part Number">TSX-3225 16.0000MF18X-AC3</field>
+        <field name="Specifications">16MHz 18pF 10ppm ESR:60ohms</field>
+      </fields>
+      <libsource lib="4ms_Crystal" part="16MHz_18pF_FA238" description="16MHz 18pF 10ppm ESR:60ohms SMT"/>
+      <property name="ID" value=""/>
+      <property name="Specifications" value="16MHz 18pF 10ppm ESR:60ohms"/>
+      <property name="Manufacturer" value="Epson Timing"/>
+      <property name="Part Number" value="TSX-3225 16.0000MF18X-AC3"/>
+      <property name="Display" value="16MHz"/>
+      <property name="Display 2" value="18pF"/>
+      <property name="JLCPCB ID" value="C90906"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SCMv3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>56d236fd-8965-44b0-8024-00e3f41457df</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="4ms_Capacitor" part="0.1uF_0603_16V">
+      <description>0.1uF, Min. 16V 10%, X7R or X5R or similar</description>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">0.1uF_0603_16V</field>
+        <field name="Footprint">4ms_Capacitor:C_0603</field>
+        <field name="Specifications">0.1uF, Min. 16V 10%, X7R or X5R or similar</field>
+        <field name="Manufacturer">AVX Corporation</field>
+        <field name="Part Number">0603YC104KAT2A</field>
+        <field name="Display">0.1uF</field>
+        <field name="JLCPCB ID">C14663</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="4ms_Capacitor" part="1nF_0603_50V">
+      <description>1nF, 50V, 10%, C0G (NP0) or similar</description>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">1nF_0603_50V</field>
+        <field name="Footprint">4ms_Capacitor:C_0603</field>
+        <field name="Specifications">1nF, 50V, 10%, C0G (NP0) or similar</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Part Number">GRM1885C1H102JA01D</field>
+        <field name="Display">1nF</field>
+        <field name="JLCPCB ID">C163508</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="4ms_Capacitor" part="330pF_0603_35V">
+      <description>330pF, Min 35V, C0G/NP0, 5%</description>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">330pF_0603_35V</field>
+        <field name="Footprint">4ms_Capacitor:C_0603</field>
+        <field name="Specifications">330pF, Min 35V, C0G/NP0, 5%</field>
+        <field name="Manufacturer">Kemet</field>
+        <field name="Part Number">C0603C331J5GACTU</field>
+        <field name="Display">330pF</field>
+        <field name="JLCPCB ID">C1664</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="4ms_Capacitor" part="47uF_5x5.3_16V">
+      <description>47uF, 16V, 20%, 5.00mmD*5.30mmH, 2000Hrs@85℃</description>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">47uF_5x5.3_16V</field>
+        <field name="Footprint">4ms_Capacitor:CP_Elec_5x5.3</field>
+        <field name="Specifications">47uF, 16V, 20%, 5.00mmD*5.30mmH, 2000Hrs@85℃</field>
+        <field name="Manufacturer">Lelon</field>
+        <field name="Part Number">VE-470M1CTR-0505</field>
+        <field name="Display">47uF/16V</field>
+        <field name="JLCPCB ID">C134798</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="4ms_Capacitor" part="9pF_0603_50V">
+      <description>9pF, Min 50V, C0G (NP0) 0603</description>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">9pF_0603_50V</field>
+        <field name="Footprint">4ms_Capacitor:C_0603</field>
+        <field name="Specifications">9pF, Min 50V, C0G (NP0) 0603</field>
+        <field name="Manufacturer">Murata Electronics</field>
+        <field name="Part Number">GCM1885C2A9R0CA16D</field>
+        <field name="Display">9pF</field>
+        <field name="JLCPCB ID">C170141</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="4ms_Connector" part="Conn_01x02">
+      <description>HEADER 1x2 MALE PINS 0.100” 180deg</description>
+      <footprints>
+        <fp>Connector*:*_??x*mm*</fp>
+        <fp>Connector*:*1x??x*mm*</fp>
+        <fp>Pin?Header?Straight?1X*</fp>
+        <fp>Pin?Header?Angled?1X*</fp>
+        <fp>Socket?Strip?Straight?1X*</fp>
+        <fp>Socket?Strip?Angled?1X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02</field>
+        <field name="Footprint">4ms_Connector:Pins_1x02_2.54mm_TH</field>
+        <field name="Specifications">Pins_01x02, Header, Male Pins, 1*2, spacing 2.54mm, straight pin</field>
+        <field name="Manufacturer">TAD</field>
+        <field name="Part Number">1-0201FBV0T</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="4ms_Connector" part="Conn_02x03">
+      <description>HEADER 2x3 MALE PINS 0.100” 180deg</description>
+      <footprints>
+        <fp>Pin_Header_Straight_2X*</fp>
+        <fp>Pin_Header_Angled_2X*</fp>
+        <fp>Socket_Strip_Straight_2X*</fp>
+        <fp>Socket_Strip_Angled_2X*</fp>
+        <fp>IDC_Header_Straight_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x03</field>
+        <field name="Footprint">4ms_Connector:Pins_2x03_2.54mm_TH</field>
+        <field name="Specifications">HEADER 2x3 MALE PINS 0.100” 180deg</field>
+        <field name="Manufacturer">Cixi Langlin</field>
+        <field name="Part Number">LL1009-2A, 2.54MM 2*3PIN HEADER,LENGTH=20MM</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+12V" type="passive"/>
+        <pin num="2" name="+12V" type="passive"/>
+        <pin num="3" name="GND" type="passive"/>
+        <pin num="4" name="GND" type="passive"/>
+        <pin num="5" name="GND" type="passive"/>
+        <pin num="6" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="4ms_Connector" part="Conn_02x08">
+      <description>HEADER 2x5 MALE PINS 0.100” 180deg</description>
+      <footprints>
+        <fp>Pin_Header_Straight_2X*</fp>
+        <fp>Pin_Header_Angled_2X*</fp>
+        <fp>Socket_Strip_Straight_2X*</fp>
+        <fp>Socket_Strip_Angled_2X*</fp>
+        <fp>IDC_Header_Straight_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x08</field>
+        <field name="Footprint">4ms_Connector:Pins_2x08_2.54mm_TH</field>
+        <field name="Specifications">Header, Male Pins, 2*8, spacing 2.54mm, straight pin</field>
+        <field name="Manufacturer">TAD</field>
+        <field name="Part Number">1-1602FBV0T</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="+12V" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+        <pin num="7" name="12V" type="passive"/>
+        <pin num="8" name="+12V" type="passive"/>
+        <pin num="9" name="GND" type="passive"/>
+        <pin num="10" name="GND" type="passive"/>
+        <pin num="11" name="GND" type="passive"/>
+        <pin num="12" name="GND" type="passive"/>
+        <pin num="13" name="-12" type="passive"/>
+        <pin num="14" name="-12V" type="passive"/>
+        <pin num="15" name="-12V" type="passive"/>
+        <pin num="16" name="P16" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="4ms_Crystal" part="16MHz_18pF_FA238">
+      <description>16MHz 18pF 10ppm ESR:60ohms SMT</description>
+      <footprints>
+        <fp>Crystal*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">16MHz_18pF_FA238</field>
+        <field name="Footprint">4ms_Crystal:FA-238</field>
+        <field name="Specifications">16MHz 18pF 10ppm ESR:60ohms</field>
+        <field name="Manufacturer">Epson Timing</field>
+        <field name="Part Number">TSX-3225 16.0000MF18X-AC3</field>
+        <field name="Display">16MHz</field>
+        <field name="Display 2">18pF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="4ms_Diode" part="B140-E3">
+      <description>SCHOTTKY Diode SMA Vrrm&gt;=40V If&gt;=1.0A, Ifsm&gt;=1.5A</description>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*SingleDiode</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">B140-E3</field>
+        <field name="Footprint">4ms_Diode:D_SMA</field>
+        <field name="Specifications">SCHOTTKY Diode SMA Vrrm&gt;=40V If&gt;=1.0A, Ifsm&gt;=1.5A</field>
+        <field name="Manufacturer">Diodes Incorporated</field>
+        <field name="Part Number">B140-E3/5AT</field>
+        <field name="Manufacturer 2">Diodes Incorporated</field>
+        <field name="Part Number 2">B140-E3/61T</field>
+        <field name="JLCPCB ID">C15759</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="4ms_Diode" part="B140-E3_1">
+      <description>SCHOTTKY Diode SMA Vrrm&gt;=40V If&gt;=1.0A, Ifsm&gt;=1.5A</description>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*SingleDiode</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">B140-E3</field>
+        <field name="Footprint">4ms_Diode:D_SMA</field>
+        <field name="Specifications">SCHOTTKY Diode SMA Vrrm&gt;=40V If&gt;=1.0A, Ifsm&gt;=1.5A</field>
+        <field name="Manufacturer">Diodes Incorporated</field>
+        <field name="Part Number">B140-E3/5AT</field>
+        <field name="Manufacturer 2">Diodes Incorporated</field>
+        <field name="Part Number 2">B140-E3/61T</field>
+        <field name="JLCPCB ID">C15759</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="4ms_Diode" part="BAT54S">
+      <description>Dual schottky diode BAT54S</description>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">BAT54S</field>
+        <field name="Footprint">4ms_Package_SOT:SOT23-3_PO132</field>
+        <field name="Specifications">Dual schottky diode BAT54S</field>
+        <field name="Manufacturer">Diodes Incorporated</field>
+        <field name="Part Number">BAT54S-7-F</field>
+        <field name="JLCPCB ID">C83574</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Anode" type="passive"/>
+        <pin num="2" name="cathode" type="passive"/>
+        <pin num="3" name="AK" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="4ms_IC" part="ATMEGA328-AU">
+      <description>8-bit Microcontrollers - MCU AVR 32K FLSH, 1K EE 2K SRAM - 20 MHz</description>
+      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8025-8-bit-AVR-Microcontroller-ATmega48P-88P-168P_Datasheet.pdf</docs>
+      <footprints>
+        <fp>TQFP*7x7mm*P0.8mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ATMEGA328-AU</field>
+        <field name="Footprint">4ms_Package_QFP:TQFP-32_7x7mm_P0.8mm</field>
+        <field name="Datasheet">http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8025-8-bit-AVR-Microcontroller-ATmega48P-88P-168P_Datasheet.pdf</field>
+        <field name="Specifications">8-bit Microcontrollers - MCU AVR 32K FLSH, 1K EE 2K SRAM - 20 MHz</field>
+        <field name="Manufacturer">Microchip Technology / Atmel</field>
+        <field name="Part Number">ATMEGA328-AU</field>
+        <field name="Display">ATMEGA328</field>
+        <field name="JLCPCB ID">C14877</field>
+        <field name="Alt JLCPCB ID">C618731</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PD3" type="bidirectional"/>
+        <pin num="2" name="PD4" type="bidirectional"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="VCC" type="power_in"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="VCC" type="power_in"/>
+        <pin num="7" name="XTAL1/PB6" type="bidirectional"/>
+        <pin num="8" name="XTAL2/PB7" type="bidirectional"/>
+        <pin num="9" name="PD5" type="bidirectional"/>
+        <pin num="10" name="PD6" type="bidirectional"/>
+        <pin num="11" name="PD7" type="bidirectional"/>
+        <pin num="12" name="PB0" type="bidirectional"/>
+        <pin num="13" name="PB1" type="bidirectional"/>
+        <pin num="14" name="PB2" type="bidirectional"/>
+        <pin num="15" name="PB3" type="bidirectional"/>
+        <pin num="16" name="PB4" type="bidirectional"/>
+        <pin num="17" name="PB5" type="bidirectional"/>
+        <pin num="18" name="AVCC" type="power_in"/>
+        <pin num="19" name="ADC6" type="input"/>
+        <pin num="20" name="AREF" type="passive"/>
+        <pin num="21" name="GND" type="power_in"/>
+        <pin num="22" name="ADC7" type="input"/>
+        <pin num="23" name="PC0" type="bidirectional"/>
+        <pin num="24" name="PC1" type="bidirectional"/>
+        <pin num="25" name="PC2" type="bidirectional"/>
+        <pin num="26" name="PC3" type="bidirectional"/>
+        <pin num="27" name="PC4" type="bidirectional"/>
+        <pin num="28" name="PC5" type="bidirectional"/>
+        <pin num="29" name="~{RESET}/PC6" type="bidirectional"/>
+        <pin num="30" name="PD0" type="bidirectional"/>
+        <pin num="31" name="PD1" type="bidirectional"/>
+        <pin num="32" name="PD2" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="4ms_IC" part="CD40106BPWR">
+      <docs>https://www.ti.com/lit/ds/symlink/cd40106b.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&amp;ts=1624570529286&amp;ref_url=https%253A%252F%252Fwww.mouser.com%252F</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">CD40106BPWR</field>
+        <field name="Footprint">4ms_Package_SSOP:TSSOP-14_4.4x5mm_P0.65mm</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/cd40106b.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&amp;ts=1624570529286&amp;ref_url=https%253A%252F%252Fwww.mouser.com%252F</field>
+        <field name="Specifications">CMOS, Hex Inverting Schmitt Trigger, TSSOP-14</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Part Number">CD40106BPWR</field>
+        <field name="Manufacturer 2">Texas Instruments</field>
+        <field name="Part Number 2">CD40106BPWR</field>
+        <field name="Display">40106</field>
+      </fields>
+      <pins>
+        <pin num="1" name="I" type="input"/>
+        <pin num="2" name="O" type="output"/>
+        <pin num="3" name="I" type="input"/>
+        <pin num="4" name="O" type="output"/>
+        <pin num="5" name="I" type="input"/>
+        <pin num="6" name="O" type="output"/>
+        <pin num="7" name="VSS" type="power_in"/>
+        <pin num="8" name="O" type="output"/>
+        <pin num="9" name="I" type="input"/>
+        <pin num="10" name="O" type="output"/>
+        <pin num="11" name="I" type="input"/>
+        <pin num="12" name="O" type="output"/>
+        <pin num="13" name="I" type="input"/>
+        <pin num="14" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="4ms_IC" part="TL082">
+      <description>TL082 Dual Opamp TSSOP-8</description>
+      <footprints>
+        <fp>SOIC*Pitch1.27mm*</fp>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>TSSOP*Pitch0.65mm*</fp>
+        <fp>TO-99*</fp>
+        <fp>DSBGA*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TL082</field>
+        <field name="Footprint">4ms_Package_SSOP:TSSOP-8_4.4x3mm_Pitch0.65mm</field>
+        <field name="Specifications">TL082 Dual Opamp TSSOP-8</field>
+        <field name="Manufacturer">STMicroelectronics</field>
+        <field name="Part Number">TL082CPT</field>
+        <field name="JLCPCB ID">C2652280</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="output"/>
+        <pin num="2" name="-" type="input"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="V-" type="power_in"/>
+        <pin num="5" name="+" type="input"/>
+        <pin num="6" name="-" type="input"/>
+        <pin num="7" name="" type="output"/>
+        <pin num="8" name="V+" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="4ms_Jack" part="3.5mm_Mono_Switched_SymSmall_0.05">
+      <description>Audio 3.5mm Jack, mono, switched, PC-pin Vertical</description>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">3.5mm_Mono_Switched_SymSmall_0.05</field>
+        <field name="Footprint">4ms_Jack:EighthInch_PJ398SM</field>
+        <field name="Specifications">Audio 3.5mm Jack, mono, switched, PC-pin Vertical</field>
+        <field name="Manufacturer">Wenzhou QingPu Electronics Co</field>
+        <field name="Part Number">WQP-WQP518MA</field>
+        <field name="Display">3.5mm_Mono</field>
+      </fields>
+      <pins>
+        <pin num="1" name="SIG" type="passive"/>
+        <pin num="2" name="SHEILD" type="passive"/>
+        <pin num="3" name="SW" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="4ms_LED" part="RGB_CA_PLCC4">
+      <description>RGB LED, Common Anode PLCC4</description>
+      <footprints>
+        <fp>*PLCC4*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">LED</field>
+        <field name="Value">RGB_CA_PLCC4</field>
+        <field name="Footprint">4ms_LED:LED_PLCC-4</field>
+        <field name="Specifications">RGB LED, Common Anode PLCC4</field>
+        <field name="Manufacturer">Hebei I.T. (Shanghai)</field>
+        <field name="Part Number">PLCC4RGBCT-CA</field>
+      </fields>
+      <pins>
+        <pin num="1" name="CR" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+        <pin num="3" name="CB" type="passive"/>
+        <pin num="4" name="CG" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="4ms_Potentiometer" part="9mm_CtrDet_10k_DShaft">
+      <description>10k Linear, 9mm pot, Center Detent, D-Shaft</description>
+      <footprints>
+        <fp>Potentiometer*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">POT</field>
+        <field name="Value">9mm_CtrDet_10k_DShaft</field>
+        <field name="Footprint">4ms_Potentiometer:Pot_9mm_Dshaft_Det</field>
+        <field name="Specifications">10k Linear, 9mm pot, Center Detent, D-Shaft</field>
+        <field name="Manufacturer"> Alpha Taiwan </field>
+        <field name="Part Number"> RV09BCF-40-25F-B10K-0C7 </field>
+        <field name="Display">10k</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Left" type="passive"/>
+        <pin num="2" name="Center" type="passive"/>
+        <pin num="3" name="Right" type="passive"/>
+        <pin num="4" name="Tab1" type="passive"/>
+        <pin num="5" name="Tab2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="4ms_Potentiometer" part="TrimPot_T73YEt_10k">
+      <description>Trimpot, TH, 10k, single turn, square</description>
+      <footprints>
+        <fp>Potentiometer*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TRIM</field>
+        <field name="Value">TrimPot_T73YEt_10k</field>
+        <field name="Footprint">4ms_Potentiometer:Pot_Trim_7x6.6mm_T73YE</field>
+        <field name="Specifications">Trimpot, TH, 10k, single turn, square</field>
+        <field name="Manufacturer">Vishay</field>
+        <field name="Part Number">T73YE103KT20</field>
+        <field name="Display">10k</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Left" type="passive"/>
+        <pin num="2" name="Center" type="passive"/>
+        <pin num="3" name="Right" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="4ms_Regulator" part="L78M05CDT">
+      <description>Vreg 5.0V, Iout&gt;500mA, Vin&gt;7V</description>
+      <docs>https://www.mouser.com/datasheet/2/389/cd00000447-1795461.pdf</docs>
+      <footprints>
+        <fp>*SOT-89*</fp>
+        <fp>*SOT89*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">L78M05CDT</field>
+        <field name="Footprint">4ms_Package_TO:TO-252-2</field>
+        <field name="Datasheet">https://www.mouser.com/datasheet/2/389/cd00000447-1795461.pdf</field>
+        <field name="Specifications">Vreg 5.0V, Iout&gt;500mA, Vin&gt;7V</field>
+        <field name="Manufacturer">STMicroelectronics</field>
+        <field name="Part Number">L78M05CDT-TR</field>
+        <field name="Display">5.0V, 500mA</field>
+        <field name="JLCPCB ID">C58069</field>
+        <field name="Alt JLCPCB ID">C55509</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VI" type="input"/>
+        <pin num="2" name="GND" type="input"/>
+        <pin num="3" name="VO" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="4ms_Regulator" part="UA78L08">
+      <description>Vreg 8.0V, Iout&gt;100mA, Vin&gt;10.5V</description>
+      <docs>https://www.ti.com/lit/ds/symlink/ua78l.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&amp;ts=1629320595639</docs>
+      <footprints>
+        <fp>*SOT-89*</fp>
+        <fp>*SOT89*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">UA78L08</field>
+        <field name="Footprint">4ms_Package_SOT:SOT89-3</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/ua78l.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&amp;ts=1629320595639</field>
+        <field name="Specifications">Vreg 8.0V, Iout&gt;100mA, Vin&gt;10.5V</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Part Number">UA78L08ACPK</field>
+        <field name="Display">8.0V, 100mA</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VO" type="power_out"/>
+        <pin num="2" name="GND" type="input"/>
+        <pin num="3" name="VI" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="4ms_Resistor" part="100k_0603">
+      <description>100K, 1%, 1/10W, 0603</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">100k_0603</field>
+        <field name="Footprint">4ms_Resistor:R_0603</field>
+        <field name="Specifications">100K, 1%, 1/10W, 0603</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Part Number">RC0603FR-07100KL</field>
+        <field name="Display">100k</field>
+        <field name="JLCPCB ID">C25803</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="4ms_Resistor" part="10k_0603">
+      <description>10K, 1%, 1/10W, 0603</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">10k_0603</field>
+        <field name="Footprint">4ms_Resistor:R_0603</field>
+        <field name="Specifications">10K, 1%, 1/10W, 0603</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Part Number">RC0603FR-0710KL</field>
+        <field name="Display">10k</field>
+        <field name="JLCPCB ID">C25804</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="4ms_Resistor" part="1k_0603">
+      <description>1K, 1%, 1/10W, 0603</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">1k_0603</field>
+        <field name="Footprint">4ms_Resistor:R_0603</field>
+        <field name="Specifications">1K, 1%, 1/10W, 0603</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Part Number">RC0603FR-071KL</field>
+        <field name="Display">1k</field>
+        <field name="JLCPCB ID">C21190</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="4ms_Resistor" part="4.7k_0603">
+      <description>4k7, 1%, 1/10W, 0603</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">4.7k_0603</field>
+        <field name="Footprint">4ms_Resistor:R_0603</field>
+        <field name="Specifications">4k7, 1%, 1/10W, 0603</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Part Number">RC0603FR-074K7L</field>
+        <field name="Display">4.7k</field>
+        <field name="JLCPCB ID">C23162</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="4ms_Resistor" part="470R_0603">
+      <description>470R, 1%, 1/10W, 0603</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">470R_0603</field>
+        <field name="Footprint">4ms_Resistor:R_0603</field>
+        <field name="Specifications">470R, 1%, 1/10W, 0603</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Part Number">RC0603FR-07470RL</field>
+        <field name="Display">470R</field>
+        <field name="JLCPCB ID">C23179</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="4ms_Resistor" part="470k_0603">
+      <description>470K, 1%, 1/10W, 0603</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">470k_0603</field>
+        <field name="Footprint">4ms_Resistor:R_0603</field>
+        <field name="Specifications">470K, 1%, 1/10W, 0603</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Part Number">RC0603FR-0747KL</field>
+        <field name="Display">470k</field>
+        <field name="JLCPCB ID">C23178</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="4ms_Switch" part="Button_DPDT_Orange_Latching">
+      <docs>https://www.mouser.com/datasheet/2/435/wells00109_1-2286045.pdf</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">Button_DPDT_Orange_Latching</field>
+        <field name="Footprint">4ms_Switch:Button_LED_PB61303</field>
+        <field name="Datasheet">https://www.mouser.com/datasheet/2/435/wells00109_1-2286045.pdf</field>
+        <field name="Specifications">DPDT, Latching, On/On, 8.7mm base, 7.5mm cap, Orange</field>
+        <field name="Manufacturer">RunRun</field>
+        <field name="Part Number">PB-61303AL-2</field>
+        <field name="Display">Orange Button</field>
+      </fields>
+      <pins>
+        <pin num="1" name="UP-A" type="input"/>
+        <pin num="2" name="POLE-A" type="input"/>
+        <pin num="3" name="DOWN-A" type="input"/>
+        <pin num="4" name="UP-B" type="input"/>
+        <pin num="5" name="POLE-B" type="input"/>
+        <pin num="6" name="DOWN-B" type="input"/>
+        <pin num="7" name="A" type="input"/>
+        <pin num="8" name="C" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="4ms_Transistor" part="Si2318">
+      <description>MOSFET N-chan, 40Vds, Vgs_th=1.2V, Rds=42mOhms</description>
+      <docs>https://www.mouser.com/datasheet/2/427/72322-1765729.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Si2318</field>
+        <field name="Footprint">4ms_Package_SOT:SOT23-3_PO132</field>
+        <field name="Datasheet">https://www.mouser.com/datasheet/2/427/72322-1765729.pdf</field>
+        <field name="Specifications">MOSFET N-chan, 40Vds, Vgs_th=1.2V, Rds=42mOhms</field>
+        <field name="Manufacturer">Vishay Semiconductor</field>
+        <field name="Part Number">SI2318DS-T1-GE3</field>
+        <field name="Display">Si2318</field>
+        <field name="JLCPCB ID">C14498</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="4ms_Capacitor">
+      <uri>/Users/noaver/Desktop/kicad/4ms-kicad-lib/lib-sym/Capacitor.lib</uri>
+    </library>
+    <library logical="4ms_Connector">
+      <uri>/Users/noaver/Desktop/kicad/4ms-kicad-lib/lib-sym/Connector.lib</uri>
+    </library>
+    <library logical="4ms_Crystal">
+      <uri>/Users/noaver/Desktop/kicad/4ms-kicad-lib/lib-sym/Crystal.lib</uri>
+    </library>
+    <library logical="4ms_Diode">
+      <uri>/Users/noaver/Desktop/kicad/4ms-kicad-lib/lib-sym/Diode.lib</uri>
+    </library>
+    <library logical="4ms_IC">
+      <uri>/Users/noaver/Desktop/kicad/4ms-kicad-lib/lib-sym/IC.lib</uri>
+    </library>
+    <library logical="4ms_Jack">
+      <uri>/Users/noaver/Desktop/kicad/4ms-kicad-lib/lib-sym/Jack.lib</uri>
+    </library>
+    <library logical="4ms_LED">
+      <uri>/Users/noaver/Desktop/kicad/4ms-kicad-lib/lib-sym/LED.lib</uri>
+    </library>
+    <library logical="4ms_Potentiometer">
+      <uri>/Users/noaver/Desktop/kicad/4ms-kicad-lib/lib-sym/Potentiometer.lib</uri>
+    </library>
+    <library logical="4ms_Regulator">
+      <uri>/Users/noaver/Desktop/kicad/4ms-kicad-lib/lib-sym/Regulator.lib</uri>
+    </library>
+    <library logical="4ms_Resistor">
+      <uri>/Users/noaver/Desktop/kicad/4ms-kicad-lib/lib-sym/Resistor.lib</uri>
+    </library>
+    <library logical="4ms_Switch">
+      <uri>/Users/noaver/Desktop/kicad/4ms-kicad-lib/lib-sym/Switch.lib</uri>
+    </library>
+    <library logical="4ms_Transistor">
+      <uri>/Users/noaver/Desktop/kicad/4ms-kicad-lib/lib-sym/Transistor.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+5V">
+      <node ref="C14" pin="1" pintype="passive"/>
+      <node ref="C15" pin="1" pintype="passive"/>
+      <node ref="D1" pin="2" pinfunction="cathode" pintype="passive"/>
+      <node ref="D2" pin="2" pinfunction="cathode" pintype="passive"/>
+      <node ref="D3" pin="2" pinfunction="cathode" pintype="passive"/>
+      <node ref="D4" pin="2" pinfunction="cathode" pintype="passive"/>
+      <node ref="D5" pin="2" pinfunction="cathode" pintype="passive"/>
+      <node ref="D6" pin="2" pinfunction="cathode" pintype="passive"/>
+      <node ref="D7" pin="2" pinfunction="cathode" pintype="passive"/>
+      <node ref="D8" pin="2" pinfunction="cathode" pintype="passive"/>
+      <node ref="D9" pin="2" pinfunction="cathode" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="+12V" pintype="passive"/>
+      <node ref="JROTATE1" pin="3" pinfunction="SW" pintype="passive"/>
+      <node ref="JSLIP1" pin="3" pinfunction="SW" pintype="passive"/>
+      <node ref="PPW1" pin="1" pinfunction="Left" pintype="passive"/>
+      <node ref="PSHUFFLE1" pin="1" pinfunction="Left" pintype="passive"/>
+      <node ref="PSKIP1" pin="1" pinfunction="Left" pintype="passive"/>
+      <node ref="R16" pin="2" pintype="passive"/>
+      <node ref="TRIM1" pin="3" pinfunction="Right" pintype="passive"/>
+      <node ref="U1" pin="18" pinfunction="AVCC" pintype="power_in"/>
+      <node ref="U1" pin="20" pinfunction="AREF" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U1" pin="6" pinfunction="VCC" pintype="power_in"/>
+      <node ref="VR1" pin="3" pinfunction="VO" pintype="power_out"/>
+    </net>
+    <net code="2" name="+9V">
+      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="C17" pin="1" pintype="passive"/>
+      <node ref="C20" pin="1" pintype="passive"/>
+      <node ref="IC1" pin="14" pinfunction="VDD" pintype="power_in"/>
+      <node ref="IC2" pin="14" pinfunction="VDD" pintype="power_in"/>
+      <node ref="VR2" pin="1" pinfunction="VO" pintype="power_out"/>
+    </net>
+    <net code="3" name="+12V">
+      <node ref="C13" pin="1" pintype="passive"/>
+      <node ref="C19" pin="1" pintype="passive"/>
+      <node ref="D10" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="IC3" pin="8" pinfunction="V+" pintype="power_in"/>
+      <node ref="Q1" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="Q3" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="R24" pin="2" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="VR1" pin="1" pinfunction="VI" pintype="input"/>
+      <node ref="VR2" pin="3" pinfunction="VI" pintype="input"/>
+    </net>
+    <net code="4" name="-12VA">
+      <node ref="C16" pin="1" pintype="passive"/>
+      <node ref="D11" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="IC3" pin="4" pinfunction="V-" pintype="power_in"/>
+    </net>
+    <net code="5" name="/IN-SW">
+      <node ref="IC3" pin="6" pinfunction="-" pintype="input"/>
+      <node ref="IC3" pin="7" pintype="output"/>
+      <node ref="J9-CLK_IN1" pin="3" pinfunction="SW" pintype="passive"/>
+    </net>
+    <net code="6" name="/RESET">
+      <node ref="J1" pin="5" pinfunction="GND" pintype="passive"/>
+      <node ref="R16" pin="1" pintype="passive"/>
+      <node ref="U1" pin="29" pinfunction="~{RESET}/PC6" pintype="bidirectional"/>
+    </net>
+    <net code="7" name="/UC_CLK_IN">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="D1" pin="3" pinfunction="AK" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="U1" pin="32" pinfunction="PD2" pintype="bidirectional"/>
+    </net>
+    <net code="8" name="/UC_FAST">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="D2" pin="3" pinfunction="AK" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="U1" pin="9" pinfunction="PD5" pintype="bidirectional"/>
+    </net>
+    <net code="9" name="/UC_LED_IN">
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="PD3" pintype="bidirectional"/>
+    </net>
+    <net code="10" name="/UC_MUTE">
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="D5" pin="3" pinfunction="AK" pintype="passive"/>
+      <node ref="R22" pin="1" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="PD4" pintype="bidirectional"/>
+    </net>
+    <net code="11" name="/UC_OUT1">
+      <node ref="IC1" pin="1" pinfunction="I" pintype="input"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="U1" pin="12" pinfunction="PB0" pintype="bidirectional"/>
+    </net>
+    <net code="12" name="/UC_OUT2">
+      <node ref="IC1" pin="3" pinfunction="I" pintype="input"/>
+      <node ref="R14" pin="1" pintype="passive"/>
+      <node ref="U1" pin="13" pinfunction="PB1" pintype="bidirectional"/>
+    </net>
+    <net code="13" name="/UC_OUT3">
+      <node ref="IC1" pin="5" pinfunction="I" pintype="input"/>
+      <node ref="R17" pin="1" pintype="passive"/>
+      <node ref="U1" pin="14" pinfunction="PB2" pintype="bidirectional"/>
+    </net>
+    <net code="14" name="/UC_OUT4_MOSI">
+      <node ref="IC1" pin="9" pinfunction="I" pintype="input"/>
+      <node ref="J1" pin="4" pinfunction="GND" pintype="passive"/>
+      <node ref="R20" pin="1" pintype="passive"/>
+      <node ref="U1" pin="15" pinfunction="PB3" pintype="bidirectional"/>
+    </net>
+    <net code="15" name="/UC_OUT5_MISO">
+      <node ref="IC1" pin="11" pinfunction="I" pintype="input"/>
+      <node ref="J1" pin="1" pinfunction="+12V" pintype="passive"/>
+      <node ref="R25" pin="1" pintype="passive"/>
+      <node ref="U1" pin="16" pinfunction="PB4" pintype="bidirectional"/>
+    </net>
+    <net code="16" name="/UC_OUT6_SCK">
+      <node ref="IC1" pin="13" pinfunction="I" pintype="input"/>
+      <node ref="J1" pin="3" pinfunction="GND" pintype="passive"/>
+      <node ref="R29" pin="1" pintype="passive"/>
+      <node ref="U1" pin="17" pinfunction="PB5" pintype="bidirectional"/>
+    </net>
+    <net code="17" name="/UC_OUT7">
+      <node ref="IC2" pin="1" pinfunction="I" pintype="input"/>
+      <node ref="R32" pin="1" pintype="passive"/>
+      <node ref="U1" pin="11" pinfunction="PD7" pintype="bidirectional"/>
+    </net>
+    <net code="18" name="/UC_OUT8">
+      <node ref="IC2" pin="3" pinfunction="I" pintype="input"/>
+      <node ref="R35" pin="1" pintype="passive"/>
+      <node ref="U1" pin="10" pinfunction="PD6" pintype="bidirectional"/>
+    </net>
+    <net code="19" name="/UC_PW">
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="D9" pin="3" pinfunction="AK" pintype="passive"/>
+      <node ref="R39" pin="2" pintype="passive"/>
+      <node ref="R41" pin="2" pintype="passive"/>
+      <node ref="U1" pin="25" pinfunction="PC2" pintype="bidirectional"/>
+    </net>
+    <net code="20" name="/UC_ROTATE">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="D3" pin="3" pinfunction="AK" pintype="passive"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="U1" pin="23" pinfunction="PC0" pintype="bidirectional"/>
+    </net>
+    <net code="21" name="/UC_SHUFFLE">
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="D6" pin="3" pinfunction="AK" pintype="passive"/>
+      <node ref="R30" pin="2" pintype="passive"/>
+      <node ref="R33" pin="2" pintype="passive"/>
+      <node ref="U1" pin="28" pinfunction="PC5" pintype="bidirectional"/>
+    </net>
+    <net code="22" name="/UC_SKIP">
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="D8" pin="3" pinfunction="AK" pintype="passive"/>
+      <node ref="R37" pin="2" pintype="passive"/>
+      <node ref="R38" pin="2" pintype="passive"/>
+      <node ref="U1" pin="26" pinfunction="PC3" pintype="bidirectional"/>
+    </net>
+    <net code="23" name="/UC_SLIP">
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="D4" pin="3" pinfunction="AK" pintype="passive"/>
+      <node ref="R21" pin="2" pintype="passive"/>
+      <node ref="U1" pin="24" pinfunction="PC1" pintype="bidirectional"/>
+    </net>
+    <net code="24" name="/UC_SYNC">
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="D7" pin="3" pinfunction="AK" pintype="passive"/>
+      <node ref="R36" pin="2" pintype="passive"/>
+      <node ref="U1" pin="27" pinfunction="PC4" pintype="bidirectional"/>
+    </net>
+    <net code="25" name="/VREF">
+      <node ref="IC3" pin="1" pintype="output"/>
+      <node ref="IC3" pin="2" pinfunction="-" pintype="input"/>
+      <node ref="LED1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="LED2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="LED3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="LED4" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="LED5" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="LED6" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="LED7" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="LED8" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="LED9" pin="2" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="26" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="C12" pin="2" pintype="passive"/>
+      <node ref="C13" pin="2" pintype="passive"/>
+      <node ref="C14" pin="2" pintype="passive"/>
+      <node ref="C15" pin="2" pintype="passive"/>
+      <node ref="C16" pin="2" pintype="passive"/>
+      <node ref="C17" pin="2" pintype="passive"/>
+      <node ref="C19" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C20" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="Anode" pintype="passive"/>
+      <node ref="D2" pin="1" pinfunction="Anode" pintype="passive"/>
+      <node ref="D3" pin="1" pinfunction="Anode" pintype="passive"/>
+      <node ref="D4" pin="1" pinfunction="Anode" pintype="passive"/>
+      <node ref="D5" pin="1" pinfunction="Anode" pintype="passive"/>
+      <node ref="D6" pin="1" pinfunction="Anode" pintype="passive"/>
+      <node ref="D7" pin="1" pinfunction="Anode" pintype="passive"/>
+      <node ref="D8" pin="1" pinfunction="Anode" pintype="passive"/>
+      <node ref="D9" pin="1" pinfunction="Anode" pintype="passive"/>
+      <node ref="IC1" pin="7" pinfunction="VSS" pintype="power_in"/>
+      <node ref="IC2" pin="11" pinfunction="I" pintype="input"/>
+      <node ref="IC2" pin="13" pinfunction="I" pintype="input"/>
+      <node ref="IC2" pin="5" pinfunction="I" pintype="input"/>
+      <node ref="IC2" pin="7" pinfunction="VSS" pintype="power_in"/>
+      <node ref="IC2" pin="9" pinfunction="I" pintype="input"/>
+      <node ref="J1" pin="6" pinfunction="GND" pintype="passive"/>
+      <node ref="J1-OUT8" pin="2" pinfunction="SHEILD" pintype="passive"/>
+      <node ref="J2-OUT7" pin="2" pinfunction="SHEILD" pintype="passive"/>
+      <node ref="J3" pin="10" pinfunction="GND" pintype="passive"/>
+      <node ref="J3" pin="11" pinfunction="GND" pintype="passive"/>
+      <node ref="J3" pin="12" pinfunction="GND" pintype="passive"/>
+      <node ref="J3" pin="13" pinfunction="-12" pintype="passive"/>
+      <node ref="J3" pin="14" pinfunction="-12V" pintype="passive"/>
+      <node ref="J3" pin="9" pinfunction="GND" pintype="passive"/>
+      <node ref="J3-OUT6" pin="2" pinfunction="SHEILD" pintype="passive"/>
+      <node ref="J4-OUT5" pin="2" pinfunction="SHEILD" pintype="passive"/>
+      <node ref="J5-OUT4" pin="2" pinfunction="SHEILD" pintype="passive"/>
+      <node ref="J6-OUT3" pin="2" pinfunction="SHEILD" pintype="passive"/>
+      <node ref="J7-OUT2" pin="2" pinfunction="SHEILD" pintype="passive"/>
+      <node ref="J8-OUT1" pin="2" pinfunction="SHEILD" pintype="passive"/>
+      <node ref="J9-CLK_IN1" pin="2" pinfunction="SHEILD" pintype="passive"/>
+      <node ref="JFAST1" pin="2" pinfunction="SHEILD" pintype="passive"/>
+      <node ref="JFAST1" pin="3" pinfunction="SW" pintype="passive"/>
+      <node ref="JMUTE1" pin="2" pinfunction="SHEILD" pintype="passive"/>
+      <node ref="JMUTE1" pin="3" pinfunction="SW" pintype="passive"/>
+      <node ref="JPW1" pin="2" pinfunction="SHEILD" pintype="passive"/>
+      <node ref="JRESYNC1" pin="2" pinfunction="SHEILD" pintype="passive"/>
+      <node ref="JRESYNC1" pin="3" pinfunction="SW" pintype="passive"/>
+      <node ref="JROTATE1" pin="2" pinfunction="SHEILD" pintype="passive"/>
+      <node ref="JSHUFFLE1" pin="2" pinfunction="SHEILD" pintype="passive"/>
+      <node ref="JSKIP1" pin="2" pinfunction="SHEILD" pintype="passive"/>
+      <node ref="JSLIP1" pin="2" pinfunction="SHEILD" pintype="passive"/>
+      <node ref="PPW1" pin="3" pinfunction="Right" pintype="passive"/>
+      <node ref="PPW1" pin="4" pinfunction="Tab1" pintype="passive"/>
+      <node ref="PPW1" pin="5" pinfunction="Tab2" pintype="passive"/>
+      <node ref="PROTATE1" pin="1" pinfunction="Left" pintype="passive"/>
+      <node ref="PROTATE1" pin="4" pinfunction="Tab1" pintype="passive"/>
+      <node ref="PROTATE1" pin="5" pinfunction="Tab2" pintype="passive"/>
+      <node ref="PSHUFFLE1" pin="3" pinfunction="Right" pintype="passive"/>
+      <node ref="PSHUFFLE1" pin="4" pinfunction="Tab1" pintype="passive"/>
+      <node ref="PSHUFFLE1" pin="5" pinfunction="Tab2" pintype="passive"/>
+      <node ref="PSKIP1" pin="3" pinfunction="Right" pintype="passive"/>
+      <node ref="PSKIP1" pin="4" pinfunction="Tab1" pintype="passive"/>
+      <node ref="PSKIP1" pin="5" pinfunction="Tab2" pintype="passive"/>
+      <node ref="PSLIP1" pin="1" pinfunction="Left" pintype="passive"/>
+      <node ref="PSLIP1" pin="4" pinfunction="Tab1" pintype="passive"/>
+      <node ref="PSLIP1" pin="5" pinfunction="Tab2" pintype="passive"/>
+      <node ref="Q2" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q4" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="R13" pin="1" pintype="passive"/>
+      <node ref="R27" pin="1" pintype="passive"/>
+      <node ref="R40" pin="2" pintype="passive"/>
+      <node ref="R42" pin="2" pintype="passive"/>
+      <node ref="U1" pin="21" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="5" pinfunction="GND" pintype="power_in"/>
+      <node ref="VR1" pin="2" pinfunction="GND" pintype="input"/>
+      <node ref="VR2" pin="2" pinfunction="GND" pintype="input"/>
+    </net>
+    <net code="27" name="Net-(BFAST1-Pad2)">
+      <node ref="BFAST1" pin="2" pinfunction="POLE-A" pintype="input"/>
+      <node ref="BFAST1" pin="5" pinfunction="POLE-B" pintype="input"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+    </net>
+    <net code="28" name="Net-(BFAST1-Pad4)">
+      <node ref="BFAST1" pin="4" pinfunction="UP-B" pintype="input"/>
+      <node ref="JFAST1" pin="1" pinfunction="SIG" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+    </net>
+    <net code="29" name="Net-(BFAST1-Pad6)">
+      <node ref="BFAST1" pin="6" pinfunction="DOWN-B" pintype="input"/>
+      <node ref="Q2" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+    </net>
+    <net code="30" name="Net-(BFAST1-Pad7)">
+      <node ref="BFAST1" pin="7" pinfunction="A" pintype="input"/>
+      <node ref="Q1" pin="2" pinfunction="S" pintype="passive"/>
+    </net>
+    <net code="31" name="Net-(BFAST1-Pad8)">
+      <node ref="BFAST1" pin="8" pinfunction="C" pintype="input"/>
+      <node ref="R13" pin="2" pintype="passive"/>
+    </net>
+    <net code="32" name="Net-(BMUTE1-Pad2)">
+      <node ref="BMUTE1" pin="2" pinfunction="POLE-A" pintype="input"/>
+      <node ref="BMUTE1" pin="5" pinfunction="POLE-B" pintype="input"/>
+      <node ref="R18" pin="2" pintype="passive"/>
+      <node ref="R22" pin="2" pintype="passive"/>
+    </net>
+    <net code="33" name="Net-(BMUTE1-Pad4)">
+      <node ref="BMUTE1" pin="4" pinfunction="UP-B" pintype="input"/>
+      <node ref="JMUTE1" pin="1" pinfunction="SIG" pintype="passive"/>
+      <node ref="R26" pin="2" pintype="passive"/>
+    </net>
+    <net code="34" name="Net-(BMUTE1-Pad6)">
+      <node ref="BMUTE1" pin="6" pinfunction="DOWN-B" pintype="input"/>
+      <node ref="Q4" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="R24" pin="1" pintype="passive"/>
+    </net>
+    <net code="35" name="Net-(BMUTE1-Pad7)">
+      <node ref="BMUTE1" pin="7" pinfunction="A" pintype="input"/>
+      <node ref="Q3" pin="2" pinfunction="S" pintype="passive"/>
+    </net>
+    <net code="36" name="Net-(BMUTE1-Pad8)">
+      <node ref="BMUTE1" pin="8" pinfunction="C" pintype="input"/>
+      <node ref="R27" pin="2" pintype="passive"/>
+    </net>
+    <net code="37" name="Net-(C4-Pad1)">
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="XTAL2/PB7" pintype="bidirectional"/>
+      <node ref="Y1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="38" name="Net-(C5-Pad1)">
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="XTAL1/PB6" pintype="bidirectional"/>
+      <node ref="Y1" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="39" name="Net-(D10-Pad2)">
+      <node ref="D10" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J3" pin="7" pinfunction="12V" pintype="passive"/>
+      <node ref="J3" pin="8" pinfunction="+12V" pintype="passive"/>
+    </net>
+    <net code="40" name="Net-(D11-Pad1)">
+      <node ref="D11" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J3" pin="15" pinfunction="-12V" pintype="passive"/>
+      <node ref="J3" pin="16" pinfunction="P16" pintype="passive"/>
+    </net>
+    <net code="41" name="Net-(IC1-Pad2)">
+      <node ref="IC1" pin="2" pinfunction="O" pintype="output"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+    </net>
+    <net code="42" name="Net-(IC1-Pad4)">
+      <node ref="IC1" pin="4" pinfunction="O" pintype="output"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+    </net>
+    <net code="43" name="Net-(IC1-Pad6)">
+      <node ref="IC1" pin="6" pinfunction="O" pintype="output"/>
+      <node ref="R15" pin="1" pintype="passive"/>
+    </net>
+    <net code="44" name="Net-(IC1-Pad8)">
+      <node ref="IC1" pin="8" pinfunction="O" pintype="output"/>
+      <node ref="R19" pin="1" pintype="passive"/>
+    </net>
+    <net code="45" name="Net-(IC1-Pad10)">
+      <node ref="IC1" pin="10" pinfunction="O" pintype="output"/>
+      <node ref="R23" pin="1" pintype="passive"/>
+    </net>
+    <net code="46" name="Net-(IC1-Pad12)">
+      <node ref="IC1" pin="12" pinfunction="O" pintype="output"/>
+      <node ref="R28" pin="1" pintype="passive"/>
+    </net>
+    <net code="47" name="Net-(IC2-Pad2)">
+      <node ref="IC2" pin="2" pinfunction="O" pintype="output"/>
+      <node ref="R31" pin="1" pintype="passive"/>
+    </net>
+    <net code="48" name="Net-(IC2-Pad4)">
+      <node ref="IC2" pin="4" pinfunction="O" pintype="output"/>
+      <node ref="R34" pin="1" pintype="passive"/>
+    </net>
+    <net code="49" name="Net-(IC3-Pad3)">
+      <node ref="IC3" pin="3" pinfunction="+" pintype="input"/>
+      <node ref="TRIM1" pin="2" pinfunction="Center" pintype="passive"/>
+    </net>
+    <net code="50" name="Net-(IC3-Pad5)">
+      <node ref="IC3" pin="5" pinfunction="+" pintype="input"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R40" pin="1" pintype="passive"/>
+    </net>
+    <net code="51" name="Net-(J1-OUT8-Pad1)">
+      <node ref="J1-OUT8" pin="1" pinfunction="SIG" pintype="passive"/>
+      <node ref="R34" pin="2" pintype="passive"/>
+    </net>
+    <net code="52" name="Net-(J2-OUT7-Pad1)">
+      <node ref="J2-OUT7" pin="1" pinfunction="SIG" pintype="passive"/>
+      <node ref="R31" pin="2" pintype="passive"/>
+    </net>
+    <net code="53" name="Net-(J2-Pad2)">
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="P1" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="P2" pintype="passive"/>
+    </net>
+    <net code="54" name="Net-(J3-OUT6-Pad1)">
+      <node ref="J3-OUT6" pin="1" pinfunction="SIG" pintype="passive"/>
+      <node ref="R28" pin="2" pintype="passive"/>
+    </net>
+    <net code="55" name="Net-(J4-OUT5-Pad1)">
+      <node ref="J4-OUT5" pin="1" pinfunction="SIG" pintype="passive"/>
+      <node ref="R23" pin="2" pintype="passive"/>
+    </net>
+    <net code="56" name="Net-(J5-OUT4-Pad1)">
+      <node ref="J5-OUT4" pin="1" pinfunction="SIG" pintype="passive"/>
+      <node ref="R19" pin="2" pintype="passive"/>
+    </net>
+    <net code="57" name="Net-(J6-OUT3-Pad1)">
+      <node ref="J6-OUT3" pin="1" pinfunction="SIG" pintype="passive"/>
+      <node ref="R15" pin="2" pintype="passive"/>
+    </net>
+    <net code="58" name="Net-(J7-OUT2-Pad1)">
+      <node ref="J7-OUT2" pin="1" pinfunction="SIG" pintype="passive"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+    </net>
+    <net code="59" name="Net-(J8-OUT1-Pad1)">
+      <node ref="J8-OUT1" pin="1" pinfunction="SIG" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+    </net>
+    <net code="60" name="Net-(J9-CLK_IN1-Pad1)">
+      <node ref="J9-CLK_IN1" pin="1" pinfunction="SIG" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+    </net>
+    <net code="61" name="Net-(JPW1-Pad1)">
+      <node ref="JPW1" pin="1" pinfunction="SIG" pintype="passive"/>
+      <node ref="R39" pin="1" pintype="passive"/>
+    </net>
+    <net code="62" name="Net-(JRESYNC1-Pad1)">
+      <node ref="JRESYNC1" pin="1" pinfunction="SIG" pintype="passive"/>
+      <node ref="R36" pin="1" pintype="passive"/>
+    </net>
+    <net code="63" name="Net-(JROTATE1-Pad1)">
+      <node ref="JROTATE1" pin="1" pinfunction="SIG" pintype="passive"/>
+      <node ref="PROTATE1" pin="3" pinfunction="Right" pintype="passive"/>
+    </net>
+    <net code="64" name="Net-(JSHUFFLE1-Pad1)">
+      <node ref="JSHUFFLE1" pin="1" pinfunction="SIG" pintype="passive"/>
+      <node ref="R30" pin="1" pintype="passive"/>
+    </net>
+    <net code="65" name="Net-(JSKIP1-Pad1)">
+      <node ref="JSKIP1" pin="1" pinfunction="SIG" pintype="passive"/>
+      <node ref="R37" pin="1" pintype="passive"/>
+    </net>
+    <net code="66" name="Net-(JSLIP1-Pad1)">
+      <node ref="JSLIP1" pin="1" pinfunction="SIG" pintype="passive"/>
+      <node ref="PSLIP1" pin="3" pinfunction="Right" pintype="passive"/>
+    </net>
+    <net code="67" name="Net-(LED1-Pad3)">
+      <node ref="LED1" pin="3" pinfunction="CB" pintype="passive"/>
+      <node ref="R35" pin="2" pintype="passive"/>
+    </net>
+    <net code="68" name="Net-(LED2-Pad4)">
+      <node ref="LED2" pin="4" pinfunction="CG" pintype="passive"/>
+      <node ref="R32" pin="2" pintype="passive"/>
+    </net>
+    <net code="69" name="Net-(LED3-Pad4)">
+      <node ref="LED3" pin="4" pinfunction="CG" pintype="passive"/>
+      <node ref="R29" pin="2" pintype="passive"/>
+    </net>
+    <net code="70" name="Net-(LED4-Pad4)">
+      <node ref="LED4" pin="4" pinfunction="CG" pintype="passive"/>
+      <node ref="R25" pin="2" pintype="passive"/>
+    </net>
+    <net code="71" name="Net-(LED5-Pad4)">
+      <node ref="LED5" pin="4" pinfunction="CG" pintype="passive"/>
+      <node ref="R20" pin="2" pintype="passive"/>
+    </net>
+    <net code="72" name="Net-(LED6-Pad4)">
+      <node ref="LED6" pin="4" pinfunction="CG" pintype="passive"/>
+      <node ref="R17" pin="2" pintype="passive"/>
+    </net>
+    <net code="73" name="Net-(LED7-Pad3)">
+      <node ref="LED7" pin="3" pinfunction="CB" pintype="passive"/>
+      <node ref="R14" pin="2" pintype="passive"/>
+    </net>
+    <net code="74" name="Net-(LED8-Pad3)">
+      <node ref="LED8" pin="3" pinfunction="CB" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+    </net>
+    <net code="75" name="Net-(LED9-Pad1)">
+      <node ref="LED9" pin="1" pinfunction="CR" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+    </net>
+    <net code="76" name="Net-(LED9-Pad3)">
+      <node ref="LED9" pin="3" pinfunction="CB" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+    </net>
+    <net code="77" name="Net-(LED9-Pad4)">
+      <node ref="LED9" pin="4" pinfunction="CG" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+    </net>
+    <net code="78" name="Net-(PPW1-Pad2)">
+      <node ref="PPW1" pin="2" pinfunction="Center" pintype="passive"/>
+      <node ref="R41" pin="1" pintype="passive"/>
+    </net>
+    <net code="79" name="Net-(PROTATE1-Pad2)">
+      <node ref="PROTATE1" pin="2" pinfunction="Center" pintype="passive"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+    </net>
+    <net code="80" name="Net-(PSHUFFLE1-Pad2)">
+      <node ref="PSHUFFLE1" pin="2" pinfunction="Center" pintype="passive"/>
+      <node ref="R33" pin="1" pintype="passive"/>
+    </net>
+    <net code="81" name="Net-(PSKIP1-Pad2)">
+      <node ref="PSKIP1" pin="2" pinfunction="Center" pintype="passive"/>
+      <node ref="R38" pin="1" pintype="passive"/>
+    </net>
+    <net code="82" name="Net-(PSLIP1-Pad2)">
+      <node ref="PSLIP1" pin="2" pinfunction="Center" pintype="passive"/>
+      <node ref="R21" pin="1" pintype="passive"/>
+    </net>
+    <net code="83" name="Net-(Q1-Pad1)">
+      <node ref="Q1" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+    </net>
+    <net code="84" name="Net-(Q2-Pad1)">
+      <node ref="Q2" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+    </net>
+    <net code="85" name="Net-(Q3-Pad1)">
+      <node ref="Q3" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R18" pin="1" pintype="passive"/>
+    </net>
+    <net code="86" name="Net-(Q4-Pad1)">
+      <node ref="Q4" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R26" pin="1" pintype="passive"/>
+    </net>
+    <net code="87" name="Net-(R42-Pad1)">
+      <node ref="R42" pin="1" pintype="passive"/>
+      <node ref="TRIM1" pin="1" pinfunction="Left" pintype="passive"/>
+    </net>
+    <net code="88" name="unconnected-(BFAST1-Pad1)">
+      <node ref="BFAST1" pin="1" pinfunction="UP-A" pintype="input+no_connect"/>
+    </net>
+    <net code="89" name="unconnected-(BFAST1-Pad3)">
+      <node ref="BFAST1" pin="3" pinfunction="DOWN-A" pintype="input+no_connect"/>
+    </net>
+    <net code="90" name="unconnected-(BMUTE1-Pad1)">
+      <node ref="BMUTE1" pin="1" pinfunction="UP-A" pintype="input+no_connect"/>
+    </net>
+    <net code="91" name="unconnected-(BMUTE1-Pad3)">
+      <node ref="BMUTE1" pin="3" pinfunction="DOWN-A" pintype="input+no_connect"/>
+    </net>
+    <net code="92" name="unconnected-(IC2-Pad6)">
+      <node ref="IC2" pin="6" pinfunction="O" pintype="output+no_connect"/>
+    </net>
+    <net code="93" name="unconnected-(IC2-Pad8)">
+      <node ref="IC2" pin="8" pinfunction="O" pintype="output+no_connect"/>
+    </net>
+    <net code="94" name="unconnected-(IC2-Pad10)">
+      <node ref="IC2" pin="10" pinfunction="O" pintype="output+no_connect"/>
+    </net>
+    <net code="95" name="unconnected-(IC2-Pad12)">
+      <node ref="IC2" pin="12" pinfunction="O" pintype="output+no_connect"/>
+    </net>
+    <net code="96" name="unconnected-(J1-OUT8-Pad3)">
+      <node ref="J1-OUT8" pin="3" pinfunction="SW" pintype="passive+no_connect"/>
+    </net>
+    <net code="97" name="unconnected-(J2-OUT7-Pad3)">
+      <node ref="J2-OUT7" pin="3" pinfunction="SW" pintype="passive+no_connect"/>
+    </net>
+    <net code="98" name="unconnected-(J3-OUT6-Pad3)">
+      <node ref="J3-OUT6" pin="3" pinfunction="SW" pintype="passive+no_connect"/>
+    </net>
+    <net code="99" name="unconnected-(J3-Pad3)">
+      <node ref="J3" pin="3" pinfunction="P3" pintype="passive+no_connect"/>
+    </net>
+    <net code="100" name="unconnected-(J3-Pad4)">
+      <node ref="J3" pin="4" pinfunction="P4" pintype="passive+no_connect"/>
+    </net>
+    <net code="101" name="unconnected-(J3-Pad5)">
+      <node ref="J3" pin="5" pinfunction="+12V" pintype="passive+no_connect"/>
+    </net>
+    <net code="102" name="unconnected-(J3-Pad6)">
+      <node ref="J3" pin="6" pinfunction="P6" pintype="passive+no_connect"/>
+    </net>
+    <net code="103" name="unconnected-(J4-OUT5-Pad3)">
+      <node ref="J4-OUT5" pin="3" pinfunction="SW" pintype="passive+no_connect"/>
+    </net>
+    <net code="104" name="unconnected-(J5-OUT4-Pad3)">
+      <node ref="J5-OUT4" pin="3" pinfunction="SW" pintype="passive+no_connect"/>
+    </net>
+    <net code="105" name="unconnected-(J6-OUT3-Pad3)">
+      <node ref="J6-OUT3" pin="3" pinfunction="SW" pintype="passive+no_connect"/>
+    </net>
+    <net code="106" name="unconnected-(J7-OUT2-Pad3)">
+      <node ref="J7-OUT2" pin="3" pinfunction="SW" pintype="passive+no_connect"/>
+    </net>
+    <net code="107" name="unconnected-(J8-OUT1-Pad3)">
+      <node ref="J8-OUT1" pin="3" pinfunction="SW" pintype="passive+no_connect"/>
+    </net>
+    <net code="108" name="unconnected-(JPW1-Pad3)">
+      <node ref="JPW1" pin="3" pinfunction="SW" pintype="passive+no_connect"/>
+    </net>
+    <net code="109" name="unconnected-(JSHUFFLE1-Pad3)">
+      <node ref="JSHUFFLE1" pin="3" pinfunction="SW" pintype="passive+no_connect"/>
+    </net>
+    <net code="110" name="unconnected-(JSKIP1-Pad3)">
+      <node ref="JSKIP1" pin="3" pinfunction="SW" pintype="passive+no_connect"/>
+    </net>
+    <net code="111" name="unconnected-(LED1-Pad1)">
+      <node ref="LED1" pin="1" pinfunction="CR" pintype="passive+no_connect"/>
+    </net>
+    <net code="112" name="unconnected-(LED1-Pad4)">
+      <node ref="LED1" pin="4" pinfunction="CG" pintype="passive+no_connect"/>
+    </net>
+    <net code="113" name="unconnected-(LED2-Pad1)">
+      <node ref="LED2" pin="1" pinfunction="CR" pintype="passive+no_connect"/>
+    </net>
+    <net code="114" name="unconnected-(LED2-Pad3)">
+      <node ref="LED2" pin="3" pinfunction="CB" pintype="passive+no_connect"/>
+    </net>
+    <net code="115" name="unconnected-(LED3-Pad1)">
+      <node ref="LED3" pin="1" pinfunction="CR" pintype="passive+no_connect"/>
+    </net>
+    <net code="116" name="unconnected-(LED3-Pad3)">
+      <node ref="LED3" pin="3" pinfunction="CB" pintype="passive+no_connect"/>
+    </net>
+    <net code="117" name="unconnected-(LED4-Pad1)">
+      <node ref="LED4" pin="1" pinfunction="CR" pintype="passive+no_connect"/>
+    </net>
+    <net code="118" name="unconnected-(LED4-Pad3)">
+      <node ref="LED4" pin="3" pinfunction="CB" pintype="passive+no_connect"/>
+    </net>
+    <net code="119" name="unconnected-(LED5-Pad1)">
+      <node ref="LED5" pin="1" pinfunction="CR" pintype="passive+no_connect"/>
+    </net>
+    <net code="120" name="unconnected-(LED5-Pad3)">
+      <node ref="LED5" pin="3" pinfunction="CB" pintype="passive+no_connect"/>
+    </net>
+    <net code="121" name="unconnected-(LED6-Pad1)">
+      <node ref="LED6" pin="1" pinfunction="CR" pintype="passive+no_connect"/>
+    </net>
+    <net code="122" name="unconnected-(LED6-Pad3)">
+      <node ref="LED6" pin="3" pinfunction="CB" pintype="passive+no_connect"/>
+    </net>
+    <net code="123" name="unconnected-(LED7-Pad1)">
+      <node ref="LED7" pin="1" pinfunction="CR" pintype="passive+no_connect"/>
+    </net>
+    <net code="124" name="unconnected-(LED7-Pad4)">
+      <node ref="LED7" pin="4" pinfunction="CG" pintype="passive+no_connect"/>
+    </net>
+    <net code="125" name="unconnected-(LED8-Pad1)">
+      <node ref="LED8" pin="1" pinfunction="CR" pintype="passive+no_connect"/>
+    </net>
+    <net code="126" name="unconnected-(LED8-Pad4)">
+      <node ref="LED8" pin="4" pinfunction="CG" pintype="passive+no_connect"/>
+    </net>
+    <net code="127" name="unconnected-(U1-Pad19)">
+      <node ref="U1" pin="19" pinfunction="ADC6" pintype="input+no_connect"/>
+    </net>
+    <net code="128" name="unconnected-(U1-Pad22)">
+      <node ref="U1" pin="22" pinfunction="ADC7" pintype="input+no_connect"/>
+    </net>
+    <net code="129" name="unconnected-(U1-Pad30)">
+      <node ref="U1" pin="30" pinfunction="PD0" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="130" name="unconnected-(U1-Pad31)">
+      <node ref="U1" pin="31" pinfunction="PD1" pintype="bidirectional+no_connect"/>
+    </net>
+  </nets>
+</export>
