@@ -12100,7 +12100,7 @@
     (pin "1" (uuid 34c193ec-485e-4051-8883-ca7934c1292c))
   )
 
-  (symbol (lib_id "4ms_Regulator:LD1117-3.3V-SOT223") (at 134.62 375.92 0) (mirror y) (unit 1)
+  (symbol (lib_id "4ms_Regulator:LD1117-3.3V-SOT223") (at 134.62 375.92 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid da18c59f-8c8d-4b89-a6a3-aac43ffa3db7)
     (property "Reference" "VR1" (id 0) (at 134.62 368.7929 0)
