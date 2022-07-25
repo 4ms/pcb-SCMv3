@@ -2648,7 +2648,7 @@
     (property "Specifications" "HEADER 1x6 MALE PINS 0.100” 180deg")
     (path "/486aa74c-8951-4217-84fa-def974b80349")
     (attr through_hole)
-    (fp_text reference "J1" (at 0.05 -8.8) (layer "F.SilkS") hide
+    (fp_text reference "J1" (at 1.6499 8.32739) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 0d8b6061-effc-45a1-a63f-a72c3fadded0)
     )
